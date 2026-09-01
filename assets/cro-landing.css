@@ -5,7 +5,7 @@
    ========================================================================== */
 
 .cro-section {
-  --cro-accent: #f69906;
+  --cro-accent: rgb(253 198 86 / 1.0);
   --cro-accent-soft: #fffaf2;
   --cro-accent-line: #fbebd5;
   --cro-ink: #2e2a39;
@@ -655,7 +655,7 @@
   border-radius: 50%;
   background: #fff;
 }
-.cro-stats__num { position: relative; font-weight: 700; font-size: 1.6rem; color: var(--cro-accent); font-variant-numeric: tabular-nums; }
+.cro-stats__num { position: relative; font-weight: 700; font-size: 1.3rem; color: var(--cro-accent); font-variant-numeric: tabular-nums; }
 .cro-stats__text { font-size: 1.5rem; color: #333; line-height: 1.4; }
 .cro-stats__text strong { color: var(--cro-accent); font-weight: 600; }
 
