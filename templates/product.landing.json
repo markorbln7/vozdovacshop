@@ -14,10 +14,11 @@
       "blocks": {
         "stars": {
           "type": "stars",
+          "disabled": true,
           "settings": {
             "rating": 4.9,
             "star_color": "#00b67a",
-            "label": "<strong>1.268</strong> ocena kupaca"
+            "label": "1.268 ocena kupaca"
           }
         },
         "title": {
@@ -61,7 +62,7 @@
           "type": "stock",
           "settings": {
             "text": "🔴 Požurite! Zbog velike potražnje ostalo je još samo",
-            "count": "14 komada",
+            "count": "17 komada",
             "show_bar": true,
             "percent": 18
           }
