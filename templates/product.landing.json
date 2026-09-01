@@ -291,7 +291,7 @@
         "background_color": "#f69906",
         "text_color": "#ffffff",
         "outer_background": "#ffffff",
-        "speed": 30,
+        "speed": 50,
         "direction": "left",
         "bar_padding": 16,
         "aria_label": "Prednosti proizvoda",
