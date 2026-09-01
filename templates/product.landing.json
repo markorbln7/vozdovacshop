@@ -535,6 +535,7 @@
         "d3",
         "d4"
       ],
+      "disabled": true,
       "name": "Deklaracija",
       "settings": {
         "heading": "Deklaracija proizvoda",
@@ -562,7 +563,7 @@
             "avatar_url": "",
             "name": "Marko P.",
             "time": "pre 2 sata",
-            "text": "PLACEHOLDER — zamenite stvarnim utiskom kupca pre objavljivanja.",
+            "text": "Savresna za gledanje tva ili udobno",
             "image_url": "",
             "image_width": 1080,
             "image_height": 1080,
@@ -655,7 +656,7 @@
           "type": "question",
           "settings": {
             "question": "Koliko prostora zauzima?",
-            "answer": "<p>Dimenzije su <strong>111 × 95 × 80 cm</strong> — dovoljno kompaktno za većinu prostora, uz široko sedište.</p>",
+            "answer": "<p>Dimenzije su <strong>120 × 95 × 70 cm</strong> — dovoljno kompaktno za većinu prostora, uz široko sedište.</p>",
             "open_by_default": false
           }
         },
@@ -745,6 +746,7 @@
         "t4",
         "t5"
       ],
+      "disabled": true,
       "name": "Utisci (slajder)",
       "settings": {
         "heading": "Šta drugi kažu o nama?",
@@ -814,6 +816,7 @@
         "st3",
         "st4"
       ],
+      "disabled": true,
       "name": "Priče kupaca",
       "settings": {
         "heading": "Drugi pričaju o nama",
