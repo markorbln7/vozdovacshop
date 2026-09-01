@@ -430,7 +430,7 @@
 }
 
 /* Quantity */
-.cro-qty { display: inline-flex; align-items: center; border: 1px solid #d4d4d4; border-radius: 6px; overflow: hidden; }
+.cro-qty { display: inline-flex; align-items: center; border: 1px solid #d4d4d4; border-radius: 6px; overflow: hidden;max-width:fit-content; }
 .cro-qty button {
   width: 44px; height: 46px;
   border: 0; background: #fff;
@@ -448,7 +448,7 @@
 .cro-qty input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
 .cro-buy { display: flex; flex-direction: column; gap: 10px; }
-.cro-buy__row { display: flex; gap: 10px; align-items: stretch; }
+.cro-buy__row { display: flex; gap: 10px; align-items: stretch;flex-direction: column; }
 .cro-buy__row .cro-btn { flex: 1; }
 .cro-buy__note { display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 1.3rem; color: var(--cro-muted); }
 
