@@ -1,23 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "cro-product-main",
-      "settings": {
-        "media_position": "left",
-        "media_fit": "contain",
-        "show_thumbnails": true,
-        "thumbnails_per_row": 5,
-        "media_radius": 0,
-        "enable_zoom": true,
-        "show_discount_badge": true,
-        "sticky_info": false,
-        "accent_color": "#f69906",
-        "enable_sticky_atc": true,
-        "sticky_button_label": "PORUČI ODMAH",
-        "sticky_button_color": "#41bc3f",
-        "padding_top": 0,
-        "padding_bottom": 24
-      },
       "blocks": {
         "stars": {
           "type": "stars",
@@ -36,27 +29,32 @@
           "settings": {
             "item_1": "📚 Savršeno za čitanje i predah",
             "item_2": "✨ Uklapa se u svaki enterijer",
-            "item_3": "👌 Neverovatno mekano na dodir"
+            "item_3": "👌 Neverovatno mekano na dodir",
+            "item_4": ""
           }
         },
         "price": {
           "type": "price",
           "settings": {
-            "show_saving": true
+            "show_saving": true,
+            "note": ""
           }
         },
         "trust": {
           "type": "trust_badges",
           "settings": {
-            "title_1": "Pregled pre plaćanja",
-            "text_1": "Otvorite paket, pa platite",
+            "image_url_1": "",
+            "emoji_1": "",
+            "title_1": "",
+            "text_1": "",
+            "image_url_2": "",
+            "emoji_2": "📸",
             "title_2": "100% kao na slici",
             "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
             "title_3": "Ekspresna dostava",
-            "text_3": "Na vašoj adresi za 1–2 dana",
-            "emoji_1": "📦",
-            "emoji_2": "📸",
-            "emoji_3": "🚚"
+            "text_3": "Na vašoj adresi za 1–2 dana"
           }
         },
         "stock": {
@@ -75,6 +73,13 @@
             "show_quantity": true,
             "pulse": true,
             "button_label": "PORUČI ODMAH",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
             "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
           }
         },
@@ -89,6 +94,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -103,36 +109,56 @@
         "countdown",
         "description"
       ],
-      "name": "Proizvod"
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#f69906",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "PORUČI ODMAH",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
     },
     "video_comfort": {
       "type": "cro-media-with-text",
+      "name": "Video — udobnost",
       "settings": {
         "video_url": "https://cdn.shopify.com/videos/c/o/v/f44bcd5103894790ba3c9a6319c7f40e.mp4",
+        "image_url": "",
+        "image_alt": "",
+        "image_width": 1500,
+        "image_height": 1500,
         "autoplay": true,
         "allow_sound": true,
         "media_ratio": "1",
         "media_position": "left",
         "media_width": 50,
         "width": "page",
+        "text_alignment": "left",
         "heading": "Konačno mesto u kući koje je samo tvoje",
         "highlight_words": "samo tvoje",
         "text": "<p>Spustiš se, telo popusti i rame ti padne za dva centimetra. Duboko sedište i <strong>mekana leđna forma</strong> prate liniju kičme, pa pauza od deset minuta stvarno deluje kao pauza.</p><p>Bez tvrdih ivica. Bez nameštanja jastuka. Samo tišina i tvoja kafa.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
         "padding_top": 28,
         "padding_bottom": 20
-      },
-      "name": "Video — udobnost"
+      }
     },
     "icons": {
       "type": "cro-icons-with-content",
-      "settings": {
-        "heading": "Tri razloga zbog kojih se stalno vraćaš",
-        "heading_alignment": "center",
-        "columns": "3",
-        "icon_size": 56,
-        "padding_top": 20,
-        "padding_bottom": 20
-      },
       "blocks": {
         "i1": {
           "type": "item",
@@ -164,72 +190,91 @@
         "i2",
         "i3"
       ],
-      "name": "Ikone — prednosti"
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Tri razloga zbog kojih se stalno vraćaš",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     },
     "video_rock": {
       "type": "cro-media-with-text",
+      "name": "Video — ljuljanje",
       "settings": {
         "video_url": "https://cdn.shopify.com/videos/c/o/v/4226f8ba32ca40ddad6f0dcfb866f58c.mp4",
+        "image_url": "",
+        "image_alt": "",
+        "image_width": 1500,
+        "image_height": 1500,
         "autoplay": true,
         "allow_sound": true,
         "media_ratio": "1",
         "media_position": "right",
         "media_width": 50,
         "width": "page",
+        "text_alignment": "left",
         "heading": "Blago ljuljanje koje telo prepozna za deset sekundi",
         "highlight_words": "za deset sekundi",
         "text": "<p>Pokret je toliko mek da ga jedva primetiš — a upravo zato radi. Ljuljanje <strong>usporava disanje</strong> i skida napetost iz ramena bez ijedne tvoje svesne radnje.</p><p>Idealno za onih pola sata kada niko ništa od tebe ne traži.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
         "padding_top": 20,
         "padding_bottom": 20
-      },
-      "name": "Video — ljuljanje"
+      }
     },
     "ticker": {
       "type": "cro-ticker",
-      "settings": {
-        "background_color": "#f69906",
-        "text_color": "#ffffff",
-        "speed": 30,
-        "direction": "left",
-        "bar_padding": 16,
-        "padding_top": 20,
-        "padding_bottom": 20
-      },
       "blocks": {
         "t1": {
           "type": "item",
           "settings": {
-            "text": "Nežno ljuljanje"
+            "text": "Nežno ljuljanje",
+            "icon": ""
           }
         },
         "t2": {
           "type": "item",
           "settings": {
-            "text": "Skandinavski dizajn"
+            "text": "Skandinavski dizajn",
+            "icon": ""
           }
         },
         "t3": {
           "type": "item",
           "settings": {
-            "text": "Vrhunska udobnost"
+            "text": "Vrhunska udobnost",
+            "icon": ""
           }
         },
         "t4": {
           "type": "item",
           "settings": {
-            "text": "Prijatni materijali"
+            "text": "Prijatni materijali",
+            "icon": ""
           }
         },
         "t5": {
           "type": "item",
           "settings": {
-            "text": "Uklapa se svuda"
+            "text": "Uklapa se svuda",
+            "icon": ""
           }
         },
         "t6": {
           "type": "item",
           "settings": {
-            "text": "Plaćanje pouzećem"
+            "text": "Plaćanje pouzećem",
+            "icon": ""
           }
         }
       },
@@ -241,33 +286,50 @@
         "t5",
         "t6"
       ],
-      "name": "Traka — prednosti"
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#f69906",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 30,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     },
     "video_fabric": {
       "type": "cro-media-with-text",
+      "name": "Video — materijali",
       "settings": {
         "video_url": "https://cdn.shopify.com/videos/c/o/v/b906e46a7a174bc98f60266efe52a38d.mp4",
+        "image_url": "",
+        "image_alt": "",
+        "image_width": 1500,
+        "image_height": 1500,
         "autoplay": true,
         "allow_sound": true,
         "media_ratio": "1",
         "media_position": "left",
         "media_width": 50,
         "width": "page",
+        "text_alignment": "left",
         "heading": "Tkanina koju ne želiš da pustiš iz ruke",
         "highlight_words": "ne želiš da pustiš",
         "text": "<p>Gusto tkanje, topao dodir i punjenje koje se vraća u formu posle svakog ustajanja. Ništa ne škripi, ništa se ne ulegne posle mesec dana.</p><p>Prvo što svaki gost uradi jeste da pređe rukom preko naslona.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
         "padding_top": 20,
         "padding_bottom": 20
-      },
-      "name": "Video — materijali"
+      }
     },
     "stats": {
       "type": "cro-stats",
-      "settings": {
-        "heading": "Šta kažu oni koji je već imaju",
-        "padding_top": 24,
-        "padding_bottom": 24
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -312,33 +374,48 @@
         "s4",
         "s5"
       ],
-      "name": "Statistika"
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji je već imaju",
+        "accent_color": "#f69906",
+        "row_background": "#fffaf2",
+        "track_color": "#fbebd5",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
     },
     "big_image": {
       "type": "cro-media-with-text",
+      "name": "Slika — enterijer",
       "settings": {
+        "video_url": "",
         "image_url": "https://cdn.shopify.com/s/files/1/0630/1483/0178/files/Mekana_skandi_fotelja_PH11_162901bf-b61b-4b25-888a-c784ac75f378.webp?v=1788251007",
         "image_alt": "Skandinavska relax fotelja u dnevnoj sobi",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
         "media_ratio": "auto",
         "media_position": "left",
         "media_width": 50,
         "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
         "padding_top": 8,
-        "padding_bottom": 8,
-        "image_width": 1080,
-        "image_height": 1080
-      },
-      "name": "Slika — enterijer"
+        "padding_bottom": 8
+      }
     },
     "spec": {
       "type": "cro-spec-table",
-      "settings": {
-        "heading": "Specifikacija",
-        "heading_alignment": "left",
-        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
-        "padding_top": 24,
-        "padding_bottom": 24
-      },
       "blocks": {
         "r1": {
           "type": "row",
@@ -407,15 +484,21 @@
         "r7",
         "r8"
       ],
-      "name": "Specifikacija"
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#f69906",
+        "name_background": "#fffaf2",
+        "border_color": "#fbebd5",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
     },
     "declaration": {
       "type": "cro-declaration",
-      "settings": {
-        "heading": "Deklaracija proizvoda",
-        "padding_top": 30,
-        "padding_bottom": 40
-      },
       "blocks": {
         "d1": {
           "type": "row",
@@ -452,55 +535,63 @@
         "d3",
         "d4"
       ],
-      "name": "Deklaracija"
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
     },
     "wave": {
       "type": "cro-wave-divider",
+      "name": "Razdelnik",
       "settings": {
         "wave_color": "#fffaf7",
         "background_color": "#ffffff",
         "height": 60,
         "flip": false
-      },
-      "name": "Razdelnik"
+      }
     },
     "reviews": {
       "type": "cro-social-reviews",
-      "settings": {
-        "badge": "NAJNOVIJI UTISCI",
-        "heading": "Zašto kupci ne mogu da prestanu da pričaju o njoj",
-        "highlight_words": "ne mogu da prestanu",
-        "columns": 3,
-        "autoplay": false,
-        "background_color": "#fffaf7",
-        "padding_top": 30,
-        "padding_bottom": 30
-      },
       "blocks": {
         "c1": {
           "type": "review",
           "settings": {
+            "avatar_url": "",
             "name": "Marko P.",
             "time": "pre 2 sata",
             "text": "PLACEHOLDER — zamenite stvarnim utiskom kupca pre objavljivanja.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
             "reactions": "👍❤️ 124"
           }
         },
         "c2": {
           "type": "review",
           "settings": {
+            "avatar_url": "",
             "name": "Milica J.",
             "time": "pre 4 sata",
             "text": "PLACEHOLDER — zamenite stvarnim utiskom kupca pre objavljivanja.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
             "reactions": "👍❤️ 98"
           }
         },
         "c3": {
           "type": "review",
           "settings": {
+            "avatar_url": "",
             "name": "Jovana K.",
             "time": "pre 8 sati",
             "text": "PLACEHOLDER — zamenite stvarnim utiskom kupca pre objavljivanja.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
             "reactions": "❤️😍 215"
           }
         }
@@ -510,57 +601,70 @@
         "c2",
         "c3"
       ],
-      "name": "Komentari kupaca"
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Zašto kupci ne mogu da prestanu da pričaju o njoj",
+        "highlight_words": "ne mogu da prestanu",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#fffaf7",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     },
     "faq": {
       "type": "cro-faq",
-      "settings": {
-        "heading": "Često postavljana pitanja",
-        "max_width": 900,
-        "padding_top": 28,
-        "padding_bottom": 16
-      },
       "blocks": {
         "q1": {
           "type": "question",
           "settings": {
             "question": "Koliko traje isporuka?",
-            "answer": "<p>Porudžbine primljene do 14h šaljemo istog dana. Kurir stiže na vašu adresu za <strong>1–2 radna dana</strong> u celoj Srbiji.</p>"
+            "answer": "<p>Porudžbine primljene do 14h šaljemo istog dana. Kurir stiže na vašu adresu za <strong>1–2 radna dana</strong> u celoj Srbiji.</p>",
+            "open_by_default": false
           }
         },
         "q2": {
           "type": "question",
           "settings": {
             "question": "Mogu li da platim pouzećem?",
-            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa.</p>"
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa.</p>",
+            "open_by_default": false
           }
         },
         "q3": {
           "type": "question",
           "settings": {
             "question": "Može li se koristiti i napolju?",
-            "answer": "<p>Može, na balkonu ili terasi. Preporučujemo zaštitu od kiše i vlage kako bi tkanina zadržala izgled.</p>"
+            "answer": "<p>Može, na balkonu ili terasi. Preporučujemo zaštitu od kiše i vlage kako bi tkanina zadržala izgled.</p>",
+            "open_by_default": false
           }
         },
         "q4": {
           "type": "question",
           "settings": {
             "question": "Da li je stabilna prilikom ljuljanja?",
-            "answer": "<p>Jeste. Ram je ojačan, a širina baze sprečava neprijatno pomeranje tokom ljuljanja.</p>"
+            "answer": "<p>Jeste. Ram je ojačan, a širina baze sprečava neprijatno pomeranje tokom ljuljanja.</p>",
+            "open_by_default": false
           }
         },
         "q5": {
           "type": "question",
           "settings": {
             "question": "Koliko prostora zauzima?",
-            "answer": "<p>Dimenzije su <strong>111 × 95 × 80 cm</strong> — dovoljno kompaktno za većinu prostora, uz široko sedište.</p>"
+            "answer": "<p>Dimenzije su <strong>111 × 95 × 80 cm</strong> — dovoljno kompaktno za većinu prostora, uz široko sedište.</p>",
+            "open_by_default": false
           }
         },
         "q6": {
           "type": "question",
           "settings": {
             "question": "Kako se održava?",
-            "answer": "<p>Redovno provetravanje i brisanje vlažnom krpom uz blagi deterdžent. Izbegavajte agresivna sredstva.</p>"
+            "answer": "<p>Redovno provetravanje i brisanje vlažnom krpom uz blagi deterdžent. Izbegavajte agresivna sredstva.</p>",
+            "open_by_default": false
           }
         }
       },
@@ -572,47 +676,64 @@
         "q5",
         "q6"
       ],
-      "name": "Česta pitanja"
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
     },
     "testimonials": {
       "type": "cro-testimonial-slider",
-      "settings": {
-        "heading": "Šta drugi kažu o nama?",
-        "columns": 3,
-        "gap": 28,
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "padding_top": 28,
-        "padding_bottom": 28
-      },
       "blocks": {
         "t1": {
           "type": "slide",
           "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
             "alt": "Utisak kupca 1"
           }
         },
         "t2": {
           "type": "slide",
           "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
             "alt": "Utisak kupca 2"
           }
         },
         "t3": {
           "type": "slide",
           "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
             "alt": "Utisak kupca 3"
           }
         },
         "t4": {
           "type": "slide",
           "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
             "alt": "Utisak kupca 4"
           }
         },
         "t5": {
           "type": "slide",
           "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
             "alt": "Utisak kupca 5"
           }
         }
@@ -624,43 +745,65 @@
         "t4",
         "t5"
       ],
-      "name": "Utisci (slajder)"
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     },
     "stories": {
       "type": "cro-insta-stories",
-      "settings": {
-        "heading": "Drugi pričaju o nama",
-        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
-        "duration": 5,
-        "padding_top": 12,
-        "padding_bottom": 36
-      },
       "blocks": {
         "st1": {
           "type": "story",
           "settings": {
+            "avatar_url": "",
             "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
             "link_label": "Pogledaj proizvod"
           }
         },
         "st2": {
           "type": "story",
           "settings": {
+            "avatar_url": "",
             "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
             "link_label": "Pogledaj proizvod"
           }
         },
         "st3": {
           "type": "story",
           "settings": {
+            "avatar_url": "",
             "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
             "link_label": "Pogledaj proizvod"
           }
         },
         "st4": {
           "type": "story",
           "settings": {
+            "avatar_url": "",
             "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
             "link_label": "Pogledaj proizvod"
           }
         }
@@ -671,7 +814,18 @@
         "st3",
         "st4"
       ],
-      "name": "Priče kupaca"
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
