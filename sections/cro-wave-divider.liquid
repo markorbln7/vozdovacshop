@@ -1,0 +1,47 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+
+<section
+  class="cro-section cro-wave"
+  style="
+    --cro-wave-color: {{ section.settings.wave_color }};
+    --cro-wave-height: {{ section.settings.height }}px;
+    background: {{ section.settings.background_color }};
+  "
+  aria-hidden="true"
+>
+  <svg
+    viewBox="0 24 150 28"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    {% if section.settings.flip %}style="transform: scaleY(-1);"{% endif %}
+  >
+    <defs>
+      <path
+        id="cro-wave-{{ section.id }}"
+        d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z"
+      ></path>
+    </defs>
+    <g class="cro-parallax">
+      <use xlink:href="#cro-wave-{{ section.id }}" x="50" y="3"></use>
+      <use xlink:href="#cro-wave-{{ section.id }}" x="50" y="0"></use>
+      <use xlink:href="#cro-wave-{{ section.id }}" x="50" y="9"></use>
+      <use xlink:href="#cro-wave-{{ section.id }}" x="50" y="6"></use>
+    </g>
+  </svg>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Talasasti razdelnik",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "settings": [
+    { "type": "color", "id": "wave_color", "label": "Boja talasa", "default": "#f3f3f3" },
+    { "type": "color", "id": "background_color", "label": "Pozadina", "default": "#ffffff" },
+    { "type": "range", "id": "height", "label": "Visina", "min": 20, "max": 160, "step": 5, "unit": "px", "default": 60 },
+    { "type": "checkbox", "id": "flip", "label": "Okreni naopako", "default": false }
+  ],
+  "presets": [{ "name": "CRO — Talasasti razdelnik" }]
+}
+{% endschema %}

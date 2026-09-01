@@ -1,0 +1,53 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+<section
+  class="cro-section"
+  style="
+    background: {{ section.settings.background_color }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="cro-page-width">
+    <div class="cro-declaration cro-reveal">
+      {%- if section.settings.heading != blank -%}
+        <h4 class="cro-declaration__title">{{ section.settings.heading }}</h4>
+      {%- endif -%}
+      <table>
+        <tbody>
+          {%- for block in section.blocks -%}
+            <tr {{ block.shopify_attributes }}>
+              <td>{{ block.settings.label }}</td>
+              <td>{{ block.settings.value }}</td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Deklaracija",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "max_blocks": 12,
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Naslov", "default": "Deklaracija proizvoda" },
+    { "type": "color", "id": "background_color", "label": "Pozadina", "default": "#ffffff" },
+    { "type": "range", "id": "padding_top", "label": "Razmak gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 30 },
+    { "type": "range", "id": "padding_bottom", "label": "Razmak dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 40 }
+  ],
+  "blocks": [
+    {
+      "type": "row", "name": "Red",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Naziv", "default": "Naziv artikla:" },
+        { "type": "text", "id": "value", "label": "Vrednost" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "CRO — Deklaracija", "blocks": [{ "type": "row" }, { "type": "row" }, { "type": "row" }, { "type": "row" }] }]
+}
+{% endschema %}

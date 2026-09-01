@@ -1,0 +1,128 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+<section
+  class="cro-section"
+  style="
+    --cro-accent: {{ section.settings.accent_color }};
+    --cro-highlight-color: {{ section.settings.highlight_color }};
+    background: {{ section.settings.background_color }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="cro-page-width">
+    <div class="cro-reviews__head cro-reveal">
+      {%- if section.settings.badge != blank -%}
+        <span class="cro-reviews__badge">{{ section.settings.badge }}</span>
+      {%- endif -%}
+      {%- if section.settings.heading != blank -%}
+        <h2 class="cro-h2">
+          {%- if section.settings.highlight_words != blank -%}
+            {%- capture cro_hl -%}<span class="cro-highlight">{{ section.settings.highlight_words }}</span>{%- endcapture -%}{{ section.settings.heading | replace: section.settings.highlight_words, cro_hl }}
+          {%- else -%}
+            {{ section.settings.heading }}
+          {%- endif -%}
+        </h2>
+      {%- endif -%}
+    </div>
+
+    <cro-slider
+      class="cro-slider cro-reveal"
+      data-autoplay="{{ section.settings.autoplay }}"
+      data-autoplay-speed="{{ section.settings.autoplay_speed }}"
+      style="--cro-per-view-desktop: {{ section.settings.columns }}; --cro-slide-gap-desktop: 20px; --cro-per-view: 1.12;"
+    >
+      <ul class="cro-slider__track" role="list">
+        {%- for block in section.blocks -%}
+          <li class="cro-slider__slide" {{ block.shopify_attributes }}>
+            <article class="cro-review-card">
+              <header class="cro-review-card__user">
+                {%- if block.settings.avatar != blank -%}
+                  {{ block.settings.avatar | image_url: width: 120 | image_tag: loading: 'lazy', alt: '', class: 'cro-review-card__avatar' }}
+                {%- elsif block.settings.avatar_url != blank -%}
+                  <img class="cro-review-card__avatar" src="{{ block.settings.avatar_url }}" alt="" width="120" height="120" loading="lazy" decoding="async">
+                {%- elsif block.settings.name != blank -%}
+                  {%- assign initials = block.settings.name | split: ' ' -%}
+                  <span class="cro-review-card__avatar cro-review-card__initials" aria-hidden="true">
+                    {%- for word in initials limit: 2 -%}{{ word | slice: 0 | upcase }}{%- endfor -%}
+                  </span>
+                {%- endif -%}
+                <div>
+                  <span class="cro-review-card__name">{{ block.settings.name }}</span>
+                  <span class="cro-review-card__time">{{ block.settings.time }}</span>
+                </div>
+              </header>
+              <p class="cro-review-card__text">{{ block.settings.text }}</p>
+              {%- if block.settings.image != blank -%}
+                <div class="cro-review-card__media">
+                  {{ block.settings.image | image_url: width: 800 | image_tag: loading: 'lazy', alt: '' }}
+                </div>
+              {%- elsif block.settings.image_url != blank -%}
+                <div class="cro-review-card__media">
+                  <img src="{{ block.settings.image_url }}" alt="" width="{{ block.settings.image_width }}" height="{{ block.settings.image_height }}" loading="lazy" decoding="async">
+                </div>
+              {%- endif -%}
+              {%- if block.settings.reactions != blank -%}
+                <footer class="cro-review-card__reactions">{{ block.settings.reactions }}</footer>
+              {%- endif -%}
+            </article>
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      {%- if section.blocks.size > 1 -%}
+        <button class="cro-slider__arrow cro-slider__arrow--prev" type="button" aria-label="Prethodni komentar">
+          <svg viewBox="0 0 10 16" aria-hidden="true"><path d="M9.4 1.6 8 .2 0 8l8 7.8 1.4-1.4L2.8 8z"/></svg>
+        </button>
+        <button class="cro-slider__arrow cro-slider__arrow--next" type="button" aria-label="Sledeći komentar">
+          <svg viewBox="0 0 10 16" aria-hidden="true"><path d="M9.4 1.6 8 .2 0 8l8 7.8 1.4-1.4L2.8 8z"/></svg>
+        </button>
+        <div class="cro-slider__dots">
+          {%- for block in section.blocks -%}
+            <button class="cro-slider__dot" type="button" aria-current="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="Komentar {{ forloop.index }}"></button>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </cro-slider>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Komentari kupaca",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "max_blocks": 12,
+  "settings": [
+    { "type": "text", "id": "badge", "label": "Oznaka", "default": "NAJNOVIJI UTISCI" },
+    { "type": "text", "id": "heading", "label": "Naslov", "default": "Zašto kupci obožavaju ovaj komad?" },
+    { "type": "text", "id": "highlight_words", "label": "Reči koje se ističu" },
+    { "type": "range", "id": "columns", "label": "Kartica na desktopu", "min": 1, "max": 4, "step": 1, "default": 3 },
+    { "type": "checkbox", "id": "autoplay", "label": "Automatsko pomeranje", "default": false },
+    { "type": "range", "id": "autoplay_speed", "label": "Pauza", "min": 3, "max": 15, "step": 1, "unit": "s", "default": 6 },
+    { "type": "color", "id": "accent_color", "label": "Akcentna boja", "default": "#f69906" },
+    { "type": "color", "id": "highlight_color", "label": "Boja markera", "default": "#e9d5f5" },
+    { "type": "color", "id": "background_color", "label": "Pozadina", "default": "#fffaf7" },
+    { "type": "range", "id": "padding_top", "label": "Razmak gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 30 },
+    { "type": "range", "id": "padding_bottom", "label": "Razmak dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 30 }
+  ],
+  "blocks": [
+    {
+      "type": "review", "name": "Komentar",
+      "settings": [
+        { "type": "image_picker", "id": "avatar", "label": "Profilna slika" },
+        { "type": "text", "id": "avatar_url", "label": "Profilna slika — URL" },
+        { "type": "text", "id": "name", "label": "Ime", "default": "Marko P." },
+        { "type": "text", "id": "time", "label": "Vreme", "default": "pre 2 sata" },
+        { "type": "textarea", "id": "text", "label": "Komentar" },
+        { "type": "image_picker", "id": "image", "label": "Fotografija kupca" },
+        { "type": "text", "id": "image_url", "label": "Fotografija kupca — URL" },
+        { "type": "number", "id": "image_width", "label": "Originalna širina (px)", "default": 1080 },
+        { "type": "number", "id": "image_height", "label": "Originalna visina (px)", "default": 1080 },
+        { "type": "text", "id": "reactions", "label": "Reakcije", "default": "👍❤️ 124" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "CRO — Komentari kupaca", "blocks": [{ "type": "review" }, { "type": "review" }, { "type": "review" }] }]
+}
+{% endschema %}

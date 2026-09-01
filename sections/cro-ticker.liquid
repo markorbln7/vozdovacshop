@@ -1,0 +1,76 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+<section
+  class="cro-section"
+  style="
+    background: {{ section.settings.outer_background }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <cro-ticker
+    class="cro-ticker{% if section.settings.direction == 'right' %} cro-ticker--reverse{% endif %}"
+    style="
+      --cro-ticker-bg: {{ section.settings.background_color }};
+      --cro-ticker-text: {{ section.settings.text_color }};
+      --cro-ticker-speed: {{ section.settings.speed }}s;
+      --cro-ticker-pad: {{ section.settings.bar_padding }}px;
+    "
+    aria-label="{{ section.settings.aria_label | default: 'Prednosti proizvoda' }}"
+  >
+    <div class="cro-ticker__track">
+      {%- for block in section.blocks -%}
+        <span class="cro-ticker__item" {{ block.shopify_attributes }}>
+          {%- if block.settings.icon != blank -%}<span aria-hidden="true">{{ block.settings.icon }}</span>{%- endif -%}
+          {{ block.settings.text }}
+        </span>
+      {%- else -%}
+        <span class="cro-ticker__item">Dodajte stavke u sekciju</span>
+      {%- endfor -%}
+    </div>
+  </cro-ticker>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Traka koja klizi",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "max_blocks": 20,
+  "settings": [
+    { "type": "color", "id": "background_color", "label": "Boja trake", "default": "#f69906" },
+    { "type": "color", "id": "text_color", "label": "Boja teksta", "default": "#ffffff" },
+    { "type": "color", "id": "outer_background", "label": "Pozadina sekcije", "default": "#ffffff" },
+    { "type": "range", "id": "speed", "label": "Trajanje jednog kruga", "min": 10, "max": 90, "step": 5, "unit": "s", "default": 30 },
+    {
+      "type": "select", "id": "direction", "label": "Smer", "default": "left",
+      "options": [{ "value": "left", "label": "Ulevo" }, { "value": "right", "label": "Udesno" }]
+    },
+    { "type": "range", "id": "bar_padding", "label": "Visina trake", "min": 6, "max": 40, "step": 2, "unit": "px", "default": 16 },
+    { "type": "text", "id": "aria_label", "label": "Opis za čitače ekrana", "default": "Prednosti proizvoda" },
+    { "type": "range", "id": "padding_top", "label": "Razmak gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 20 },
+    { "type": "range", "id": "padding_bottom", "label": "Razmak dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 20 }
+  ],
+  "blocks": [
+    {
+      "type": "item", "name": "Stavka",
+      "settings": [
+        { "type": "text", "id": "text", "label": "Tekst", "default": "Vrhunska udobnost" },
+        { "type": "text", "id": "icon", "label": "Emodži (opciono)" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "CRO — Traka koja klizi",
+      "blocks": [
+        { "type": "item", "settings": { "text": "Nežno ljuljanje" } },
+        { "type": "item", "settings": { "text": "Skandinavski dizajn" } },
+        { "type": "item", "settings": { "text": "Vrhunska udobnost" } },
+        { "type": "item", "settings": { "text": "Prijatni materijali" } },
+        { "type": "item", "settings": { "text": "Uklapa se svuda" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

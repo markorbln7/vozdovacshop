@@ -1,0 +1,117 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+<section
+  class="cro-section"
+  style="
+    --cro-accent: {{ section.settings.accent_color }};
+    --cro-highlight-color: {{ section.settings.highlight_color }};
+    background: {{ section.settings.background_color }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="cro-page-width">
+    <div class="cro-reviews__head cro-reveal">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="cro-h2">
+          {%- if section.settings.highlight_words != blank -%}
+            {%- capture cro_hl -%}<span class="cro-highlight">{{ section.settings.highlight_words }}</span>{%- endcapture -%}{{ section.settings.heading | replace: section.settings.highlight_words, cro_hl }}
+          {%- else -%}
+            {{ section.settings.heading }}
+          {%- endif -%}
+        </h2>
+      {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <div class="cro-rte" style="margin-top: 8px;">{{ section.settings.subheading }}</div>
+      {%- endif -%}
+    </div>
+
+    <cro-stories class="cro-stories cro-reveal" data-duration="{{ section.settings.duration }}">
+      <script type="application/json" data-cro-stories>
+        [
+          {%- for block in section.blocks -%}
+            {
+              "name": {{ block.settings.name | default: '' | json }},
+              "avatar": {{ block.settings.avatar | image_url: width: 200 | default: block.settings.avatar_url | default: '' | json }},
+              "image": {{ block.settings.image | image_url: width: 1200 | default: block.settings.image_url | default: '' | json }},
+              "video": {{ block.settings.video_url | default: '' | json }},
+              "link": {{ block.settings.link | default: '' | json }},
+              "link_label": {{ block.settings.link_label | default: '' | json }}
+            }{% unless forloop.last %},{% endunless %}
+          {%- endfor -%}
+        ]
+      </script>
+
+      <div class="cro-stories__row">
+        {%- for block in section.blocks -%}
+          <button class="cro-stories__btn" type="button" data-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+            <span class="cro-stories__ring">
+              <span class="cro-stories__pfp">
+                {%- if block.settings.avatar != blank -%}
+                  {{ block.settings.avatar | image_url: width: 200 | image_tag: loading: 'lazy', alt: block.settings.name | escape }}
+                {%- elsif block.settings.image != blank -%}
+                  {{ block.settings.image | image_url: width: 200 | image_tag: loading: 'lazy', alt: block.settings.name | escape }}
+                {%- elsif block.settings.avatar_url != blank -%}
+                  <img src="{{ block.settings.avatar_url }}" alt="{{ block.settings.name | escape }}" width="200" height="200" loading="lazy" decoding="async">
+                {%- elsif block.settings.image_url != blank -%}
+                  <img src="{{ block.settings.image_url }}" alt="{{ block.settings.name | escape }}" width="200" height="200" loading="lazy" decoding="async">
+                {%- endif -%}
+              </span>
+            </span>
+            <span class="cro-stories__name">{{ block.settings.name }}</span>
+          </button>
+        {%- endfor -%}
+      </div>
+
+      <div class="cro-stories__viewer" role="dialog" aria-modal="true" aria-label="Priče kupaca">
+        <div class="cro-stories__frame">
+          <div class="cro-stories__bars"></div>
+          <div class="cro-stories__meta">
+            <img src="" alt="" width="34" height="34">
+            <span></span>
+          </div>
+          <button class="cro-stories__nav cro-stories__nav--prev" type="button" aria-label="Prethodna priča"></button>
+          <button class="cro-stories__nav cro-stories__nav--next" type="button" aria-label="Sledeća priča"></button>
+          <button class="cro-stories__close" type="button" aria-label="Zatvori">&times;</button>
+          <div class="cro-stories__cta" hidden><a href="#"></a></div>
+        </div>
+      </div>
+    </cro-stories>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Priče kupaca",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "max_blocks": 12,
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Naslov", "default": "Drugi pričaju o nama" },
+    { "type": "text", "id": "highlight_words", "label": "Reči koje se ističu" },
+    { "type": "richtext", "id": "subheading", "label": "Podnaslov" },
+    { "type": "range", "id": "duration", "label": "Trajanje jedne priče", "min": 3, "max": 15, "step": 1, "unit": "s", "default": 5 },
+    { "type": "color", "id": "accent_color", "label": "Akcentna boja", "default": "#f69906" },
+    { "type": "color", "id": "highlight_color", "label": "Boja markera", "default": "#e9d5f5" },
+    { "type": "color", "id": "background_color", "label": "Pozadina", "default": "#ffffff" },
+    { "type": "range", "id": "padding_top", "label": "Razmak gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 12 },
+    { "type": "range", "id": "padding_bottom", "label": "Razmak dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 36 }
+  ],
+  "blocks": [
+    {
+      "type": "story", "name": "Priča",
+      "settings": [
+        { "type": "image_picker", "id": "avatar", "label": "Profilna slika" },
+        { "type": "text", "id": "avatar_url", "label": "Profilna slika — URL" },
+        { "type": "text", "id": "name", "label": "Korisničko ime", "default": "kupac.rs" },
+        { "type": "image_picker", "id": "image", "label": "Slika priče" },
+        { "type": "text", "id": "image_url", "label": "Slika priče — URL" },
+        { "type": "text", "id": "video_url", "label": "Video URL (.mp4)", "info": "Ako je popunjeno, prikazuje se umesto slike." },
+        { "type": "url", "id": "link", "label": "Link" },
+        { "type": "text", "id": "link_label", "label": "Tekst linka", "default": "Pogledaj proizvod" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "CRO — Priče kupaca", "blocks": [{ "type": "story" }, { "type": "story" }, { "type": "story" }] }]
+}
+{% endschema %}

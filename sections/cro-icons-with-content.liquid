@@ -1,0 +1,85 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+<section
+  class="cro-section"
+  style="
+    --cro-accent: {{ section.settings.accent_color }};
+    --cro-highlight-color: {{ section.settings.highlight_color }};
+    --cro-icon-size: {{ section.settings.icon_size }}px;
+    background: {{ section.settings.background_color }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="cro-page-width">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="cro-h2 cro-reveal" style="text-align: {{ section.settings.heading_alignment }}; margin-bottom: 24px;">
+        {{ section.settings.heading }}
+      </h2>
+    {%- endif -%}
+
+    <div class="cro-icons cro-icons--{{ section.settings.columns }}">
+      {%- for block in section.blocks -%}
+        <div class="cro-icons__item cro-reveal" style="--cro-i: {{ forloop.index0 }};" {{ block.shopify_attributes }}>
+          <h3 class="cro-icons__title">
+            {%- if block.settings.icon != blank -%}
+              <span class="cro-icons__icon">
+                {{ block.settings.icon | image_url: width: 300 | image_tag: loading: 'lazy', alt: '' }}
+              </span>
+            {%- elsif block.settings.emoji != blank -%}
+              <span class="cro-icons__icon" aria-hidden="true" style="font-size: {{ section.settings.icon_size | times: 0.7 }}px; line-height: 1;">
+                {{ block.settings.emoji }}
+              </span>
+            {%- endif -%}
+            <span>{{ block.settings.title }}</span>
+          </h3>
+          {%- if block.settings.text != blank -%}
+            <div class="cro-rte">{{ block.settings.text }}</div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Ikone sa tekstom",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "max_blocks": 6,
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Naslov sekcije" },
+    {
+      "type": "select", "id": "heading_alignment", "label": "Poravnanje naslova", "default": "center",
+      "options": [{ "value": "left", "label": "Levo" }, { "value": "center", "label": "Centrirano" }]
+    },
+    {
+      "type": "select", "id": "columns", "label": "Kolona na desktopu", "default": "1",
+      "options": [
+        { "value": "1", "label": "Jedna" },
+        { "value": "2", "label": "Dve" },
+        { "value": "3", "label": "Tri" }
+      ]
+    },
+    { "type": "range", "id": "icon_size", "label": "Veličina ikone", "min": 32, "max": 110, "step": 2, "unit": "px", "default": 56 },
+    { "type": "color", "id": "background_color", "label": "Pozadina", "default": "#ffffff" },
+    { "type": "color", "id": "accent_color", "label": "Akcentna boja", "default": "#f69906" },
+    { "type": "color", "id": "highlight_color", "label": "Boja markera", "default": "#e9d5f5" },
+    { "type": "range", "id": "padding_top", "label": "Razmak gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 20 },
+    { "type": "range", "id": "padding_bottom", "label": "Razmak dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 16 }
+  ],
+  "blocks": [
+    {
+      "type": "item", "name": "Ikona",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Ikona (slika)" },
+        { "type": "text", "id": "emoji", "label": "Emodži (ako nema slike)" },
+        { "type": "text", "id": "title", "label": "Naslov", "default": "Prednost proizvoda" },
+        { "type": "richtext", "id": "text", "label": "Tekst" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "CRO — Ikone sa tekstom", "blocks": [{ "type": "item" }, { "type": "item" }, { "type": "item" }] }]
+}
+{% endschema %}

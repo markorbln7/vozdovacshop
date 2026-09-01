@@ -1,0 +1,179 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+{%- liquid
+  assign has_copy = false
+  if section.settings.heading != blank or section.settings.text != blank or section.settings.button_label != blank
+    assign has_copy = true
+  endif
+-%}
+
+<section
+  class="cro-section cro-reveal{% unless has_copy %} cro-mwt--media-only{% endunless %}"
+  style="
+    --cro-accent: {{ section.settings.accent_color }};
+    --cro-highlight-color: {{ section.settings.highlight_color }};
+    --cro-media-width: {{ section.settings.media_width }}%;
+    {% if section.settings.media_ratio != 'auto' %}--cro-media-ratio: {{ section.settings.media_ratio }};{% endif %}
+    background: {{ section.settings.background_color }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="{% if section.settings.width == 'page' %}cro-page-width{% endif %}">
+    <div class="cro-mwt__grid{% if section.settings.media_position == 'right' %} cro-mwt--right{% endif %}">
+      <div class="cro-mwt__media cro-video">
+        {%- liquid
+          assign external = section.settings.video_url
+          assign uploaded = section.settings.video
+        -%}
+
+        {%- if external != blank -%}
+          <video
+            {% if section.settings.poster != blank %}poster="{{ section.settings.poster | image_url: width: 1200 }}"{% endif %}
+            {% if section.settings.autoplay %}autoplay muted loop{% else %}controls{% endif %}
+            playsinline
+            preload="metadata"
+            disablepictureinpicture
+          >
+            <source src="{{ external }}" type="video/mp4">
+          </video>
+          {%- if section.settings.autoplay and section.settings.allow_sound -%}
+            <button
+              class="cro-video__toggle"
+              type="button"
+              aria-pressed="false"
+              aria-label="Uključi ili isključi zvuk"
+              data-icon-muted='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 12A4.5 4.5 0 0 0 14 7.97v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51A8.8 8.8 0 0 0 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.94 8.94 0 0 0 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4 9.91 6.09 12 8.18V4z"/></svg>'
+              data-icon-unmuted='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>'
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 12A4.5 4.5 0 0 0 14 7.97v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51A8.8 8.8 0 0 0 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.94 8.94 0 0 0 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4 9.91 6.09 12 8.18V4z"/></svg>
+            </button>
+          {%- endif -%}
+
+        {%- elsif uploaded != blank -%}
+          {{
+            uploaded
+            | video_tag:
+              image_size: '1200x',
+              autoplay: section.settings.autoplay,
+              loop: true,
+              muted: true,
+              controls: false,
+              playsinline: true
+          }}
+
+        {%- elsif section.settings.image_url != blank -%}
+          <img
+            src="{{ section.settings.image_url }}"
+            alt="{{ section.settings.image_alt | escape }}"
+            width="{{ section.settings.image_width }}"
+            height="{{ section.settings.image_height }}"
+            loading="lazy"
+            decoding="async"
+          >
+
+        {%- elsif section.settings.image != blank -%}
+          {%- assign mwt_alt = section.settings.image.alt | default: section.settings.heading | escape -%}
+          {{
+            section.settings.image
+            | image_url: width: 1600
+            | image_tag:
+              loading: 'lazy',
+              alt: mwt_alt,
+              sizes: '(min-width: 750px) 50vw, 100vw'
+          }}
+
+        {%- else -%}
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {%- endif -%}
+      </div>
+
+      {%- if has_copy -%}
+        <div class="cro-mwt__content{% if section.settings.text_alignment == 'center' %} cro-mwt__content--center{% endif %}">
+          {%- if section.settings.heading != blank -%}
+            <h2 class="cro-h2">
+              {%- if section.settings.highlight_words != blank -%}
+                {%- capture cro_hl -%}<span class="cro-highlight">{{ section.settings.highlight_words }}</span>{%- endcapture -%}{{ section.settings.heading | replace: section.settings.highlight_words, cro_hl }}
+              {%- else -%}
+                {{ section.settings.heading }}
+              {%- endif -%}
+            </h2>
+          {%- endif -%}
+
+          {%- if section.settings.text != blank -%}
+            <div class="cro-rte">{{ section.settings.text }}</div>
+          {%- endif -%}
+
+          {%- if section.settings.button_label != blank -%}
+            <a
+              class="cro-btn"
+              href="{{ section.settings.button_link | default: '#' }}"
+              style="--cro-btn-bg: {{ section.settings.button_color }}; max-width: 320px;"
+            >
+              {{ section.settings.button_label }}
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "CRO — Media + tekst",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "settings": [
+    { "type": "header", "content": "Medij" },
+    { "type": "text", "id": "video_url", "label": "Video URL (.mp4)", "info": "Direktan link ka .mp4 fajlu. Ima prednost nad ostalim medijima." },
+    { "type": "video", "id": "video", "label": "Video iz prodavnice" },
+    { "type": "image_picker", "id": "image", "label": "Slika" },
+    { "type": "text", "id": "image_url", "label": "Slika sa linka (URL)", "info": "Koristi se ako slika nije otpremljena u prodavnicu." },
+    { "type": "text", "id": "image_alt", "label": "Opis slike" },
+    { "type": "number", "id": "image_width", "label": "Originalna širina (px)", "default": 1500 },
+    { "type": "number", "id": "image_height", "label": "Originalna visina (px)", "default": 1500 },
+    { "type": "image_picker", "id": "poster", "label": "Poster slika za video" },
+    { "type": "checkbox", "id": "autoplay", "label": "Automatska reprodukcija", "default": true },
+    { "type": "checkbox", "id": "allow_sound", "label": "Dugme za zvuk", "default": true },
+    {
+      "type": "select", "id": "media_ratio", "label": "Odnos stranica", "default": "auto",
+      "options": [
+        { "value": "auto", "label": "Originalni" },
+        { "value": "1", "label": "Kvadrat" },
+        { "value": "4/5", "label": "Portret" },
+        { "value": "16/9", "label": "Pejzaž" },
+        { "value": "9/16", "label": "Story" }
+      ]
+    },
+    { "type": "header", "content": "Raspored" },
+    {
+      "type": "select", "id": "media_position", "label": "Pozicija medija", "default": "left",
+      "options": [{ "value": "left", "label": "Levo" }, { "value": "right", "label": "Desno" }]
+    },
+    { "type": "range", "id": "media_width", "label": "Širina medija", "min": 30, "max": 70, "step": 5, "unit": "%", "default": 50 },
+    {
+      "type": "select", "id": "width", "label": "Širina sekcije", "default": "page",
+      "options": [{ "value": "page", "label": "Standardna" }, { "value": "full", "label": "Puna širina" }]
+    },
+    {
+      "type": "select", "id": "text_alignment", "label": "Poravnanje teksta", "default": "left",
+      "options": [{ "value": "left", "label": "Levo" }, { "value": "center", "label": "Centrirano" }]
+    },
+    { "type": "header", "content": "Sadržaj" },
+    { "type": "text", "id": "heading", "label": "Naslov" },
+    { "type": "text", "id": "highlight_words", "label": "Reči koje se ističu", "info": "Tačan deo naslova koji dobija marker efekat." },
+    { "type": "richtext", "id": "text", "label": "Tekst" },
+    { "type": "text", "id": "button_label", "label": "Tekst dugmeta" },
+    { "type": "url", "id": "button_link", "label": "Link dugmeta" },
+    { "type": "header", "content": "Izgled" },
+    { "type": "color", "id": "background_color", "label": "Pozadina", "default": "#ffffff" },
+    { "type": "color", "id": "accent_color", "label": "Akcentna boja", "default": "#f69906" },
+    { "type": "color", "id": "highlight_color", "label": "Boja markera", "default": "#e9d5f5" },
+    { "type": "color", "id": "button_color", "label": "Boja dugmeta", "default": "#41bc3f" },
+    { "type": "range", "id": "padding_top", "label": "Razmak gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 24 },
+    { "type": "range", "id": "padding_bottom", "label": "Razmak dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 24 }
+  ],
+  "presets": [{ "name": "CRO — Media + tekst" }]
+}
+{% endschema %}

@@ -1,0 +1,529 @@
+{{ 'cro-landing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'cro-landing.js' | asset_url }}" defer></script>
+
+{%- liquid
+  assign product = section.settings.product | default: product
+  assign variant = product.selected_or_first_available_variant
+  assign form_id = 'cro-form-' | append: section.id
+  assign on_sale = false
+  if variant.compare_at_price > variant.price
+    assign on_sale = true
+  endif
+-%}
+
+<section
+  class="cro-section cro-section--product"
+  style="
+    --cro-accent: {{ section.settings.accent_color }};
+    --cro-media-radius: {{ section.settings.media_radius }}px;
+    --cro-thumbs: {{ section.settings.thumbnails_per_row }};
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="cro-page-width">
+    <div
+      class="cro-product{% if section.settings.media_position == 'right' %} cro-product--media-right{% endif %}"
+      data-cro-product
+    >
+      {%- comment -%} ------------------------------------------------ GALLERY {%- endcomment -%}
+      <div class="cro-product__media">
+        <cro-gallery class="cro-gallery" tabindex="-1">
+          <div class="cro-gallery__stage">
+            {%- if on_sale and section.settings.show_discount_badge -%}
+              {%- assign pct = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round -%}
+              <span class="cro-gallery__badge">-{{ pct }}%</span>
+            {%- endif -%}
+
+            <ul class="cro-gallery__viewport" role="list">
+              {%- for media in product.media -%}
+                <li
+                  class="cro-gallery__slide{% if section.settings.media_fit == 'cover' %} cro-gallery__slide--fill{% endif %}"
+                  data-media-id="{{ media.id }}"
+                >
+                  {%- case media.media_type -%}
+                    {%- when 'image' -%}
+                      {%- liquid
+                        if forloop.first
+                          assign media_loading = 'eager'
+                        else
+                          assign media_loading = 'lazy'
+                        endif
+                        assign media_alt = media.alt | default: product.title | escape
+                      -%}
+                      {{
+                        media.preview_image
+                        | image_url: width: 1600
+                        | image_tag:
+                          loading: media_loading,
+                          width: media.preview_image.width,
+                          height: media.preview_image.height,
+                          alt: media_alt,
+                          sizes: '(min-width: 750px) 55vw, 100vw'
+                      }}
+                      {%- if section.settings.enable_zoom -%}
+                        <button class="cro-gallery__zoom" type="button">
+                          <span class="cro-visually-hidden">Uvećaj sliku {{ forloop.index }}</span>
+                        </button>
+                      {%- endif -%}
+                    {%- when 'video' -%}
+                      {{ media | video_tag: image_size: '1100x', muted: true, loop: true, playsinline: true, controls: false }}
+                    {%- when 'external_video' -%}
+                      {{ media | external_video_tag }}
+                    {%- else -%}
+                      {{ media | media_tag }}
+                  {%- endcase -%}
+                </li>
+              {%- else -%}
+                <li class="cro-gallery__slide">
+                  {{ 'product-1' | placeholder_svg_tag: 'cro-gallery__placeholder' }}
+                </li>
+              {%- endfor -%}
+            </ul>
+
+            {%- if product.media.size > 1 -%}
+              <button class="cro-gallery__arrow cro-gallery__arrow--prev" type="button" aria-label="Prethodna slika" hidden>
+                <svg viewBox="0 0 10 16" aria-hidden="true"><path d="M9.4 1.6 8 .2 0 8l8 7.8 1.4-1.4L2.8 8z"/></svg>
+              </button>
+              <button class="cro-gallery__arrow cro-gallery__arrow--next" type="button" aria-label="Sledeća slika">
+                <svg viewBox="0 0 10 16" aria-hidden="true"><path d="M9.4 1.6 8 .2 0 8l8 7.8 1.4-1.4L2.8 8z"/></svg>
+              </button>
+              <span class="cro-gallery__counter">
+                <span class="cro-gallery__counter-current">1</span> / {{ product.media.size }}
+              </span>
+            {%- endif -%}
+          </div>
+
+          {%- if product.media.size > 1 and section.settings.show_thumbnails -%}
+            <ul class="cro-gallery__thumbs" role="list">
+              {%- for media in product.media -%}
+                <li>
+                  <button
+                    class="cro-gallery__thumb"
+                    type="button"
+                    aria-current="{% if forloop.first %}true{% else %}false{% endif %}"
+                    aria-label="Prikaži sliku {{ forloop.index }}"
+                  >
+                    {{
+                      media.preview_image
+                      | image_url: width: 240
+                      | image_tag: loading: 'lazy', alt: '', width: 240, height: 240
+                    }}
+                  </button>
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </cro-gallery>
+      </div>
+
+      {%- comment -%} --------------------------------------------------- INFO {%- endcomment -%}
+      <div class="cro-product__info{% if section.settings.sticky_info %} cro-product__info--sticky{% endif %}">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+
+            {%- when 'stars' -%}
+              <div class="cro-block cro-stars cro-reveal" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                <span class="cro-stars__track" style="--cro-rating: {{ block.settings.rating }};">
+                  {%- capture star_svg -%}
+                    <svg viewBox="0 0 512 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path fill="__FILL__" d="M0 0h96v96H0zM104 0h96v96h-96zM208 0h96v96h-96zM312 0h96v96h-96zM416 0h96v96h-96z"/>
+                      <path fill="#ffffff" d="M48 64.7L62.6 61l6.1 18.8zm33.6-24.3H55.9L48 16.2l-7.9 24.2H14.4l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM152 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L152 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM256 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L256 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM360 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L360 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2zM464 64.7l14.6-3.7 6.1 18.8zm33.6-24.3h-25.7L464 16.2l-7.9 24.2h-25.7l20.8 15-7.9 24.2 20.8-15 12.8-9.2z"/>
+                    </svg>
+                  {%- endcapture -%}
+                  {{ star_svg | replace: '__FILL__', '#c8c8c8' }}
+                  <span class="cro-stars__fill">{{ star_svg | replace: '__FILL__', block.settings.star_color }}</span>
+                </span>
+                {%- if block.settings.label != blank -%}
+                  <span class="cro-stars__label">{{ block.settings.label }}</span>
+                {%- endif -%}
+              </div>
+
+            {%- when 'title' -%}
+              <div class="cro-block cro-reveal" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                <h1 class="cro-product__title">{{ product.title | default: 'Naziv proizvoda' }}</h1>
+              </div>
+
+            {%- when 'usp_list' -%}
+              <ul class="cro-block cro-usps cro-reveal" role="list" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                {%- for i in (1..4) -%}
+                  {%- assign key = 'item_' | append: i -%}
+                  {%- assign line = block.settings[key] -%}
+                  {%- if line != blank -%}
+                    <li>{{ line }}</li>
+                  {%- endif -%}
+                {%- endfor -%}
+              </ul>
+
+            {%- when 'price' -%}
+              <div class="cro-block cro-price cro-reveal" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                <span class="cro-price__now" data-cro-price-now>{{ variant.price | money }}</span>
+                <s class="cro-price__was" data-cro-price-was {% unless on_sale %}hidden{% endunless %}>
+                  {{- variant.compare_at_price | money -}}
+                </s>
+                {%- if block.settings.show_saving -%}
+                  <span class="cro-price__save" data-cro-price-save {% unless on_sale %}hidden{% endunless %}>
+                    {%- if on_sale -%}
+                      {%- assign pct = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round -%}
+                      -{{ pct }}%
+                    {%- endif -%}
+                  </span>
+                {%- endif -%}
+                {%- if block.settings.note != blank -%}
+                  <span class="cro-price__unavailable">{{ block.settings.note }}</span>
+                {%- endif -%}
+              </div>
+
+            {%- when 'trust_badges' -%}
+              <ul class="cro-block cro-trust cro-reveal" role="list" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                {%- for i in (1..3) -%}
+                  {%- assign title_key = 'title_' | append: i -%}
+                  {%- assign text_key = 'text_' | append: i -%}
+                  {%- assign image_key = 'image_' | append: i -%}
+                  {%- assign url_key = 'image_url_' | append: i -%}
+                  {%- assign emoji_key = 'emoji_' | append: i -%}
+                  {%- if block.settings[title_key] != blank -%}
+                    <li class="cro-trust__item">
+                      {%- if block.settings[image_key] != blank -%}
+                        {{ block.settings[image_key] | image_url: width: 80 | image_tag: loading: 'lazy', alt: '' }}
+                      {%- elsif block.settings[url_key] != blank -%}
+                        <img src="{{ block.settings[url_key] }}" alt="" width="80" height="80" loading="lazy" decoding="async">
+                      {%- elsif block.settings[emoji_key] != blank -%}
+                        <span class="cro-trust__emoji" aria-hidden="true">{{ block.settings[emoji_key] }}</span>
+                      {%- endif -%}
+                      <p>
+                        <strong>{{ block.settings[title_key] }}</strong>
+                        {{ block.settings[text_key] }}
+                      </p>
+                    </li>
+                  {%- endif -%}
+                {%- endfor -%}
+              </ul>
+
+            {%- when 'stock' -%}
+              <cro-stock
+                class="cro-block cro-stock cro-reveal"
+                data-percent="{{ block.settings.percent }}"
+                {{ block.shopify_attributes }}
+                style="--cro-i: {{ forloop.index0 }};"
+              >
+                <span class="cro-stock__dot" aria-hidden="true"></span>
+                <div>
+                  <p>
+                    {{ block.settings.text }}
+                    <span class="cro-stock__count">{{ block.settings.count }}</span>
+                  </p>
+                  {%- if block.settings.show_bar -%}
+                    <div class="cro-stock__bar"><span></span></div>
+                  {%- endif -%}
+                </div>
+              </cro-stock>
+
+            {%- when 'buy' -%}
+              <cro-product-form
+                class="cro-block cro-buy"
+                data-cro-buy
+                data-mode="{{ block.settings.action }}"
+                data-money-format="{{ shop.money_format | strip_html | escape }}"
+                data-label-default="{{ block.settings.button_label | escape }}"
+                data-label-sold-out="{{ block.settings.sold_out_label | escape }}"
+                data-label-unavailable="{{ block.settings.unavailable_label | escape }}"
+                data-label-adding="{{ block.settings.adding_label | escape }}"
+                data-label-added="{{ block.settings.added_label | escape }}"
+                data-label-cart="{{ block.settings.cart_label | escape }}"
+                {{ block.shopify_attributes }}
+              >
+                {%- if product == blank -%}
+                  <p class="cro-rte">Izaberite proizvod u podešavanjima sekcije.</p>
+                {%- else -%}
+                {%- unless product.has_only_default_variant -%}
+                  {%- for option in product.options_with_values -%}
+                    <div class="cro-variants">
+                      <span class="cro-variants__label">
+                        {{ option.name }} — <strong data-cro-option-value>{{ option.selected_value }}</strong>
+                      </span>
+                      <div class="cro-variants__options">
+                        {%- for value in option.values -%}
+                          {%- assign input_id = section.id | append: '-' | append: option.position | append: '-' | append: forloop.index0 -%}
+                          <input
+                            type="radio"
+                            id="{{ input_id }}"
+                            name="{{ option.name | escape }}"
+                            value="{{ value | escape }}"
+                            form="cro-form-{{ section.id }}"
+                            {% if option.selected_value == value %}checked{% endif %}
+                          >
+                          <label for="{{ input_id }}">{{ value }}</label>
+                        {%- endfor -%}
+                      </div>
+                    </div>
+                  {%- endfor -%}
+                {%- endunless -%}
+
+                <script type="application/json" data-cro-variants>
+                  {{ product.variants | json }}
+                </script>
+
+                {%- form 'product', product, id: form_id, class: 'cro-buy', novalidate: 'novalidate' -%}
+                  <input type="hidden" name="id" value="{{ variant.id }}">
+                  <div class="cro-buy__row">
+                    {%- if block.settings.show_quantity -%}
+                      <div class="cro-qty">
+                        <button type="button" data-step="down" aria-label="Smanji količinu">&minus;</button>
+                        <input type="number" name="quantity" value="1" min="1" aria-label="Količina">
+                        <button type="button" data-step="up" aria-label="Povećaj količinu">+</button>
+                      </div>
+                    {%- endif -%}
+                    <button
+                      class="cro-btn{% if block.settings.pulse %} cro-btn--pulse{% endif %}"
+                      type="submit"
+                      data-cro-submit
+                      style="--cro-btn-bg: {{ block.settings.button_color }}; --cro-btn-text: {{ block.settings.button_text_color }};"
+                      {% unless variant.available %}disabled{% endunless %}
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 8H17V6c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2 0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h1c.55 0 1-.45 1-1v-3.33c0-.43-.14-.85-.4-1.2L20.3 8.4c-.19-.25-.49-.4-.8-.4zM6 18c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm13.5-8.5l1.96 2.5H17V9.5h2.5zM18 18c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/></svg>
+                      <span data-cro-submit-text>
+                        {%- if variant.available -%}{{ block.settings.button_label }}{%- else -%}{{ block.settings.sold_out_label }}{%- endif -%}
+                      </span>
+                    </button>
+                  </div>
+                {%- endform -%}
+
+                {%- endif -%}
+
+                {%- if block.settings.note != blank -%}
+                  <p class="cro-buy__note">{{ block.settings.note }}</p>
+                {%- endif -%}
+              </cro-product-form>
+
+            {%- when 'image' -%}
+              <div class="cro-block cro-reveal" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                {%- if block.settings.image != blank -%}
+                  {{
+                    block.settings.image
+                    | image_url: width: 1500
+                    | image_tag:
+                      loading: 'lazy',
+                      alt: block.settings.image.alt | default: '',
+                      style: 'width:100%;height:auto;display:block;border-radius:8px;'
+                  }}
+                {%- elsif block.settings.image_url != blank -%}
+                  <img
+                    src="{{ block.settings.image_url }}"
+                    alt="{{ block.settings.image_alt | escape }}"
+                    width="{{ block.settings.image_width }}"
+                    height="{{ block.settings.image_height }}"
+                    loading="lazy"
+                    decoding="async"
+                    style="width:100%;height:auto;display:block;border-radius:8px;"
+                  >
+                {%- endif -%}
+              </div>
+
+            {%- when 'countdown' -%}
+              <cro-countdown
+                class="cro-block cro-countdown cro-reveal"
+                data-deadline="{{ block.settings.deadline }}"
+                data-rolling-hours="{{ block.settings.rolling_hours }}"
+                data-key="{{ section.id }}"
+                {{ block.shopify_attributes }}
+                style="--cro-i: {{ forloop.index0 }};"
+              >
+                <div class="cro-countdown__head">
+                  <span class="cro-countdown__fire" aria-hidden="true">🔥</span>
+                  <span class="cro-countdown__titles">
+                    <span class="cro-countdown__title">{{ block.settings.title }}</span>
+                    {%- if block.settings.subtitle != blank -%}
+                      <span class="cro-countdown__sub">{{ block.settings.subtitle }}</span>
+                    {%- endif -%}
+                  </span>
+                </div>
+                <div class="cro-countdown__clock">
+                  <span class="cro-countdown__block">
+                    <span class="cro-countdown__num" data-days>00</span>
+                    <span class="cro-countdown__label">Dana</span>
+                  </span>
+                  <span class="cro-countdown__sep">:</span>
+                  <span class="cro-countdown__block">
+                    <span class="cro-countdown__num" data-hours>00</span>
+                    <span class="cro-countdown__label">Sati</span>
+                  </span>
+                  <span class="cro-countdown__sep">:</span>
+                  <span class="cro-countdown__block">
+                    <span class="cro-countdown__num" data-minutes>00</span>
+                    <span class="cro-countdown__label">Min</span>
+                  </span>
+                  <span class="cro-countdown__sep">:</span>
+                  <span class="cro-countdown__block">
+                    <span class="cro-countdown__num" data-seconds>00</span>
+                    <span class="cro-countdown__label">Sek</span>
+                  </span>
+                </div>
+              </cro-countdown>
+
+            {%- when 'text' -%}
+              <div class="cro-block cro-rte cro-reveal" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                {{ block.settings.text }}
+              </div>
+
+            {%- when 'description' -%}
+              <div class="cro-block cro-rte cro-reveal" {{ block.shopify_attributes }} style="--cro-i: {{ forloop.index0 }};">
+                {{ product.description }}
+              </div>
+
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- if section.settings.enable_sticky_atc -%}
+  <cro-sticky-atc class="cro-sticky-atc cro-section" data-watch="[data-cro-buy]">
+    {%- if product.featured_image -%}
+      {{ product.featured_image | image_url: width: 120 | image_tag: loading: 'lazy', alt: '' }}
+    {%- endif -%}
+    <span class="cro-sticky-atc__text">
+      <span class="cro-sticky-atc__title">{{ product.title }}</span>
+      <span class="cro-sticky-atc__price" data-cro-sticky-price>{{ variant.price | money }}</span>
+    </span>
+    <button class="cro-btn" type="button" data-cro-sticky-button style="--cro-btn-bg: {{ section.settings.sticky_button_color }};">
+      {{ section.settings.sticky_button_label }}
+    </button>
+  </cro-sticky-atc>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "CRO — Product",
+  "tag": "section",
+  "class": "cro-shopify-section",
+  "settings": [
+    { "type": "product", "id": "product", "label": "Proizvod", "info": "Ostavite prazno da koristi trenutni proizvod." },
+    { "type": "header", "content": "Galerija" },
+    {
+      "type": "select", "id": "media_position", "label": "Pozicija galerije", "default": "left",
+      "options": [{ "value": "left", "label": "Levo" }, { "value": "right", "label": "Desno" }]
+    },
+    {
+      "type": "select", "id": "media_fit", "label": "Prikaz slike", "default": "contain",
+      "options": [{ "value": "contain", "label": "Cela slika" }, { "value": "cover", "label": "Popuni okvir" }]
+    },
+    { "type": "checkbox", "id": "show_thumbnails", "label": "Prikaži sličice", "default": true },
+    { "type": "range", "id": "thumbnails_per_row", "label": "Sličica u redu", "min": 3, "max": 8, "step": 1, "default": 5 },
+    { "type": "range", "id": "media_radius", "label": "Zaobljenje", "min": 0, "max": 32, "step": 1, "unit": "px", "default": 0 },
+    { "type": "checkbox", "id": "enable_zoom", "label": "Klik za uvećanje", "default": true },
+    { "type": "checkbox", "id": "show_discount_badge", "label": "Oznaka popusta na slici", "default": true },
+    { "type": "header", "content": "Kolona sa informacijama" },
+    { "type": "checkbox", "id": "sticky_info", "label": "Zalepi kolonu na desktopu", "default": false },
+    { "type": "color", "id": "accent_color", "label": "Akcentna boja", "default": "#f69906" },
+    { "type": "header", "content": "Lepljivo dugme (mobilni)" },
+    { "type": "checkbox", "id": "enable_sticky_atc", "label": "Prikaži lepljivo dugme", "default": true },
+    { "type": "text", "id": "sticky_button_label", "label": "Tekst dugmeta", "default": "PORUČI ODMAH" },
+    { "type": "color", "id": "sticky_button_color", "label": "Boja dugmeta", "default": "#41bc3f" },
+    { "type": "header", "content": "Razmak" },
+    { "type": "range", "id": "padding_top", "label": "Gore", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 0 },
+    { "type": "range", "id": "padding_bottom", "label": "Dole", "min": 0, "max": 100, "step": 2, "unit": "px", "default": 24 }
+  ],
+  "blocks": [
+    {
+      "type": "stars", "name": "Ocene (zvezdice)", "limit": 1,
+      "settings": [
+        { "type": "range", "id": "rating", "label": "Ocena", "min": 0, "max": 5, "step": 0.1, "default": 5 },
+        { "type": "color", "id": "star_color", "label": "Boja zvezdica", "default": "#00b67a" },
+        { "type": "text", "id": "label", "label": "Tekst pored", "default": "<strong>1.268</strong> utisaka kupaca" }
+      ]
+    },
+    { "type": "title", "name": "Naslov proizvoda", "limit": 1, "settings": [] },
+    {
+      "type": "usp_list", "name": "Kratke prednosti", "limit": 2,
+      "settings": [
+        { "type": "text", "id": "item_1", "label": "Stavka 1", "default": "📚 Savršeno za čitanje" },
+        { "type": "text", "id": "item_2", "label": "Stavka 2", "default": "✨ Uklapa se u svaki dom" },
+        { "type": "text", "id": "item_3", "label": "Stavka 3", "default": "👌 Neverovatno mekano" },
+        { "type": "text", "id": "item_4", "label": "Stavka 4" }
+      ]
+    },
+    {
+      "type": "price", "name": "Cena", "limit": 1,
+      "settings": [
+        { "type": "checkbox", "id": "show_saving", "label": "Prikaži procenat uštede", "default": true },
+        { "type": "text", "id": "note", "label": "Napomena uz cenu" }
+      ]
+    },
+    {
+      "type": "trust_badges", "name": "Garancije", "limit": 2,
+      "settings": [
+        { "type": "image_picker", "id": "image_1", "label": "Ikona 1" },
+        { "type": "text", "id": "image_url_1", "label": "Ikona 1 — URL" },
+        { "type": "text", "id": "emoji_1", "label": "Ikona 1 — emodži" },
+        { "type": "text", "id": "title_1", "label": "Naslov 1", "default": "Pregled pre plaćanja" },
+        { "type": "text", "id": "text_1", "label": "Tekst 1", "default": "Otvorite paket pa platite" },
+        { "type": "image_picker", "id": "image_2", "label": "Ikona 2" },
+        { "type": "text", "id": "image_url_2", "label": "Ikona 2 — URL" },
+        { "type": "text", "id": "emoji_2", "label": "Ikona 2 — emodži" },
+        { "type": "text", "id": "title_2", "label": "Naslov 2", "default": "100% kao na slici" },
+        { "type": "text", "id": "text_2", "label": "Tekst 2", "default": "Bez skrivenih mana" },
+        { "type": "image_picker", "id": "image_3", "label": "Ikona 3" },
+        { "type": "text", "id": "image_url_3", "label": "Ikona 3 — URL" },
+        { "type": "text", "id": "emoji_3", "label": "Ikona 3 — emodži" },
+        { "type": "text", "id": "title_3", "label": "Naslov 3", "default": "Ekspresna dostava" },
+        { "type": "text", "id": "text_3", "label": "Tekst 3", "default": "Na vašoj adresi za 1–2 dana" }
+      ]
+    },
+    {
+      "type": "stock", "name": "Brojač zaliha", "limit": 1,
+      "settings": [
+        { "type": "text", "id": "text", "label": "Tekst", "default": "🔴 Požurite! Zbog velike potražnje ostalo je još samo" },
+        { "type": "text", "id": "count", "label": "Količina", "default": "14 komada" },
+        { "type": "checkbox", "id": "show_bar", "label": "Prikaži traku", "default": true },
+        { "type": "range", "id": "percent", "label": "Popunjenost trake", "min": 4, "max": 100, "step": 2, "unit": "%", "default": 18 }
+      ]
+    },
+    {
+      "type": "buy", "name": "Varijante i dugme", "limit": 1,
+      "settings": [
+        {
+          "type": "select", "id": "action", "label": "Radnja", "default": "cart",
+          "options": [
+            { "value": "cart", "label": "Dodaj u korpu" },
+            { "value": "checkout", "label": "Odmah na naplatu" }
+          ]
+        },
+        { "type": "checkbox", "id": "show_quantity", "label": "Prikaži količinu", "default": true },
+        { "type": "checkbox", "id": "pulse", "label": "Pulsirajuće dugme", "default": true },
+        { "type": "text", "id": "button_label", "label": "Tekst dugmeta", "default": "PORUČI ODMAH" },
+        { "type": "text", "id": "sold_out_label", "label": "Rasprodato", "default": "Rasprodato" },
+        { "type": "text", "id": "unavailable_label", "label": "Nedostupna kombinacija", "default": "Nedostupno" },
+        { "type": "text", "id": "adding_label", "label": "Tokom dodavanja", "default": "Dodajem…" },
+        { "type": "text", "id": "added_label", "label": "Posle dodavanja", "default": "Dodato u korpu" },
+        { "type": "text", "id": "cart_label", "label": "Link ka korpi", "default": "Idi na korpu" },
+        { "type": "color", "id": "button_color", "label": "Boja dugmeta", "default": "#41bc3f" },
+        { "type": "color", "id": "button_text_color", "label": "Boja teksta", "default": "#ffffff" },
+        { "type": "text", "id": "note", "label": "Napomena ispod dugmeta", "default": "🔒 Plaćanje pouzećem — platite tek kada paket stigne" }
+      ]
+    },
+    {
+      "type": "image", "name": "Slika (poverenje)", "limit": 3,
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Slika" },
+        { "type": "text", "id": "image_url", "label": "Slika sa linka (URL)" },
+        { "type": "text", "id": "image_alt", "label": "Opis slike" },
+        { "type": "number", "id": "image_width", "label": "Originalna širina (px)", "default": 1500 },
+        { "type": "number", "id": "image_height", "label": "Originalna visina (px)", "default": 279 }
+      ]
+    },
+    {
+      "type": "countdown", "name": "Odbrojavanje", "limit": 1,
+      "settings": [
+        { "type": "text", "id": "title", "label": "Naslov", "default": "AKCIJA SE USKORO ZAVRŠAVA!" },
+        { "type": "text", "id": "subtitle", "label": "Podnaslov", "default": "Ponuda važi dok traju zalihe" },
+        { "type": "text", "id": "deadline", "label": "Tačan datum", "info": "Format 2026-12-31T23:59. Ostavite prazno za rotirajući rok." },
+        { "type": "range", "id": "rolling_hours", "label": "Rotirajući rok", "min": 2, "max": 168, "step": 2, "unit": "h", "default": 48 }
+      ]
+    },
+    { "type": "text", "name": "Tekst", "settings": [{ "type": "richtext", "id": "text", "label": "Tekst" }] },
+    { "type": "description", "name": "Opis proizvoda", "limit": 1, "settings": [] }
+  ],
+  "presets": [{ "name": "CRO — Product" }]
+}
+{% endschema %}
