@@ -678,7 +678,7 @@
           "type": "question",
           "settings": {
             "question": "U kojim situacijama se najviše koriste?",
-            "answer": "<p>Avion i putovanja, svadbe i slavlja, vašari i koncerti, utakmice, trke, vatromet i petarde, kao i bučni gradski prevoz.</p>",
+            "answer": "<p>Avion i putovanja, svadbe i slavlja, vašari i koncerti, utakmice, trke, vatromet i petarde, kao i bučni gradski prevoz ili dok obavljate kućne poslove.</p>",
             "open_by_default": false
           }
         },
