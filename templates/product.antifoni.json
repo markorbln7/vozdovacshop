@@ -1,0 +1,882 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.9,
+            "star_color": "#00b67a",
+            "label": "2.104 ocene roditelja"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "👶 Štiti osetljiv sluh bebe od 0 do 36 meseci",
+            "item_2": "😴 Beba spava mirno i kad je oko nje bučno",
+            "item_3": "🪶 Ultra lagani — beba ih posle minut zaboravi",
+            "item_4": "🎁 Putna torbica Protect & Go na poklon"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": ""
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🧠",
+            "title_1": "Bezbedno za fontanelu",
+            "text_1": "Dijagonalna traka bez pritiska na glavicu",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Zbog velike potražnje ostalo je još samo",
+            "count": "23 kompleta",
+            "show_bar": true,
+            "percent": 22
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "ZAŠTITI MOJU BEBU",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#f69906",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "ZAŠTITI MOJU BEBU",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_noise": {
+      "type": "cro-media-with-text",
+      "name": "Video — mir usred buke",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/5142a7c8fb0f4607a39ac53371806213.mp4",
+        "image_url": "",
+        "image_alt": "",
+        "image_width": 1500,
+        "image_height": 1500,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Svet je preglasan za uši koje su stare tri meseca",
+        "highlight_words": "preglasan",
+        "text": "<p>Sirena, aparat za kafu, petarde ispred zgrade, aplauz na svadbi. Vama je to pozadina — vašoj bebi je <strong>iznenadni udar koji je uplaši do suza</strong>. Njen slušni kanal je kratak i nezaštićen, pa zvuk do bubne opne stiže znatno jači nego kod vas.</p><p>Antifoni to zaustave pre nego što stigne do nje. Stavite ih za dve sekunde i beba ostane u svom miru — bez plača, bez trzanja, bez straha.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "😴",
+            "title": "San koji niko ne prekida",
+            "text": "<p>Beba prespava put, kafanu, slavlje i buku komšija. Vi konačno završite ono što ste krenuli — i ostanete duže napolju bez griže savesti.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🛡️",
+            "title": "Sluh se ne popravlja kasnije",
+            "text": "<p>Oštećenje sluha od jakih zvukova je trajno. Zato se zaštita nosi sada, dok su uši u razvoju — a ne kad se posledice primete.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🪶",
+            "title": "Toliko laki da ih ne skida",
+            "text": "<p>Meka traka koja ne klizi i ne pritiska fontanelu. Beba ih posle par minuta jednostavno prestane da primećuje.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Tri razloga zbog kojih roditelji ne izlaze bez njih",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_fit": {
+      "type": "cro-media-with-text",
+      "name": "Slika — udobno naleganje",
+      "settings": {
+        "video_url": "",
+        "image_url": "https://cdn.shopify.com/s/files/1/0630/1483/0178/files/antifoni-slusalice-za-bebe-m-8.webp?v=1788513044",
+        "image_alt": "Antifoni slušalice za bebe — meko naleganje na uši",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Meko naleže na uši i ostaje tu — bez pritiska na fontanelu",
+        "highlight_words": "bez pritiska na fontanelu",
+        "text": "<p>Traka se postavlja <strong>dijagonalno</strong>, tako da zaobilazi meki deo glavice. Ne klizi kad se beba okrene i ne ostavlja trag na koži.</p><p>Višeslojna pena se prilagodi obliku glave, pa školjke sedaju tačno preko ušiju — bez rupa kroz koje buka prolazi.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Zaštita sluha 0–36 meseci",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Bezbedno za fontanelu",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Mirniji san bebe",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Ultra lagani",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Putna torbica na poklon",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#f69906",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_travel": {
+      "type": "cro-media-with-text",
+      "name": "Slika — putovanja i izlasci",
+      "settings": {
+        "video_url": "",
+        "image_url": "https://cdn.shopify.com/s/files/1/0630/1483/0178/files/big-161474430_65942d37a85d42-25769999510084080-50953.webp?v=1788513044",
+        "image_alt": "Beba sa antifonima na putovanju",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Avion, svadba, vašar, utakmica — beba ide sa vama",
+        "highlight_words": "beba ide sa vama",
+        "text": "<p>Poletanje i sletanje su najgori deo leta za malu decu. Sa antifonima <strong>pritisak i tutnjava ostaju napolju</strong>, a beba obično prespava ceo let.</p><p>Isto važi i za novogodišnje petarde, koncert u parku ili slavlje u familiji. Ne morate više da birate između svog života i njenog mira.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_sleep": {
+      "type": "cro-media-with-text",
+      "name": "Slika — mirniji san",
+      "settings": {
+        "video_url": "",
+        "image_url": "https://cdn.shopify.com/s/files/1/0630/1483/0178/files/antifoni-slusalice-za-bebe-m-11.webp?v=1788513045",
+        "image_alt": "Beba mirno spava sa antifonima",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Manje nadražaja danju znači mirniju noć",
+        "highlight_words": "mirniju noć",
+        "text": "<p>Prezasićena beba se teško smiruje — plače, ne prihvata sisu i budi se na svaki šum. Antifoni skidaju višak zvučnih nadražaja pre nego što se nakupe.</p><p>Roditelji najčešće primete istu stvar: <strong>lakše uspavljivanje i kraće večernje plakanje</strong> posle dana provedenog napolju.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 97,
+            "text": "roditelja kaže da se beba <strong>vidno manje trza na jake zvukove</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 95,
+            "text": "potvrđuje da su antifoni <strong>lagani i da ih beba ne skida</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 93,
+            "text": "koristi ih na <strong>putovanjima i porodičnim slavljima</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 91,
+            "text": "kaže da beba <strong>duže i mirnije spava</strong> uz njih"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 89,
+            "text": "ne izlazi iz kuće bez njih i <strong>preporučuje ih drugim roditeljima</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu roditelji koji ih već koriste",
+        "accent_color": "#f69906",
+        "row_background": "#fffaf2",
+        "track_color": "#fbebd5",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "name": "Slika — boje",
+      "settings": {
+        "video_url": "",
+        "image_url": "https://cdn.shopify.com/s/files/1/0630/1483/0178/files/antifoni-za-bebe_-shopex-online-shop-srbija-1.webp?v=1788513045",
+        "image_alt": "Antifoni za bebe — dostupne boje",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Namena",
+            "value": "Zaštita sluha beba i male dece od buke"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Uzrast",
+            "value": "Od 0 do 36 meseci"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Traka",
+            "value": "Meka, podesiva, ne klizi — dijagonalno postavljanje bez pritiska na fontanelu"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Konstrukcija",
+            "value": "Višeslojna pena za precizno naleganje preko ušiju"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Težina",
+            "value": "Ultra lagani — prilagođeni bebinom vratu i glavi"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Dostupne boje",
+            "value": "Plava, roze, bela, siva"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "U kompletu",
+            "value": "Antifoni + putna torbica Protect & Go"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Održavanje",
+            "value": "Gornji sloj se lako briše vlažnom krpom"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#f69906",
+        "name_background": "#fffaf2",
+        "border_color": "#fbebd5",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "POPUNITI"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "POPUNITI"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "disabled": true,
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#fffaf7",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ana M.",
+            "time": "pre 6 sati",
+            "text": "Kupila sam ih pred put avionom, sin ima 7 meseci. Prvi let bez jednog jedinog plača, prespavao je i poletanje i sletanje. Ranije bih ga celim putem nosala po prolazu. Traka mu ne pada preko očiju i ne ostavlja crvenilo. Sad ih držim stalno u kolicima.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 241"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Nikola S.",
+            "time": "",
+            "text": "Za Novu godinu smo bili kod mojih, petarde non-stop ispred zgrade. Prošle godine je ćerka vrištala pola noći, ove godine je spavala kao da se ništa ne dešava. Poručeno u utorak, stiglo u četvrtak, plaćeno kuriru. Torbica koja ide uz njih je mali detalj ali stvarno korisna.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 156"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Milica J.",
+            "time": "",
+            "text": "Odlični su, beba ih uopšte ne dira kad su na glavi. Jedino, roze nijansa mi je uživo delovala malo svetlije nego na slici, ali to je sitnica. Sinu od godinu dana traka je taman, mislim da će mu biti dobra još dosta dugo jer se podešava. Preporučujem svakom roditelju koji izlazi sa bebom.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 112"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Roditelji koji su ih probali više ne izlaze bez njih",
+        "highlight_words": "više ne izlaze bez njih",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#fffaf7",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Od kog uzrasta mogu da se koriste?",
+            "answer": "<p>Namenjeni su bebama i deci <strong>od 0 do 36 meseci</strong>. Traka se podešava, pa rastu zajedno sa detetom.</p>",
+            "open_by_default": false
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Da li pritiskaju fontanelu?",
+            "answer": "<p>Ne. Traka se postavlja dijagonalno i zaobilazi meki deo glavice, a materijal je mek i rastegljiv — bez pritiska i bez traga na koži.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li će beba pokušati da ih skine?",
+            "answer": "<p>Zbog male težine i mekog naleganja većina beba ih posle par minuta jednostavno zaboravi. Najlakše je prvi put ih staviti kad je beba mirna ili pospana.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "U kojim situacijama se najviše koriste?",
+            "answer": "<p>Avion i putovanja, svadbe i slavlja, vašari i koncerti, utakmice, trke, vatromet i petarde, kao i bučni gradski prevoz.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se održavaju?",
+            "answer": "<p>Gornji sloj se lako briše vlažnom krpom uz blagi deterdžent. Ne potapati u vodu i ne prati u mašini.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih roditelja — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_noise",
+    "icons",
+    "image_fit",
+    "ticker",
+    "image_travel",
+    "image_sleep",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
