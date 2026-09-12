@@ -134,6 +134,7 @@
       "name": "Video — brzina seckanja",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/work_1_480x480_9b51a85b-427f-4ed5-b254-371c607cb998.webp",
         "image_url": "",
         "image_alt": "Električni super secko secka luk za nekoliko sekundi",
         "image_width": 1080,
@@ -209,6 +210,7 @@
       "name": "Slika — oštrice",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/work_2_480x480_0cec8815-697a-4c46-a0e2-47ba0d294740.webp",
         "image_url": "",
         "image_alt": "Oštrice od nerđajućeg čelika u dva nivoa",
         "image_width": 1080,
@@ -305,6 +307,7 @@
       "name": "Slika — šta sve secka",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/work_3_480x480_0d3678d7-6226-43d0-a95c-faa76636c142.webp",
         "image_url": "",
         "image_alt": "Povrće, meso, orasi i začini iseckani u seckalici",
         "image_width": 1080,
@@ -334,6 +337,7 @@
       "name": "Slika — pranje i odlaganje",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/7336.jpg",
         "image_url": "",
         "image_alt": "Posuda i oštrice seckalice se lako peru pod mlazom vode",
         "image_width": 1080,
@@ -417,6 +421,7 @@
     },
     "big_image": {
       "type": "cro-media-with-text",
+      "disabled": true,
       "name": "Velika slika",
       "settings": {
         "video_url": "",
@@ -632,6 +637,7 @@
         "c2",
         "c3"
       ],
+      "disabled": true,
       "name": "Komentari kupaca",
       "settings": {
         "badge": "NAJNOVIJI UTISCI",
