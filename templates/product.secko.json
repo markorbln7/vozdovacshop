@@ -470,14 +470,14 @@
           "type": "row",
           "settings": {
             "name": "Napajanje",
-            "value": "POPUNITI (npr. 220V električno / punjiva baterija)"
+            "value": "220V"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
             "name": "Zapremina posude",
-            "value": "POPUNITI (npr. 500 ml)"
+            "value": "3L"
           }
         },
         "r5": {
@@ -489,6 +489,7 @@
         },
         "r6": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "name": "Dimenzije",
             "value": "POPUNITI"
