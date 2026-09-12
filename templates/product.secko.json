@@ -1,0 +1,882 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.847 ocena kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "⚡ Kilogram luka za sarmu iseckan pre nego što skuvate kafu",
+            "item_2": "🔪 Četiri čelične oštrice u dva nivoa — sve izađe jednako sitno",
+            "item_3": "😌 Bez suza, bez daske, bez ljuspica po celoj kuhinji",
+            "item_4": "🧼 Opere se za dvadesetak sekundi, bez rastavljanja"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": ""
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🔪",
+            "title_1": "Čelične oštrice",
+            "text_1": "Ne krive se i ne gnječe posle par upotreba",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Zbog velike potražnje ostalo je još samo",
+            "count": "31 komad",
+            "show_bar": true,
+            "percent": 26
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI SECKO",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#f69906",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI SECKO",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_speed": {
+      "type": "cro-media-with-text",
+      "name": "Video — brzina seckanja",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Električni super secko secka luk za nekoliko sekundi",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Ručak ne kasni zbog kuvanja — kasni zbog seckanja",
+        "highlight_words": "zbog seckanja",
+        "text": "<p>Recept kaže „dinstati luk pet minuta“. Ali pre tih pet minuta ide: izvadi dasku, oljušti tri glavice, seckaj na sitno dok te oči peku, pa pokupi ono što je odletelo pored daske. Tu prođe pola sata, a jelo još nije ni počelo.</p><p>Ovde luk ulazi u posudu na četvrtine. <strong>Tri pritiska i tiganj može da krene</strong> — dok biste inače tek tražili gde vam je dobar nož.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "😭",
+            "title": "Kraj suzama od luka",
+            "text": "<p>Luk ostaje zatvoren u posudi, pa isparenja nemaju kuda. Nema peckanja u očima ni mirisa na prstima koji se drži do sutradan.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🔪",
+            "title": "Sve iseckano podjednako",
+            "text": "<p>Oštrice u dva nivoa hvataju namirnicu i odozgo i odozdo. Nema krupnih komada luka koji u gotovom jelu ostanu tvrdi i osete se u svakom zalogaju.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🧼",
+            "title": "Opere se pre nego što jelo proključa",
+            "text": "<p>Poklopac dole, oštrice napolje, posuda pod mlaz vode. Nema deset delova koji se sklapaju kao slagalica — zato se i koristi svakog dana.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Tri razloga zbog kojih završi na radnoj ploči, a ne u ostavi",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_blades": {
+      "type": "cro-media-with-text",
+      "name": "Slika — oštrice",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Oštrice od nerđajućeg čelika u dva nivoa",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Oštrice koje ne odustanu na prvom orahu",
+        "highlight_words": "ne odustanu",
+        "text": "<p>Jeftine seckalice imaju tanke oštrice koje se posle par upotreba iskrive, pa umesto da seku počnu da gnječe. Iz posude izađe kaša od paradajza i luk koji je i dalje na pola.</p><p>Ovde su <strong>četiri oštrice od nerđajućeg čelika</strong>, dovoljno debele da ne popuste. Orah, parmezan i komad junetine prolaze isto kao i meka paprika.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Seckanje za 10 sekundi",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Četiri čelične oštrice",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Bez suza od luka",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Lako se pere",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Ne zauzima mesto",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#f69906",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_uses": {
+      "type": "cro-media-with-text",
+      "name": "Slika — šta sve secka",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Povrće, meso, orasi i začini iseckani u seckalici",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Sarma, ajvar, pesto, faširano — sve kreće iz iste posude",
+        "highlight_words": "sve kreće iz iste posude",
+        "text": "<p>Kilogram luka za sarmu. Paprika i patlidžan za ajvar. Orasi za kolače, bosiljak za pesto, junetina za pljeskavice, peršun koji uvek završi krupniji nego što ste hteli.</p><p>Koliko sitno će biti, birate pritiskom: <strong>dva kratka za salatu, nekoliko dužih za nadev ili paštetu</strong>. Isti uređaj, drugačiji rezultat.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_clean": {
+      "type": "cro-media-with-text",
+      "name": "Slika — pranje i odlaganje",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Posuda i oštrice seckalice se lako peru pod mlazom vode",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Stoji na dohvat ruke — zato se i koristi",
+        "highlight_words": "zato se i koristi",
+        "text": "<p>Veliki multipraktik završi u ostavi jer se za svaku upotrebu vadi, sklapa, pere i vraća. Na kraju je lakše uzeti nož nego proći kroz sve to.</p><p>Ovaj je dovoljno mali da ostane na radnoj ploči i dovoljno jednostavan da ga uključite i zbog jedne glavice luka. Posle: <strong>skinuti poklopac, izvaditi oštrice, isprati posudu</strong> — i to je ceo posao.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 96,
+            "text": "kaže da im je <strong>priprema ručka kraća za bar 20 minuta</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 94,
+            "text": "potvrđuje da <strong>više ne plaču dok seckaju luk</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 92,
+            "text": "ga koristi <strong>nekoliko puta nedeljno ili svakog dana</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 90,
+            "text": "kaže da se <strong>opere brže nego daska i nož</strong>"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 88,
+            "text": "ga je <strong>preporučilo nekome iz porodice</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji ga koriste svakog dana",
+        "accent_color": "#f69906",
+        "row_background": "#fffaf2",
+        "track_color": "#fbebd5",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Električni super secko — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Namena",
+            "value": "Seckanje povrća, mesa, oraha, sira i začinskog bilja"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Oštrice",
+            "value": "4 oštrice od nerđajućeg čelika, raspoređene u dva nivoa"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Napajanje",
+            "value": "POPUNITI (npr. 220V električno / punjiva baterija)"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Zapremina posude",
+            "value": "POPUNITI (npr. 500 ml)"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal posude",
+            "value": "Prozirna plastika bez BPA"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Dimenzije",
+            "value": "POPUNITI"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "U kompletu",
+            "value": "Seckalica, posuda, set oštrica, poklopac"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Održavanje",
+            "value": "Posuda i oštrice se peru ručno, pod mlazom tople vode"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#f69906",
+        "name_background": "#fffaf2",
+        "border_color": "#fbebd5",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "POPUNITI"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "POPUNITI"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "disabled": true,
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#fffaf7",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Jelena P.",
+            "time": "pre 4 sata",
+            "text": "Kupila sam ga zbog sarme, treba mi kilo luka i svaki put plačem kao kiša. Sad ubacim luk, tri pritiska i gotovo, oči suve. Iznenadilo me koliko lepo samelje i orahe za kolače. Posudu i oštrice isperem dok se meso dinsta, to mi je najbitnije.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 214"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Dragan K.",
+            "time": "",
+            "text": "Naručeno u ponedeljak, stiglo u sredu, plaćeno kuriru. Jači je nego što sam očekivao za ovu cenu, junetinu samelje bez muke kad ubacim manje komade. Stoji nam na radnoj ploči jer ne smeta nikome. Žena ga koristi svaki dan.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 168"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Marija S.",
+            "time": "",
+            "text": "Dobar je, štedi vreme, nema šta. Jedino treba da se navikneš da ne trpaš posudu do vrha jer onda gornji deo ostane krupniji — u dva navrata bude savršeno. Paprika, šargarepa i peršun idu za tren. Ne bih ga menjala.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 97"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Ko ga jednom proba, dasku vadi samo za hleb",
+        "highlight_words": "dasku vadi samo za hleb",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#fffaf7",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Šta sve može da secka?",
+            "answer": "<p>Luk, beli luk, šargarepu, papriku, paradajz, krastavac, začinsko bilje, orahe, badem, sir, kao i <strong>juneće i pileće meso</strong>. Za tvrđe namirnice ubacujte manje komade i seckajte u dva navrata.</p>",
+            "open_by_default": false
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Koliko sitno secka?",
+            "answer": "<p>Vi to birate pritiskom. Dva do tri kratka pritiska daju krupnije komade za salatu ili đuveč, a nekoliko dužih fino mleveno za nadeve, paštete i pesto.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li se lako pere?",
+            "answer": "<p>Da. Poklopac se skida u jednom pokretu, oštrice se izvade i posuda ispere pod mlazom tople vode sa malo deterdženta. Motorni deo se samo prebriše vlažnom krpom i ne potapa se u vodu.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Da li se oštrice tupe vremenom?",
+            "answer": "<p>Oštrice su od nerđajućeg čelika i znatno su deblje od onih na jeftinim ručnim seckalicama. Uz normalnu upotrebu zadržavaju oštrinu dugo — bitno je samo da ih ne ostavljate mokre.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Koliko je bučan?",
+            "answer": "<p>Radi svega nekoliko sekundi po ciklusu, pa se buka jedva i primeti — daleko je tiša i kraća nego kod blendera.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#f69906",
+        "highlight_color": "#e9d5f5",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_speed",
+    "icons",
+    "image_blades",
+    "ticker",
+    "image_uses",
+    "image_clean",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
