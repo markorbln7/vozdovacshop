@@ -1,0 +1,890 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.293 ocene kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "🍳 13 delova — cela kuhinja se menja jednom porudžbinom",
+            "item_2": "🚫 Neprianjajući premaz — jaja i palačinke klize bez zagorevanja",
+            "item_3": "🔥 Ravnomerno greje po celom dnu, bez zagorele sredine",
+            "item_4": "🧼 Ispere se krpom, bez ribanja i struganja"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": ""
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🍳",
+            "title_1": "Neprianjajući premaz",
+            "text_1": "Hrana ne lepi ni uz malo ulja",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Zbog velike potražnje ostalo je još samo",
+            "count": "24 seta",
+            "show_bar": true,
+            "percent": 21
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI SET ŠERPI",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#c0562b",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI SET ŠERPI",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_intro": {
+      "type": "cro-media-with-text",
+      "name": "Video — prvi utisak",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Set šerpi 13 delova na šporetu tokom kuvanja",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Stara šerpa se ne baci — samo se prestane koristiti",
+        "highlight_words": "prestane koristiti",
+        "text": "<p>U svakoj kuhinji postoji ona šerpa u koju više niko ne kuva. Dno joj je izgrebano, sredina zagoreva pre nego što se ivice zagreju, a poklopac je odavno negde zalutao. Stoji u donjem plakaru „za svaki slučaj“ i zauzima mesto.</p><p>Ovaj set menja ceo taj plakar odjednom. <strong>Trinaest delova koji se slažu jedan u drugi</strong> — od malog rajngle za sos do velike šerpe za sarmu, svaki sa svojim poklopcem.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "🍳",
+            "title": "Hrana ne lepi za dno",
+            "text": "<p>Neprianjajući premaz znači da jaje klizi po tiganju i uz kap ulja. Nema onog trenutka kada lopaticom pokušavate da odlepite palačinku koja se već rascepila.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🔥",
+            "title": "Greje celo dno, ne samo sredinu",
+            "text": "<p>Debelo dno raspoređuje toplotu ravnomerno, pa sos ne zagoreva u centru dok su ivice još mlake. Kuva se na nižoj temperaturi i sa manje mešanja.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🧼",
+            "title": "Pranje bez ribanja",
+            "text": "<p>Ono što ne prilepi, ne treba ni da se struže. Topla voda, sunđer, dva pokreta — i šerpa je spremna da se vrati u plakar.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Tri razloga zbog kojih se kuva u njima svaki dan",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_coating": {
+      "type": "cro-media-with-text",
+      "name": "Slika — premaz i dno",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Neprianjajući premaz i debelo dno šerpe",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Premaz koji ne ode sa prvim ribanjem",
+        "highlight_words": "ne ode sa prvim ribanjem",
+        "text": "<p>Jeftine šerpe izgledaju odlično dva meseca. Onda premaz počne da se ljušti, pa se u jelu nađe ono što tamo ne treba da bude, a šerpa ide u smeće.</p><p>Ovde je premaz nanet na <strong>debelo dno koje se ne krivi od toplote</strong> — a baš krivljenje dna je ono što premaz na jeftinim šerpama i raskida.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "13 delova u setu",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Neprianjajući premaz",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Debelo dno",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Poklopci sa otvorom za paru",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Slažu se jedna u drugu",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#c0562b",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_set": {
+      "type": "cro-media-with-text",
+      "name": "Slika — šta sve dobijate",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Svih 13 delova seta raspoređenih jedan pored drugog",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Za svako jelo postoji tačno ona veličina koja treba",
+        "highlight_words": "tačno ona veličina",
+        "text": "<p>Kad imate dve šerpe, u obe se kuva sve. Sos se pravi u velikoj jer je mala prljava, pa zagori. Sarma se kuva u maloj jer velike nema, pa se prelije.</p><p>U setu su <strong>različite veličine sa poklopcem za svaku</strong> — mala za sos i jaja, srednja za supu i pirinač, velika za sarmu, pasulj i kuvanje za goste.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_storage": {
+      "type": "cro-media-with-text",
+      "name": "Slika — odlaganje i pranje",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Šerpe složene jedna u drugu u kuhinjskom elementu",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Trinaest delova, a plakar je prazniji nego pre",
+        "highlight_words": "plakar je prazniji nego pre",
+        "text": "<p>Zvuči kao mnogo posuđa dok ne vidite da se slažu jedna u drugu. Ceo set staje na policu na koju su ranije išle tri neusklađene šerpe i gomila poklopaca koji ne pripadaju nijednoj.</p><p>A posle kuvanja: <strong>topla voda i sunđer, bez namakanja preko noći</strong>. Ono što nije zagorelo, ne treba ni da se struže.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 95,
+            "text": "kaže da im <strong>hrana više ne zagoreva za dno</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 93,
+            "text": "potvrđuje da <strong>kuva sa manje ulja nego ranije</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 91,
+            "text": "kaže da se <strong>pranje svede na sunđer i toplu vodu</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 89,
+            "text": "je <strong>izbacilo stare šerpe iz kuhinje</strong> posle ovog seta"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 87,
+            "text": "ga je <strong>preporučilo nekome iz porodice</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji u njima kuvaju svaki dan",
+        "accent_color": "#c0562b",
+        "row_background": "#fdf3ef",
+        "track_color": "#f6ded3",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Set šerpi 13 delova — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Broj delova",
+            "value": "13"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Sastav seta",
+            "value": "POPUNITI — navesti tačne komade i prečnike (npr. 3 šerpe sa poklopcima, tiganj, rajngla…)"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal",
+            "value": "POPUNITI — npr. aluminijum sa neprianjajućim premazom"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Unutrašnji premaz",
+            "value": "Neprianjajući"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Poklopci",
+            "value": "POPUNITI — staklo ili metal, sa otvorom za paru"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Vrsta šporeta",
+            "value": "POPUNITI — potvrditi da li je pogodno za indukciju"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "name": "Dimenzije i zapremine",
+            "value": "POPUNITI"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Održavanje",
+            "value": "Pranje toplom vodom i mekim sunđerom, bez abrazivnih sredstava i metalnih žica"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#c0562b",
+        "name_background": "#fdf3ef",
+        "border_color": "#f6ded3",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "POPUNITI"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "POPUNITI"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "disabled": true,
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#fdf5f2",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Snežana M.",
+            "time": "pre 3 sata",
+            "text": "Stigao za dva dana, plaćeno kuriru. Prvo sam ispržila jaja bez ulja da vidim da li je priča istinita — kliznula su iz tiganja. Velika šerpa mi je taman za sarmu, a poklopci konačno odgovaraju šerpama. Stare sam sklonila u podrum i verujem da se neće vraćati.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 187"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Miloš J.",
+            "time": "",
+            "text": "Uzeo sam ćerki za useljenje i praktično joj je to cela kuhinja. Dno je deblje nego što sam očekivao za ovu cenu, ne krivi se i ne zvecka po ringli. Slažu se jedna u drugu pa joj je ostao ceo donji plakar prazan.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 142"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Vesna T.",
+            "time": "",
+            "text": "Zadovoljna sam, kuvam u njima svaki dan već mesec dana. Jedino treba paziti da se ne greje prazna šerpa na jakoj vatri i da se ne koristi metalna kašika — onda premaz drži. Pere se lako, to mi je najveća promena.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 96"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Ko počne da kuva u njima, stare šerpe više ne vadi",
+        "highlight_words": "stare šerpe više ne vadi",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "background_color": "#fdf5f2",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Šta tačno dobijam u setu od 13 delova?",
+            "answer": "<p>POPUNITI — navesti tačan sastav seta (broj šerpi, prečnike, poklopce i dodatke).</p>",
+            "open_by_default": false
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Da li može na indukciju?",
+            "answer": "<p>POPUNITI — potvrditi za koje tipove šporeta je set namenjen (gas, staklokeramika, indukcija).</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li hrana zagoreva?",
+            "answer": "<p>Neprianjajući premaz i debelo dno rade zajedno — toplota se raspoređuje po celoj površini, pa nema vrele tačke u sredini u kojoj sos zagori. Za većinu jela je dovoljna srednja vatra.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Kako da premaz što duže traje?",
+            "answer": "<p>Tri stvari: <strong>ne grejte praznu šerpu na jakoj vatri</strong>, koristite drvene ili silikonske lopatice umesto metalnih i perite mekim sunđerom, nikako žicom ili abrazivnim sredstvima. Uz to premaz ostaje gladak godinama.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li u mašinu za sudove?",
+            "answer": "<p>Preporučujemo ručno pranje toplom vodom i mekim sunđerom. Agresivni deterdženti u mašini vremenom oštećuju neprianjajući sloj, a i ne treba vam — ono što ne prilepi, ispere se za nekoliko sekundi.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#c0562b",
+        "highlight_color": "#f5ded2",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_intro",
+    "icons",
+    "image_coating",
+    "ticker",
+    "image_set",
+    "image_storage",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
