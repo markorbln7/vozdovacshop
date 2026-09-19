@@ -1,0 +1,955 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.847 ocena kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "💧 Nano-maglica raščešljava bez čupanja i naelektrisanja",
+            "item_2": "🔴 Crveno svetlo stimuliše koren kose dok češljate",
+            "item_3": "✨ Samočišćenje na jedan klik — dlake skinete za sekund",
+            "item_4": "🔌 Bežična, puni se na Type-C i staje u tašnu"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "Specijalna akcija — 50% popusta na redovnu cenu"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "💧",
+            "title_1": "Nano-maglica",
+            "text_1": "Vlaži vlasi dok češljate",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Po akcijskoj ceni ostalo je još samo",
+            "count": "23 komada",
+            "show_bar": true,
+            "percent": 20
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI ČETKU -50%",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA -50% SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena od 1.490 RSD važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#4e7a42",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI ČETKU -50%",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_intro": {
+      "type": "cro-media-with-text",
+      "name": "Video — prvi utisak",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Električna četka sa raspršivačem tokom češljanja kose",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Češljanje ne mora da počinje sa trzajem",
+        "highlight_words": "sa trzajem",
+        "text": "<p>Svako jutro isto: četka zapne na pola dužine, vi povučete jače, i u iglicama ostane pramen koji tu ne bi trebalo da bude. Posle par minuta kosa je raščešljana, ali naelektrisana i podignuta, a četka puna dlaka koje se vade prstima.</p><p>Ova četka radi drugačije. <strong>Pre nego što iglice dođu do čvora, vlas je već ovlažena nano-maglicom</strong> — pa se raspetljava umesto da se kida.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "💧",
+            "title": "Nano-maglica",
+            "text": "<p>Ugrađeni rezervoar pretvara vodu ili vašu omiljenu vodenu esenciju u ultra-finu maglicu koja ravnomerno oblaže dlaku dok češljate.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🔴",
+            "title": "Crveno svetlo",
+            "text": "<p>Nežna fototerapija radi na koži glave tokom češljanja i podstiče mikrocirkulaciju u korenu kose.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "💦",
+            "title": "Za mokru i suvu kosu",
+            "text": "<p>Koristi se odmah posle tuširanja ili na potpuno suvoj kosi — iglice klize u oba slučaja, bez zapinjanja.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "✨",
+            "title": "Samočišćenje na klik",
+            "text": "<p>Pritisak na dugme uvlači iglice i izbacuje sve nakupljene dlake na površinu — skinete ih jednim potezom.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "🫗",
+            "title": "Lako punjenje",
+            "text": "<p>Rezervoar se otvara i puni za nekoliko sekundi, bez levka i bez prosipanja po sudoperi.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "🌊",
+            "title": "Raščešljavanje bez čupanja",
+            "text": "<p>Zaobljene iglice na fleksibilnom vazdušnom jastuku prate oblik glave i prolaze kroz čvorove umesto da ih kidaju.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — 6 u 1",
+      "settings": {
+        "heading": "Šest funkcija u jednoj četki",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_mist": {
+      "type": "cro-media-with-text",
+      "name": "Slika — nano-maglica",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Nano-maglica iz raspršivača na četki tokom češljanja",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Maglica koja se jedva vidi, a odmah se oseti",
+        "highlight_words": "odmah se oseti",
+        "text": "<p>Naelektrisana kosa se ne smiruje četkanjem — od suvog češljanja postaje samo gora. Zato se posle deset minuta pred ogledalom vlasi i dalje podižu, a frizura izgleda kao da nije ni doterana.</p><p>Rezervoar u telu četke raspršuje <strong>ultra-finu maglicu vode ili vodene esencije direktno u vlasi</strong> dok prolazite iglicama. Kosa se vlaži taman koliko treba — statički elektricitet nestaje, a čvorovi se otpuštaju sami.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Nano-maglica",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Crveno svetlo",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Samočišćenje na jedan klik",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Type-C punjenje",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Za mokru i suvu kosu",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#4e7a42",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_light": {
+      "type": "cro-media-with-text",
+      "name": "Slika — crveno svetlo",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Crveno svetlo na osnovi četke između iglica",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Nega korena dok mislite da se samo češljate",
+        "highlight_words": "dok mislite da se samo češljate",
+        "text": "<p>Tretmani za kožu glave obično traju dvadeset minuta i završe u ormariću posle druge upotrebe. Ono što se zaista radi svaki dan, radi se u prolazu — pred ogledalom, dva minuta pre izlaska.</p><p>Zato je crveno svetlo ugrađeno u osnovu četke. Dok iglice masiraju skalp, <strong>fototerapijsko svetlo greje koren i podstiče mikrocirkulaciju</strong> — bez posebnog rituala, bez dodatnog vremena.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_clean": {
+      "type": "cro-media-with-text",
+      "name": "Slika — samočišćenje",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Pritisak na dugme uvlači iglice i izbacuje dlake iz četke",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Dlake izlaze same — pritisak, podizanje, gotovo",
+        "highlight_words": "pritisak, podizanje, gotovo",
+        "text": "<p>Čišćenje četke je posao koji svi odlažu. Dlake se upletu oko iglica pri dnu, pa ih vadite prstima, makazama ili pincetom — i onda odustanete dok četka ne postane siva od nakupljenog sloja.</p><p>Ovde postoji dugme sa zadnje strane. <strong>Pritisnete ga i iglice se uvuku, a sve dlake ostanu na površini</strong> — skinete ih jednim potezom i bacite. Ceo posao traje koliko i jedan pokret rukom.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_hairtypes": {
+      "type": "cro-media-with-text",
+      "name": "Slika — za svaki tip kose",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Kovrdžava, ravna i seda kosa — jedna četka za sve tipove",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Kovrdžava, ravna, gusta ili tanka — ista četka",
+        "highlight_words": "ista četka",
+        "text": "<p>U kupatilu obično stoje tri četke: jedna za mokru kosu, jedna za raščešljavanje, jedna za masažu. Svaka se koristi retko, a nijedna ne radi sve kako treba.</p><p>Fleksibilni vazdušni jastuk sa zaobljenim iglicama prati oblik glave, pa jednako radi na <strong>kovrdžama, ravnoj kosi, gustoj i tankoj, mokroj i suvoj</strong>. Jedan alat u fioci umesto tri.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 94,
+            "text": "kaže da se <strong>kosa raščešljava bez čupanja</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 92,
+            "text": "potvrđuje da je <strong>naelektrisanost vlasi primetno manja</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 90,
+            "text": "kaže da <strong>četku čisti za nekoliko sekundi</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 88,
+            "text": "opisuje masažu skalpa kao <strong>opuštajuću i prijatnu</strong>"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 86,
+            "text": "je <strong>preporučilo četku nekome bliskom</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji je koriste svaki dan",
+        "accent_color": "#4e7a42",
+        "row_background": "#f3f8ef",
+        "track_color": "#e2eeda",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Električna četka za kosu — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Funkcije",
+            "value": "Nano-maglica, crveno svetlo, samočišćenje, masaža skalpa, raščešljavanje, mokra i suva upotreba"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Rezervoar za tečnost",
+            "value": "POPUNITI — kapacitet u ml"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Punjenje",
+            "value": "USB Type-C kabl"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Baterija",
+            "value": "POPUNITI — kapacitet i trajanje na jedno punjenje"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Iglice",
+            "value": "Mekane, zaobljene, na fleksibilnom vazdušnom jastuku"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal",
+            "value": "POPUNITI — npr. ABS plastika i silikon"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "Dimenzije i težina",
+            "value": "POPUNITI"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Sadržaj pakovanja",
+            "value": "POPUNITI — četka, Type-C kabl, uputstvo"
+          }
+        },
+        "r9": {
+          "type": "row",
+          "settings": {
+            "name": "Održavanje",
+            "value": "Rezervoar puniti čistom vodom ili vodenim esencijama; telo četke ne potapati u vodu"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#4e7a42",
+        "name_background": "#f3f8ef",
+        "border_color": "#e2eeda",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "POPUNITI"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "POPUNITI"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "disabled": true,
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f3f8ef",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Jelena P.",
+            "time": "pre 2 sata",
+            "text": "Imam kovrdžavu kosu koja se posle pranja zamrsi u klupko. Napunim rezervoar vodom, prođem par puta i stvarno se raščešlja bez onog trzanja. Ono što me najviše iznenadilo je dugme za čišćenje — dlake izađu na površinu i skineš ih odjednom.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 203"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Marija S.",
+            "time": "",
+            "text": "Uzela sam ćerki za rođendan, a na kraju je koristim više ja. Masaža skalpa uveče je stvarno opuštajuća, a kosa ujutru nije naelektrisana kao od obične četke. Puni se na isti kabl kao telefon, što mi je super za put.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 158"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ana D.",
+            "time": "",
+            "text": "Zadovoljna sam, koristim je tri nedelje. Rezervoar je mali pa ga punim na svakih par dana, ali maglica zaista pomaže kod raščešljavanja mokre kose. Stiglo za dva dana, plaćeno kuriru.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 112"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Ko je jednom proba, staru četku više ne vadi",
+        "highlight_words": "staru četku više ne vadi",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "background_color": "#f3f8ef",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Šta se sipa u rezervoar?",
+            "answer": "<p>Najjednostavnije je obična čista voda. Možete koristiti i <strong>vodene esencije i lagane tonike za kosu</strong> — sve što je na vodenoj bazi. Gusta ulja i kreme izbegavajte jer mogu da začepe otvor raspršivača.</p>",
+            "open_by_default": false
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Kako radi samočišćenje?",
+            "answer": "<p>Na zadnjoj strani četke je dugme. Kada ga pritisnete, iglice se uvuku u kućište i sve nakupljene dlake ostanu na površini — uhvatite ih prstima i bacite. Nema vađenja pincetom i nema čupkanja između iglica.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li je crveno svetlo bezbedno?",
+            "answer": "<p>Reč je o nežnoj fototerapiji niskog intenziteta koja greje kožu glave i podstiče mikrocirkulaciju tokom češljanja. Četka nije medicinski uređaj i ne zamenjuje lečenje — ako imate oboljenje kože glave, posavetujte se sa dermatologom.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Može li na mokru kosu?",
+            "answer": "<p>Da, četka je namenjena i za mokru i za suvu kosu. Iglice na vazdušnom jastuku klize kroz vlažne vlasi bez zapinjanja. <strong>Telo četke ipak ne potapajte u vodu</strong> i ne koristite je pod tušem — unutra su baterija i elektronika.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se puni i koliko traje baterija?",
+            "answer": "<p>Puni se preko <strong>USB Type-C kabla</strong>, istog kakav koristi većina telefona. Nema kabla tokom upotrebe, pa je zgodna za tašnu, teretanu i put. POPUNITI — navesti trajanje baterije na jedno punjenje.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#4e7a42",
+        "highlight_color": "#dcebd2",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_intro",
+    "icons",
+    "image_mist",
+    "ticker",
+    "image_light",
+    "image_clean",
+    "image_hairtypes",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
