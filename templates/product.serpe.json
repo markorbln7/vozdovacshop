@@ -134,7 +134,7 @@
       "name": "Video — prvi utisak",
       "settings": {
         "video_url": "",
-        "image": "",
+        "image": "shopify://shop_images/set-serpi-13-delova13.webp",
         "image_url": "",
         "image_alt": "Set šerpi 13 delova na šporetu tokom kuvanja",
         "image_width": 1080,
@@ -210,7 +210,7 @@
       "name": "Slika — premaz i dno",
       "settings": {
         "video_url": "",
-        "image": "",
+        "image": "shopify://shop_images/set-serpi-13-delova10.webp",
         "image_url": "",
         "image_alt": "Neprianjajući premaz i debelo dno šerpe",
         "image_width": 1080,
@@ -307,7 +307,7 @@
       "name": "Slika — šta sve dobijate",
       "settings": {
         "video_url": "",
-        "image": "",
+        "image": "shopify://shop_images/set-serpi-13-delova7.webp",
         "image_url": "",
         "image_alt": "Svih 13 delova seta raspoređenih jedan pored drugog",
         "image_width": 1080,
@@ -337,7 +337,7 @@
       "name": "Slika — odlaganje i pranje",
       "settings": {
         "video_url": "",
-        "image": "",
+        "image": "shopify://shop_images/set-serpi-13-delova4.webp",
         "image_url": "",
         "image_alt": "Šerpe složene jedna u drugu u kuhinjskom elementu",
         "image_width": 1080,
@@ -425,7 +425,6 @@
       "name": "Velika slika",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Set šerpi 13 delova — prikaz proizvoda",
         "image_width": 1080,
@@ -464,14 +463,14 @@
           "type": "row",
           "settings": {
             "name": "Sastav seta",
-            "value": "POPUNITI — navesti tačne komade i prečnike (npr. 3 šerpe sa poklopcima, tiganj, rajngla…)"
+            "value": "Šerpa sa poklopcem 16x7,5cm (1,5l),\n\nŠerpa sa poklopcem 24x10cm (4,5l),\n\nKaserola 14x7cm,\n\nTiganj 14x3,5cm,\n\nTiganj 24x4cm \n\nPoklopci 3 kom,\n\nHvataljke 6 kom."
           }
         },
         "r3": {
           "type": "row",
           "settings": {
             "name": "Materijal",
-            "value": "POPUNITI — npr. aluminijum sa neprianjajućim premazom"
+            "value": "Aluminijum sa neprijanjajućim premazom"
           }
         },
         "r4": {
@@ -485,14 +484,14 @@
           "type": "row",
           "settings": {
             "name": "Poklopci",
-            "value": "POPUNITI — staklo ili metal, sa otvorom za paru"
+            "value": "Staklo sa otvorom za paru"
           }
         },
         "r6": {
           "type": "row",
           "settings": {
             "name": "Vrsta šporeta",
-            "value": "POPUNITI — potvrditi da li je pogodno za indukciju"
+            "value": "Može se koristiti na indukcionim, staklokeramičkim pločama, plinu i električnim ringlama."
           }
         },
         "r7": {
@@ -662,7 +661,7 @@
           "type": "question",
           "settings": {
             "question": "Šta tačno dobijam u setu od 13 delova?",
-            "answer": "<p>POPUNITI — navesti tačan sastav seta (broj šerpi, prečnike, poklopce i dodatke).</p>",
+            "answer": "<p>Šerpa sa poklopcem 16x7,5cm (1,5l),<br/><br/>Šerpa sa poklopcem 24x10cm (4,5l),<br/><br/>Kaserola 14x7cm,<br/><br/>Tiganj 14x3,5cm,<br/><br/>Tiganj 24x4cm <br/><br/>Poklopci 3 kom,<br/><br/>Hvataljke 6 kom.</p>",
             "open_by_default": false
           }
         },
@@ -670,7 +669,7 @@
           "type": "question",
           "settings": {
             "question": "Da li može na indukciju?",
-            "answer": "<p>POPUNITI — potvrditi za koje tipove šporeta je set namenjen (gas, staklokeramika, indukcija).</p>",
+            "answer": "<p>Da, Može se koristiti na indukcionim kao i na staklokeramičkim pločama, plinu i električnim ringlama.</p>",
             "open_by_default": false
           }
         },
