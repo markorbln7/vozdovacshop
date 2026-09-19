@@ -521,6 +521,7 @@
         },
         "r2": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "name": "Rezervoar za tečnost",
             "value": "POPUNITI — kapacitet u ml"
@@ -537,7 +538,7 @@
           "type": "row",
           "settings": {
             "name": "Baterija",
-            "value": "POPUNITI — kapacitet i trajanje na jedno punjenje"
+            "value": "Sa jednim punjenjem, bateerija traje i do 30 dana"
           }
         },
         "r5": {
@@ -551,11 +552,12 @@
           "type": "row",
           "settings": {
             "name": "Materijal",
-            "value": "POPUNITI — npr. ABS plastika i silikon"
+            "value": "Meke čekinje za nežan dodir kose"
           }
         },
         "r7": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "name": "Dimenzije i težina",
             "value": "POPUNITI"
@@ -565,7 +567,7 @@
           "type": "row",
           "settings": {
             "name": "Sadržaj pakovanja",
-            "value": "POPUNITI — četka, Type-C kabl, uputstvo"
+            "value": "Četka, Type-C kabl, uputstvo"
           }
         },
         "r9": {
