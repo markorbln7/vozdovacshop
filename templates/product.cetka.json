@@ -28,7 +28,7 @@
         "usps": {
           "type": "usp_list",
           "settings": {
-            "item_1": "💧 Nano-maglica raščešljava bez čupanja i naelektrisanja",
+            "item_1": "💧 Nano-magla raščešljava bez čupanja i naelektrisanja",
             "item_2": "🔴 Crveno svetlo stimuliše koren kose dok češljate",
             "item_3": "✨ Samočišćenje na jedan klik — dlake skinete za sekund",
             "item_4": "🔌 Bežična, puni se na Type-C i staje u tašnu"
@@ -46,8 +46,8 @@
           "settings": {
             "image_url_1": "",
             "emoji_1": "💧",
-            "title_1": "Nano-maglica",
-            "text_1": "Vlaži vlasi dok češljate",
+            "title_1": "Nano-magla",
+            "text_1": "Hidrira kosu u prolazu, bez kvašenja",
             "image_url_2": "",
             "emoji_2": "📸",
             "title_2": "100% kao na slici",
@@ -148,7 +148,7 @@
         "text_alignment": "left",
         "heading": "Češljanje ne mora da počinje sa trzajem",
         "highlight_words": "sa trzajem",
-        "text": "<p>Svako jutro isto: četka zapne na pola dužine, vi povučete jače, i u iglicama ostane pramen koji tu ne bi trebalo da bude. Posle par minuta kosa je raščešljana, ali naelektrisana i podignuta, a četka puna dlaka koje se vade prstima.</p><p>Ova četka radi drugačije. <strong>Pre nego što iglice dođu do čvora, vlas je već ovlažena nano-maglicom</strong> — pa se raspetljava umesto da se kida.</p>",
+        "text": "<p>Svako jutro isto: četka zapne na pola dužine, vi povučete jače, i u iglicama ostane pramen koji tu ne bi trebalo da bude. Posle par minuta kosa je raščešljana, ali naelektrisana i podignuta, a četka puna dlaka koje se vade prstima.</p><p>Ova četka radi drugačije. <strong>Pre nego što iglice dođu do čvora, vlas je već ovlažena nano-maglom</strong> — pa se raspetljava umesto da se kida.</p>",
         "button_label": "",
         "button_link": "",
         "background_color": "#ffffff",
@@ -166,8 +166,8 @@
           "type": "item",
           "settings": {
             "emoji": "💧",
-            "title": "Nano-maglica",
-            "text": "<p>Ugrađeni rezervoar pretvara vodu ili vašu omiljenu vodenu esenciju u ultra-finu maglicu koja ravnomerno oblaže dlaku dok češljate.</p>"
+            "title": "Nano-magla",
+            "text": "<p>Ugrađeni rezervoar pretvara vodu ili vašu omiljenu vodenu esenciju u ultra-finu maglu koja ravnomerno oblaže dlaku dok češljate.</p>"
           }
         },
         "i2": {
@@ -234,12 +234,12 @@
     },
     "image_mist": {
       "type": "cro-media-with-text",
-      "name": "Slika — nano-maglica",
+      "name": "Slika — nano-magla",
       "settings": {
         "video_url": "",
         "image": "",
         "image_url": "",
-        "image_alt": "Nano-maglica iz raspršivača na četki tokom češljanja",
+        "image_alt": "Nano-magla iz raspršivača na četki tokom češljanja",
         "image_width": 1080,
         "image_height": 1080,
         "autoplay": true,
@@ -249,9 +249,9 @@
         "media_width": 50,
         "width": "page",
         "text_alignment": "left",
-        "heading": "Maglica koja se jedva vidi, a odmah se oseti",
+        "heading": "Magla koja se jedva vidi, a odmah se oseti",
         "highlight_words": "odmah se oseti",
-        "text": "<p>Naelektrisana kosa se ne smiruje četkanjem — od suvog češljanja postaje samo gora. Zato se posle deset minuta pred ogledalom vlasi i dalje podižu, a frizura izgleda kao da nije ni doterana.</p><p>Rezervoar u telu četke raspršuje <strong>ultra-finu maglicu vode ili vodene esencije direktno u vlasi</strong> dok prolazite iglicama. Kosa se vlaži taman koliko treba — statički elektricitet nestaje, a čvorovi se otpuštaju sami.</p>",
+        "text": "<p>Naelektrisana kosa se ne smiruje četkanjem — od suvog češljanja postaje samo gora. Zato se posle deset minuta pred ogledalom vlasi i dalje podižu, a frizura izgleda kao da nije ni doterana.</p><p>Rezervoar u telu četke raspršuje <strong>ultra-finu maglu vode ili vodene esencije direktno u vlasi</strong> dok prolazite iglicama. Kosa se vlaži taman koliko treba — statički elektricitet nestaje, a čvorovi se otpuštaju sami.</p>",
         "button_label": "",
         "button_link": "",
         "background_color": "#ffffff",
@@ -268,7 +268,7 @@
         "t1": {
           "type": "item",
           "settings": {
-            "text": "Nano-maglica",
+            "text": "Nano-magla",
             "icon": ""
           }
         },
@@ -514,7 +514,7 @@
           "type": "row",
           "settings": {
             "name": "Funkcije",
-            "value": "Nano-maglica, crveno svetlo, samočišćenje, masaža skalpa, raščešljavanje, mokra i suva upotreba"
+            "value": "Nano-magla, crveno svetlo, samočišćenje, masaža skalpa, raščešljavanje, mokra i suva upotreba"
           }
         },
         "r2": {
@@ -690,7 +690,7 @@
             "avatar_url": "",
             "name": "Ana D.",
             "time": "",
-            "text": "Zadovoljna sam, koristim je tri nedelje. Rezervoar je mali pa ga punim na svakih par dana, ali maglica zaista pomaže kod raščešljavanja mokre kose. Stiglo za dva dana, plaćeno kuriru.",
+            "text": "Zadovoljna sam, koristim je tri nedelje. Rezervoar je mali pa ga punim na svakih par dana, ali magla zaista pomaže kod raščešljavanja mokre kose. Stiglo za dva dana, plaćeno kuriru.",
             "image_url": "",
             "image_width": 1080,
             "image_height": 1080,
