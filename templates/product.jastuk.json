@@ -1,0 +1,955 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.392 ocene kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "🛌 Ergonomski oblik prati prirodnu krivinu vrata",
+            "item_2": "💆 Smanjuje bol i ukočenost vrata, ramena i leđa",
+            "item_3": "❄️ Memorijska pena sa rashladnim efektom — bez pregrevanja",
+            "item_4": "🧺 Hipoalergenska navlaka koja se skida i pere"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "Specijalna akcija — 43% popusta na redovnu cenu"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🛌",
+            "title_1": "Ortopedska podrška",
+            "text_1": "Vrat i kičma u pravoj liniji cele noći",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Po akcijskoj ceni ostalo je još samo",
+            "count": "17 komada",
+            "show_bar": true,
+            "percent": 20
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI JASTUK -43%",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA -43% SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena od 2.990 RSD važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#2f5d8a",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI JASTUK -43%",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_intro": {
+      "type": "cro-media-with-text",
+      "name": "Video — prvi utisak",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Ortopedski jastuk za vrat — osoba spava na boku",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Jutro ne mora da počinje sa ukočenim vratom",
+        "highlight_words": "sa ukočenim vratom",
+        "text": "<p>Zvono zazvoni, a prvi pokret je okretanje glave koje zaboli. Ramena su zategnuta, leđa ukočena, i ceo dan krene sa osećajem kao da niste ni spavali. Noću ste se okretali, ispravljali jastuk, presavijali ga na pola — ništa nije pomoglo.</p><p>Problem obično nije u dušeku, nego u jastuku. <strong>Običan jastuk se ugiba pod glavom i ostavlja vrat bez oslonca</strong> — pa mišići rade celu noć umesto da se odmaraju.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "🛌",
+            "title": "Ergonomski dizajn",
+            "text": "<p>Višekonturni oblik sa ergonomskim krivinama prilagođava se svim položajima spavanja — na leđima, na boku i na stomaku.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🦴",
+            "title": "Podrška za vrat i kičmu",
+            "text": "<p>Vrat i kičma ostaju u prirodnoj liniji tokom noći, što smanjuje bol i jutarnju ukočenost.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "❄️",
+            "title": "Rashladni efekat",
+            "text": "<p>Memorijska pena sa rashladnim efektom sprečava pregrevanje — glava ostaje sveža do jutra.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "🌬️",
+            "title": "Prozračan materijal",
+            "text": "<p>Vazduh slobodno cirkuliše kroz jastuk, pa je idealan i za one koji se noću znoje.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "⚖️",
+            "title": "Ravnomeran pritisak",
+            "text": "<p>Težina glave se raspoređuje po celoj površini, bez tačaka pritiska na vrat i ramena.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "🧺",
+            "title": "Periva navlaka",
+            "text": "<p>Hipoalergenska navlaka se skida i pere u mašini — za maksimalnu higijenu svake noći.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Zašto baš ovaj jastuk",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_foam": {
+      "type": "cro-media-with-text",
+      "name": "Slika — memorijska pena",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Memorijska pena jastuka se prilagođava obliku glave i vrata",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Pena koja prati vas, a ne obrnuto",
+        "highlight_words": "prati vas, a ne obrnuto",
+        "text": "<p>Perje i vlakna se do ponoći slegnu, pa glava propadne, a vrat ostane da visi. Onda se budite, lupite jastuk par puta i pokušate ponovo — i tako nekoliko puta svake noći.</p><p>Memorijska pena reaguje na toplotu i težinu glave i <strong>zauzima tačno vaš oblik, a ujutru se vraća u prvobitni</strong>. Jastuk se ne uleže i zadržava strukturu i posle meseci korišćenja.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Ergonomski dizajn",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Memorijska pena",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Rashladni efekat",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Hipoalergenska navlaka",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Za sve položaje spavanja",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#2f5d8a",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_cool": {
+      "type": "cro-media-with-text",
+      "name": "Slika — rashladni efekat",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Prozračna memorijska pena sa rashladnim efektom",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Bez okretanja jastuka na hladnu stranu",
+        "highlight_words": "na hladnu stranu",
+        "text": "<p>Oko dva ujutru jastuk postane topao, pa ga okrećete, tražite hladniji deo, skidate pokrivač. San se prekida, a da toga ujutru i niste svesni — samo osećate umor.</p><p>Pena sa <strong>rashladnim efektom i prozračnom strukturom</strong> ne zadržava toplotu. Vazduh prolazi kroz jastuk, pa glava ostaje sveža i kada se noću znojite.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_positions": {
+      "type": "cro-media-with-text",
+      "name": "Slika — svi položaji spavanja",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Jastuk podržava vrat na leđima i na boku",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Na leđima, na boku ili na stomaku",
+        "highlight_words": "na boku ili na stomaku",
+        "text": "<p>Retko ko spava celu noć u istom položaju. Jastuk koji odgovara kada ležite na leđima, na boku vam gura glavu previsoko ili je ostavlja da visi.</p><p>Višekonturni oblik ima <strong>različite visine i ergonomske krivine</strong>, pa vrat dobija oslonac u svakom položaju. Okrenete se, a podrška ostaje tu.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_hygiene": {
+      "type": "cro-media-with-text",
+      "name": "Slika — periva navlaka",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Skidanje hipoalergenske navlake sa jastuka",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Navlaka u mašinu, jastuk kao nov",
+        "highlight_words": "jastuk kao nov",
+        "text": "<p>Na jastuku provedete trećinu života — znoj, koža, prašina. Običan jastuk se ne pere lako, pa se posle godinu dana samo baci.</p><p>Ovde se <strong>hipoalergenska navlaka skida i pere u mašini</strong>, a pena ostaje zaštićena. Pogodno i za osobe sklone alergijama.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 93,
+            "text": "kaže da se <strong>budi bez ukočenog vrata</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 90,
+            "text": "potvrđuje da <strong>brže zaspi i ređe se budi</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 89,
+            "text": "kaže da jastuk <strong>ne zagreva glavu tokom noći</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 87,
+            "text": "primećuje <strong>manje bola u ramenima i leđima</strong>"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 85,
+            "text": "je <strong>preporučilo jastuk nekome bliskom</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji na njemu spavaju svake noći",
+        "accent_color": "#2f5d8a",
+        "row_background": "#f1f6fb",
+        "track_color": "#dce8f4",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Ortopedski jastuk za vrat — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Tip",
+            "value": "Ortopedski jastuk za vrat i kičmu"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal",
+            "value": "Memorijska pena sa rashladnim efektom"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Dizajn",
+            "value": "Višekonturan, sa ergonomskim krivinama"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Funkcija",
+            "value": "Podrška vratu, kičmi i ramenima"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Navlaka",
+            "value": "Hipoalergenska, prozračna, skida se i pere"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Položaji spavanja",
+            "value": "Na leđima, na boku i na stomaku"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "Dimenzije",
+            "value": "POPUNITI"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Sadržaj pakovanja",
+            "value": "POPUNITI — jastuk i navlaka"
+          }
+        },
+        "r9": {
+          "type": "row",
+          "settings": {
+            "name": "Održavanje",
+            "value": "Navlaku prati u mašini; penu ne prati, povremeno je provetriti"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#2f5d8a",
+        "name_background": "#f1f6fb",
+        "border_color": "#dce8f4",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "POPUNITI"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "POPUNITI"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "disabled": true,
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f1f6fb",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Jelena P.",
+            "time": "pre 2 sata",
+            "text": "Godinama se budim sa bolom u vratu, menjala sam tri jastuka. Prve dve noći je bilo neobično, a od treće noći se budim bez onog ukočenog osećaja. Pena se ne uleže kao stari jastuk.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 187"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Dragan K.",
+            "time": "",
+            "text": "Spavam na boku i stalno sam presavijao jastuk da bih imao oslonac. Ovaj ima pravu visinu za to. Supruga je posle nedelju dana tražila da poručimo još jedan.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 142"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Marija S.",
+            "time": "",
+            "text": "Leti se mnogo znojim noću i to mi je bilo najbitnije. Stvarno ne greje kao obični jastuci. Stiglo za dva dana, plaćeno kuriru.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 98"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Ko jednom proba, na stari jastuk se ne vraća",
+        "highlight_words": "na stari jastuk se ne vraća",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#f1f6fb",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Da li odgovara ako spavam na boku?",
+            "answer": "<p>Da. Višekonturni oblik ima različite visine, pa vrat dobija oslonac i na leđima i na boku, a jastuk se može koristiti i kada spavate na stomaku. <strong>Ergonomske krivine drže vrat i kičmu u pravoj liniji</strong> u svakom položaju.</p>",
+            "open_by_default": false
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Koliko treba da se naviknem?",
+            "answer": "<p>Većini je potrebno <strong>nekoliko noći</strong> da se telo navikne na pravilan položaj vrata, posebno ako ste godinama spavali na mekom jastuku. Posle toga razlika se oseća već pri buđenju.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li se jastuk uleže vremenom?",
+            "answer": "<p>Ne. Memorijska pena se prilagođava obliku glave tokom noći, a zatim se vraća u prvobitni oblik. <strong>Jastuk zadržava strukturu</strong> i posle dužeg korišćenja.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Da li jastuk greje tokom noći?",
+            "answer": "<p>Pena ima <strong>rashladni efekat</strong>, a materijal je prozračan, pa ne zadržava toplotu. Pogodan je i za osobe koje se noću znoje.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se održava?",
+            "answer": "<p>Navlaka je hipoalergenska, skida se i pere u mašini. Samu penu ne perite — dovoljno je da je povremeno provetrite. Jastuk nije medicinsko sredstvo i ne zamenjuje lečenje; ako imate hronične tegobe sa kičmom, posavetujte se sa lekarom.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_intro",
+    "icons",
+    "image_foam",
+    "ticker",
+    "image_cool",
+    "image_positions",
+    "image_hygiene",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
