@@ -434,21 +434,21 @@
         "s3": {
           "type": "stat",
           "settings": {
-            "percent": 89,
+            "percent": 91,
             "text": "kaže da jastuk <strong>ne zagreva glavu tokom noći</strong>"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
-            "percent": 87,
+            "percent": 97,
             "text": "primećuje <strong>manje bola u ramenima i leđima</strong>"
           }
         },
         "s5": {
           "type": "stat",
           "settings": {
-            "percent": 85,
+            "percent": 92,
             "text": "je <strong>preporučilo jastuk nekome bliskom</strong>"
           }
         }
