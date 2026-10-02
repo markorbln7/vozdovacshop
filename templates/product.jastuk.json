@@ -134,7 +134,6 @@
       "name": "Video — prvi utisak",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Ortopedski jastuk za vrat — osoba spava na boku",
         "image_width": 1080,
@@ -237,7 +236,6 @@
       "name": "Slika — memorijska pena",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Memorijska pena jastuka se prilagođava obliku glave i vrata",
         "image_width": 1080,
@@ -334,7 +332,6 @@
       "name": "Slika — rashladni efekat",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Prozračna memorijska pena sa rashladnim efektom",
         "image_width": 1080,
@@ -364,7 +361,6 @@
       "name": "Slika — svi položaji spavanja",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Jastuk podržava vrat na leđima i na boku",
         "image_width": 1080,
@@ -394,7 +390,6 @@
       "name": "Slika — periva navlaka",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Skidanje hipoalergenske navlake sa jastuka",
         "image_width": 1080,
@@ -482,7 +477,6 @@
       "name": "Velika slika",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Ortopedski jastuk za vrat — prikaz proizvoda",
         "image_width": 1080,
@@ -554,6 +548,7 @@
         },
         "r7": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "name": "Dimenzije",
             "value": "POPUNITI"
@@ -563,7 +558,7 @@
           "type": "row",
           "settings": {
             "name": "Sadržaj pakovanja",
-            "value": "POPUNITI — jastuk i navlaka"
+            "value": "1 Jastuk + 1 Navlaka"
           }
         },
         "r9": {
