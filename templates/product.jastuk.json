@@ -134,6 +134,7 @@
       "name": "Video — prvi utisak",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/06-lifestyle-kako-radi.png",
         "image_url": "",
         "image_alt": "Ortopedski jastuk za vrat — osoba spava na boku",
         "image_width": 1080,
@@ -236,6 +237,7 @@
       "name": "Slika — memorijska pena",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/04-materijal.png",
         "image_url": "",
         "image_alt": "Memorijska pena jastuka se prilagođava obliku glave i vrata",
         "image_width": 1080,
@@ -332,6 +334,7 @@
       "name": "Slika — rashladni efekat",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/07-na-ledjima.png",
         "image_url": "",
         "image_alt": "Prozračna memorijska pena sa rashladnim efektom",
         "image_width": 1080,
@@ -361,10 +364,12 @@
       "name": "Slika — svi položaji spavanja",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/08-na-boku.png",
         "image_url": "",
         "image_alt": "Jastuk podržava vrat na leđima i na boku",
         "image_width": 1080,
         "image_height": 1080,
+        "poster": "shopify://shop_images/10-polozaji-16x9.png",
         "autoplay": true,
         "allow_sound": true,
         "media_ratio": "1",
@@ -390,10 +395,12 @@
       "name": "Slika — periva navlaka",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/09-navlaka.png",
         "image_url": "",
         "image_alt": "Skidanje hipoalergenske navlake sa jastuka",
         "image_width": 1080,
         "image_height": 1080,
+        "poster": "shopify://shop_images/09-navlaka.png",
         "autoplay": true,
         "allow_sound": true,
         "media_ratio": "1",
