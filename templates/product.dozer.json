@@ -28,7 +28,7 @@
         "usps": {
           "type": "usp_list",
           "settings": {
-            "item_1": "🎁 1+1 GRATIS — dobijate 2 dozera po ceni jednog",
+            "item_1": "🔥 Super ponuda 1+1 — drugi dozer za samo 310 RSD",
             "item_2": "💦 2u1: fini sprej ili direktno sipanje iz iste flaše",
             "item_3": "🍟 Idealan za Air Fryer, roštilj, pečenje i salate",
             "item_4": "🚫 Anti-drip sistem — bez kapanja i masnih flaša"
@@ -38,16 +38,16 @@
           "type": "price",
           "settings": {
             "show_saving": true,
-            "note": "🎁 Cena važi za 2 dozera — drugi dobijate GRATIS"
+            "note": "🔥 Izaberite 1+1 — 2 dozera za samo 1.500 RSD"
           }
         },
         "trust": {
           "type": "trust_badges",
           "settings": {
             "image_url_1": "",
-            "emoji_1": "🎁",
-            "title_1": "1+1 GRATIS",
-            "text_1": "Jedan za ulje, drugi za sirće — ili na poklon",
+            "emoji_1": "🔥",
+            "title_1": "Super ponuda 1+1",
+            "text_1": "Drugi dozer za samo 310 RSD",
             "image_url_2": "",
             "emoji_2": "📸",
             "title_2": "100% kao na slici",
@@ -61,7 +61,7 @@
         "stock": {
           "type": "stock",
           "settings": {
-            "text": "🔴 Požurite! Paketa 1+1 GRATIS ostalo je još samo",
+            "text": "🔴 Požurite! Paketa 1+1 po akcijskoj ceni ostalo je još samo",
             "count": "19 kompleta",
             "show_bar": true,
             "percent": 20
@@ -71,9 +71,9 @@
           "type": "buy",
           "settings": {
             "action": "cart",
-            "show_quantity": true,
+            "show_quantity": false,
             "pulse": true,
-            "button_label": "NARUČI 1+1 GRATIS",
+            "button_label": "NARUČI ODMAH",
             "sold_out_label": "Rasprodato",
             "unavailable_label": "Nedostupno",
             "adding_label": "Dodajem…",
@@ -87,7 +87,7 @@
         "countdown": {
           "type": "countdown",
           "settings": {
-            "title": "AKCIJA 1+1 GRATIS SE USKORO ZAVRŠAVA!",
+            "title": "SUPER PONUDA 1+1 SE USKORO ZAVRŠAVA!",
             "subtitle": "2 dozera za 1.500 RSD — dok traju zalihe",
             "deadline": "",
             "rolling_hours": 48
@@ -123,7 +123,7 @@
         "sticky_info": false,
         "accent_color": "#5b7a2e",
         "enable_sticky_atc": true,
-        "sticky_button_label": "NARUČI 1+1 GRATIS",
+        "sticky_button_label": "NARUČI ODMAH",
         "sticky_button_color": "#41bc3f",
         "padding_top": 0,
         "padding_bottom": 24
@@ -161,12 +161,12 @@
     },
     "offer": {
       "type": "cro-media-with-text",
-      "name": "Slika — 1+1 GRATIS",
+      "name": "Slika — ponuda 1+1",
       "settings": {
         "video_url": "",
         "image": "",
         "image_url": "",
-        "image_alt": "Dva dozera za ulje — 1+1 GRATIS",
+        "image_alt": "Dva dozera za ulje — super ponuda 1+1",
         "image_width": 1080,
         "image_height": 1080,
         "autoplay": true,
@@ -176,9 +176,9 @@
         "media_width": 50,
         "width": "page",
         "text_alignment": "left",
-        "heading": "Poručujete jedan, a stižu vam dva",
-        "highlight_words": "stižu vam dva",
-        "text": "<p>U svakoj kuhinji postoje bar dve flaše koje se stalno koriste — maslinovo i suncokretovo ulje, ili ulje i sirće za salatu. Zato u ovoj akciji <strong>uz svaki dozer dobijate još jedan potpuno GRATIS</strong>.</p><p>Jedan držite pored šporeta, drugi pored Air Fryera ili na trpezarijskom stolu. Ili drugi poklonite mami, sestri ili komšinici — <strong>2 dozera za samo 1.500 RSD</strong>, dok traju zalihe.</p>",
+        "heading": "Za samo 310 dinara više — dobijate dva",
+        "highlight_words": "dobijate dva",
+        "text": "<p>U svakoj kuhinji postoje bar dve flaše koje se stalno koriste — maslinovo i suncokretovo ulje, ili ulje i sirće za salatu. Zato u ovoj akciji <strong>jedan dozer košta 1.190 RSD, a dva samo 1.500 RSD</strong> — drugi vas izlazi svega 310 dinara.</p><p>Jedan držite pored šporeta, drugi pored Air Fryera ili na trpezarijskom stolu. Ili drugi poklonite mami, sestri ili komšinici. <strong>Ponuda 1+1 važi dok traju zalihe.</strong></p>",
         "button_label": "",
         "button_link": "",
         "background_color": "#ffffff",
@@ -235,9 +235,9 @@
         "i6": {
           "type": "item",
           "settings": {
-            "emoji": "🎁",
-            "title": "1+1 GRATIS",
-            "text": "<p>Drugi dozer dobijate besplatno — za drugu vrstu ulja, sirće ili kao poklon.</p>"
+            "emoji": "🔥",
+            "title": "Super ponuda 1+1",
+            "text": "<p>Drugi dozer za samo 310 RSD — za drugu vrstu ulja, sirće ili kao poklon.</p>"
           }
         }
       },
@@ -298,7 +298,7 @@
         "t1": {
           "type": "item",
           "settings": {
-            "text": "1+1 GRATIS",
+            "text": "Super ponuda 1+1",
             "icon": ""
           }
         },
@@ -600,7 +600,7 @@
           "type": "row",
           "settings": {
             "name": "Sadržaj pakovanja",
-            "value": "2 dozera (1+1 GRATIS)"
+            "value": "1 ili 2 dozera, zavisno od izabranog paketa"
           }
         }
       },
@@ -754,8 +754,8 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Kako funkcioniše akcija 1+1 GRATIS?",
-            "answer": "<p>Za cenu jednog dozera <strong>dobijate dva</strong>. Ne morate ništa posebno da radite — oba dozera stižu u istom paketu. Akcija važi dok traju zalihe.</p>",
+            "question": "Kako funkcioniše ponuda 1+1?",
+            "answer": "<p>Jedan dozer košta 1.190 RSD, a <strong>paket 1+1 samo 1.500 RSD</strong> — drugi dozer vas izlazi svega 310 dinara. Samo izaberite paket 1+1 pre poručivanja i oba dozera stižu u istom paketu. Ponuda važi dok traju zalihe.</p>",
             "open_by_default": true
           }
         },
