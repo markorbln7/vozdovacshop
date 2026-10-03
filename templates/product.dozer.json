@@ -69,7 +69,6 @@
         },
         "buy": {
           "type": "buy",
-          "disabled": true,
           "settings": {
             "action": "cart",
             "show_quantity": false,
