@@ -167,6 +167,7 @@
       "name": "Slika — ponuda 1+1",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/prskalica-2-za-1500.png",
         "image_url": "",
         "image_alt": "Dva dozera za ulje — super ponuda 1+1",
         "image_width": 1080,
