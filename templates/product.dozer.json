@@ -69,6 +69,7 @@
         },
         "buy": {
           "type": "buy",
+          "disabled": true,
           "settings": {
             "action": "cart",
             "show_quantity": false,
@@ -134,7 +135,6 @@
       "name": "Video — prvi utisak",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "2u1 dozer za ulje — sprej i sipanje iz iste flaše",
         "image_width": 1080,
@@ -164,7 +164,6 @@
       "name": "Slika — ponuda 1+1",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Dva dozera za ulje — super ponuda 1+1",
         "image_width": 1080,
@@ -267,7 +266,6 @@
       "name": "Slika — 2u1 funkcija",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Dozer za ulje u režimu spreja i u režimu sipanja",
         "image_width": 1080,
@@ -364,7 +362,6 @@
       "name": "Slika — Air Fryer",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Prskanje ulja po hrani u Air Fryeru",
         "image_width": 1080,
@@ -394,7 +391,6 @@
       "name": "Slika — anti-drip",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Dozer za ulje sa anti-drip sistemom na kuhinjskoj polici",
         "image_width": 1080,
@@ -424,7 +420,6 @@
       "name": "Slika — punjenje i čišćenje",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "Punjenje dozera kroz široko grlo",
         "image_width": 1080,
@@ -512,7 +507,6 @@
       "name": "Velika slika",
       "settings": {
         "video_url": "",
-        "image": "",
         "image_url": "",
         "image_alt": "2u1 dozer za ulje — prikaz proizvoda",
         "image_width": 1080,
