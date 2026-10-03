@@ -666,6 +666,7 @@
         "d3",
         "d4"
       ],
+      "disabled": true,
       "name": "Deklaracija",
       "settings": {
         "heading": "Deklaracija proizvoda",
