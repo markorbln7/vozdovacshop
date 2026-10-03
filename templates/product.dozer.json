@@ -110,6 +110,9 @@
         "countdown",
         "description"
       ],
+      "custom_css": [
+        ".cro-btn.cro-btn--pulse{display:none;}"
+      ],
       "name": "Proizvod",
       "settings": {
         "product": "",
