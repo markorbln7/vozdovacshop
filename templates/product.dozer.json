@@ -270,7 +270,7 @@
       "name": "Slika — 2u1 funkcija",
       "settings": {
         "video_url": "",
-        "image": "shopify://shop_images/7167.jpg",
+        "image": "shopify://shop_images/7168.jpg",
         "image_url": "",
         "image_alt": "Dozer za ulje u režimu spreja i u režimu sipanja",
         "image_width": 1080,
@@ -367,6 +367,7 @@
       "name": "Slika — Air Fryer",
       "settings": {
         "video_url": "",
+        "image": "shopify://shop_images/7167.jpg",
         "image_url": "",
         "image_alt": "Prskanje ulja po hrani u Air Fryeru",
         "image_width": 1080,
