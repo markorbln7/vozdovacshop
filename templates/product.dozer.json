@@ -1,0 +1,985 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.214 ocena kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "🎁 1+1 GRATIS — dobijate 2 dozera po ceni jednog",
+            "item_2": "💦 2u1: fini sprej ili direktno sipanje iz iste flaše",
+            "item_3": "🍟 Idealan za Air Fryer, roštilj, pečenje i salate",
+            "item_4": "🚫 Anti-drip sistem — bez kapanja i masnih flaša"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "🎁 Cena važi za 2 dozera — drugi dobijate GRATIS"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🎁",
+            "title_1": "1+1 GRATIS",
+            "text_1": "Jedan za ulje, drugi za sirće — ili na poklon",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Paketa 1+1 GRATIS ostalo je još samo",
+            "count": "19 kompleta",
+            "show_bar": true,
+            "percent": 20
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI 1+1 GRATIS",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA 1+1 GRATIS SE USKORO ZAVRŠAVA!",
+            "subtitle": "2 dozera za 1.500 RSD — dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#5b7a2e",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI 1+1 GRATIS",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_intro": {
+      "type": "cro-media-with-text",
+      "name": "Video — prvi utisak",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "2u1 dozer za ulje — sprej i sipanje iz iste flaše",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Kašika ulja koja se pretvori u pola flaše",
+        "highlight_words": "pola flaše",
+        "text": "<p>Hteli ste samo malo ulja u tiganj, a iz flaše je izletelo triput više. Hrana pliva u masnoći, flaša je masna sa svih strana, a na polici ostaje lepljiv krug od kapi koja je skliznula niz grlo.</p><p>Problem nije u vama, nego u flaši. <strong>Obična flaša nema kontrolu — ili sipa previše, ili kaplje.</strong> Dozer 2u1 vam daje tačno onoliko ulja koliko vam treba, i to u dva načina.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "offer": {
+      "type": "cro-media-with-text",
+      "name": "Slika — 1+1 GRATIS",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Dva dozera za ulje — 1+1 GRATIS",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Poručujete jedan, a stižu vam dva",
+        "highlight_words": "stižu vam dva",
+        "text": "<p>U svakoj kuhinji postoje bar dve flaše koje se stalno koriste — maslinovo i suncokretovo ulje, ili ulje i sirće za salatu. Zato u ovoj akciji <strong>uz svaki dozer dobijate još jedan potpuno GRATIS</strong>.</p><p>Jedan držite pored šporeta, drugi pored Air Fryera ili na trpezarijskom stolu. Ili drugi poklonite mami, sestri ili komšinici — <strong>2 dozera za samo 1.500 RSD</strong>, dok traju zalihe.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "💦",
+            "title": "Sprej i sipanje u jednom",
+            "text": "<p>Fini sprej za ravnomeran sloj ili direktno sipanje kada vam treba više — iz iste flaše, bez presipanja.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🥗",
+            "title": "Zdravije kuvanje",
+            "text": "<p>Precizna kontrola količine ulja — manje masnoće u hrani, a ukus ostaje isti.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🍟",
+            "title": "Savršen za Air Fryer",
+            "text": "<p>Tanak sloj ulja po krompiriću i mesu za hrskavu koricu, bez kupovnih sprejeva.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "🚫",
+            "title": "Anti-drip sistem",
+            "text": "<p>Bez kapanja niz flašu i masnih krugova na polici — kuhinja ostaje čista.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "🫙",
+            "title": "Kvalitetno staklo",
+            "text": "<p>Termootporno staklo i BPA-free plastika, bezbedni za kontakt sa hranom.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "🎁",
+            "title": "1+1 GRATIS",
+            "text": "<p>Drugi dozer dobijate besplatno — za drugu vrstu ulja, sirće ili kao poklon.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Zašto baš ovaj dozer",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_2u1": {
+      "type": "cro-media-with-text",
+      "name": "Slika — 2u1 funkcija",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Dozer za ulje u režimu spreja i u režimu sipanja",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Malo za tiganj, više za salatu",
+        "highlight_words": "više za salatu",
+        "text": "<p>Za prženje jajeta dovoljno je par kapi, a za salatu ili marinadu treba više. Do sada ste za to imali jednu flašu i mnogo nagađanja.</p><p>Dozer 2u1 ima <strong>dva režima u jednoj flaši</strong>: pritisnete i dobijete fini sprej koji ravnomerno prekrije površinu, ili nagnete i sipate direktno. Bez presipanja i bez dodatnih flašica.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "1+1 GRATIS",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Sprej i sipanje 2u1",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Idealan za Air Fryer",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Anti-drip sistem",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "BPA-free",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#5b7a2e",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_airfryer": {
+      "type": "cro-media-with-text",
+      "name": "Slika — Air Fryer",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Prskanje ulja po hrani u Air Fryeru",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Hrskavo iz Air Fryera, bez kupovnih sprejeva",
+        "highlight_words": "bez kupovnih sprejeva",
+        "text": "<p>Air Fryer traži tanak sloj ulja — previše i hrana se razmekša, premalo i ostane suva. Kupovni sprejevi su skupi, brzo se potroše i imaju dodatke koje ne želite u hrani.</p><p>Napunite dozer svojim uljem i <strong>poprskajte krompirić, piletinu ili povrće ravnomerno sa svih strana</strong>. Dobijate hrskavu koricu, a ulja trošite višestruko manje.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_clean": {
+      "type": "cro-media-with-text",
+      "name": "Slika — anti-drip",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Dozer za ulje sa anti-drip sistemom na kuhinjskoj polici",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Bez masne flaše i lepljive police",
+        "highlight_words": "lepljive police",
+        "text": "<p>Posle svakog sipanja jedna kap sklizne niz grlo flaše. Flaša postane masna i klizava u ruci, a na polici ostane krug koji se teško skida.</p><p><strong>Anti-drip sistem zaustavlja kap</strong> pre nego što krene niz flašu. Ruke ostaju čiste, polica takođe — i flaša izgleda lepo na radnoj površini.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_fill": {
+      "type": "cro-media-with-text",
+      "name": "Slika — punjenje i čišćenje",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "Punjenje dozera kroz široko grlo",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Široko grlo — puni se i pere za minut",
+        "highlight_words": "za minut",
+        "text": "<p>Flašice sa uskim grlom traže levak, a pola ulja ipak završi pored. Oprati ih iznutra je gotovo nemoguće.</p><p>Dozer ima <strong>široko grlo i zapreminu od 430 ml</strong>, pa ga punite direktno iz kupovne flaše i lako perete. Pogodan je za maslinovo i suncokretovo ulje, sirće i druge tečne začine.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 94,
+            "text": "kaže da <strong>troši znatno manje ulja</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 92,
+            "text": "koristi ga <strong>svakodnevno uz Air Fryer</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 90,
+            "text": "potvrđuje da <strong>flaša više ne kaplje</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 88,
+            "text": "drugi dozer koristi <strong>za sirće ili drugo ulje</strong>"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 86,
+            "text": "je <strong>preporučilo dozer nekome bliskom</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji ga koriste svaki dan",
+        "accent_color": "#5b7a2e",
+        "row_background": "#f4f8ec",
+        "track_color": "#dfe9cc",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image": "",
+        "image_url": "",
+        "image_alt": "2u1 dozer za ulje — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Tip",
+            "value": "2u1 flaša za ulje sa sprejom i dozerom"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Zapremina",
+            "value": "430 ml"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal",
+            "value": "Staklo i BPA-free plastika"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Funkcije",
+            "value": "Prskanje i sipanje"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Boja",
+            "value": "Crna"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Visina",
+            "value": "18 cm"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "Širina",
+            "value": "8 cm (osnova) / 6 cm (vrh)"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Upotreba",
+            "value": "Maslinovo i suncokretovo ulje, sirće, tečni začini"
+          }
+        },
+        "r9": {
+          "type": "row",
+          "settings": {
+            "name": "Sadržaj pakovanja",
+            "value": "2 dozera (1+1 GRATIS)"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#5b7a2e",
+        "name_background": "#f4f8ec",
+        "border_color": "#dfe9cc",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "2u1 Dozer za ulje"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "Kina"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "Binge DOO"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "Kina"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f4f8ec",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Snežana M.",
+            "time": "pre 3 sata",
+            "text": "Uzela sam zbog Air Fryera i ne mogu da verujem koliko manje ulja trošim. Drugi dozer koristim za jabukovo sirće za salatu. Za tu cenu dva komada — odlična kupovina.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 164"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Nenad J.",
+            "time": "",
+            "text": "Sprej je stvarno fin, ravnomerno prekrije roštilj. Flaša ne kaplje, polica je konačno čista. Drugi sam dao bratu, odmah je pitao gde sam kupio.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 121"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ivana T.",
+            "time": "",
+            "text": "Lepo staklo, izgleda lepo na radnoj površini. Puni se lako jer je grlo široko. Stiglo za dva dana, plaćeno kuriru.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 87"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Jedan za ulje, drugi za sirće — i kuhinja je kompletna",
+        "highlight_words": "kuhinja je kompletna",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "background_color": "#f4f8ec",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Kako funkcioniše akcija 1+1 GRATIS?",
+            "answer": "<p>Za cenu jednog dozera <strong>dobijate dva</strong>. Ne morate ništa posebno da radite — oba dozera stižu u istom paketu. Akcija važi dok traju zalihe.</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se prebacuje sa spreja na sipanje?",
+            "answer": "<p>Za sprej samo pritisnete vrh i dobijete fini, ravnomeran sloj. Za sipanje nagnete flašu i ulje izlazi direktno kroz dozer. <strong>Oba režima su u istoj flaši</strong>, bez menjanja delova.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li mogu da koristim i sirće ili druge tečnosti?",
+            "answer": "<p>Da. Dozer je pogodan za <strong>maslinovo i suncokretovo ulje, sirće i druge tečne začine</strong>. Zato mnogi drugi dozer iz paketa koriste za sirće.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Da li je bezbedan za hranu?",
+            "answer": "<p>Da. Flaša je od <strong>termootpornog stakla</strong>, a plastični delovi su <strong>BPA-free</strong> i bezbedni za kontakt sa hranom.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se puni i čisti?",
+            "answer": "<p>Dozer ima <strong>široko grlo</strong>, pa ga punite direktno iz flaše bez levka. Za čišćenje ga isperite toplom vodom sa malo deterdženta i ostavite da se osuši pre ponovnog punjenja.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#5b7a2e",
+        "highlight_color": "#e6efd6",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_intro",
+    "offer",
+    "icons",
+    "image_2u1",
+    "ticker",
+    "image_airfryer",
+    "image_clean",
+    "image_fill",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
