@@ -1,0 +1,976 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.168 ocena kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "💪 Aktivira mišiće celog tela — samo 10 minuta dnevno",
+            "item_2": "🩸 Podstiče cirkulaciju i ubrzava oporavak posle napora",
+            "item_3": "🎮 Daljinski upravljač, LED displej i 99+ nivoa brzine",
+            "item_4": "🎁 Elastične trake za ruke i ramena u kompletu"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "Specijalna akcija — 30% popusta na redovnu cenu"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "💪",
+            "title_1": "Trening bez teretane",
+            "text_1": "Ceo organizam radi, a vi stojite na ploči",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Po akcijskoj ceni ostalo je još samo",
+            "count": "14 komada",
+            "show_bar": true,
+            "percent": 20
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI PLOČU -30%",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA -30% SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena od 6.990 RSD važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#6a3fb5",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI PLOČU -30%",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "video_intro": {
+      "type": "cro-media-with-text",
+      "name": "Slika 6 — čučanj sa trakama (prvi utisak)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/06-lifestyle-kako-radi.png",
+        "image_url": "",
+        "image_alt": "Žena radi čučanj sa elastičnim trakama na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Znate da treba da vežbate — samo nikad nema vremena",
+        "highlight_words": "nikad nema vremena",
+        "text": "<p>Članarina u teretani stoji neiskorišćena, tegovi skupljaju prašinu u ćošku, a posle posla jedino što vam se radi je da sednete. Svaki put kada pomislite na trening, odložite ga za sutra.</p><p>Problem nije u volji, nego u vremenu. <strong>Na vibracionoj ploči jedan čučanj sa trakama angažuje noge, gluteus, stomak i ruke u isto vreme</strong> — dok hiljade sitnih vibracija teraju svaki mišić da radi jače. Deset minuta u dnevnoj sobi, i trening je gotov.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "💪",
+            "title": "Jači mišići",
+            "text": "<p>Vibracije teraju mišiće da se refleksno skupljaju — noge, stomak, gluteus i leđa rade bez dizanja tegova.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "🩸",
+            "title": "Bolja cirkulacija",
+            "text": "<p>Pokreće krv kroz noge i stopala — manje teških i natečenih nogu posle dugog stajanja ili sedenja.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "💆",
+            "title": "Masaža i opuštanje",
+            "text": "<p>Na nižim brzinama opušta zategnute mišiće i smanjuje napetost u zglobovima posle napornog dana.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "⚖️",
+            "title": "Bolja ravnoteža",
+            "text": "<p>Stabilizacioni mišići rade sve vreme dok stojite na ploči — telo postaje stabilnije i sigurnije.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "🎮",
+            "title": "Daljinski i LED displej",
+            "text": "<p>Menjate brzinu bez saginjanja, a na displeju pratite vreme i nivo intenziteta.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "🏠",
+            "title": "Kompaktna i laka",
+            "text": "<p>Staje ispod kreveta ili kauča — trenirate u dnevnoj sobi, kancelariji ili na terasi.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Zašto baš vibraciona ploča",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Akcija -30%",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Trening za 10 minuta",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Bolja cirkulacija",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Daljinski upravljač",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Elastične trake gratis",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#6a3fb5",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 91,
+            "text": "oseća <strong>čvršće noge i stomak</strong> već posle par nedelja"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 89,
+            "text": "kaže da su mu <strong>noge lakše i manje natečene</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 87,
+            "text": "koristi ploču <strong>gotovo svaki dan</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 85,
+            "text": "oseća <strong>manje ukočenosti u leđima</strong> posle sedenja"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 82,
+            "text": "je <strong>preporučilo ploču nekome iz porodice</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji je koriste svaki dan",
+        "accent_color": "#6a3fb5",
+        "row_background": "#f5f1fb",
+        "track_color": "#e2d8f3",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Vibraciona ploča za fitnes i masažu — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Tip",
+            "value": "Oscilatorna vibraciona ploča za trening i masažu"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Nivoi brzine",
+            "value": "99 ili 120, zavisno od modela"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Upravljanje",
+            "value": "Daljinski upravljač i tasteri na ploči"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Displej",
+            "value": "LED — prikaz vremena i brzine"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Površina",
+            "value": "Neklizajuća"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Namena",
+            "value": "Jačanje mišića, cirkulacija, ravnoteža, masaža i oporavak"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "Upotreba",
+            "value": "Kuća, stan, kancelarija"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Sadržaj pakovanja",
+            "value": "Vibraciona ploča, daljinski upravljač, elastične trake"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#6a3fb5",
+        "name_background": "#f5f1fb",
+        "border_color": "#e2d8f3",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "Vibraciona ploča za fitnes i masažu"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "Kina"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "QIANG SHENG HENG D.O.O"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "Kina"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f5f1fb",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Jelena P.",
+            "time": "pre 2 sata",
+            "text": "Radim od kuće i ceo dan sedim. Uveče 10 minuta na ploči i noge više nisu teške. Daljinski je super, ne moram da se saginjem.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 143"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Milan R.",
+            "time": "",
+            "text": "Kupio sam za ženu, a sad se svađamo ko će prvi. Na jačim brzinama se stvarno oznojiš, a trake su lep dodatak.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 118"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Dragana S.",
+            "time": "",
+            "text": "Mama ima 63 godine i koristi je na najnižoj brzini za cirkulaciju. Kaže da joj prija. Stiglo za dva dana, plaćeno kuriru.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 92"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Deset minuta dnevno — i telo to oseti",
+        "highlight_words": "telo to oseti",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "background_color": "#f5f1fb",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Koliko dugo treba da stojim na ploči?",
+            "answer": "<p>Za početak je dovoljno <strong>10 do 15 minuta dnevno</strong> na nižim brzinama. Kako se telo navikava, postepeno povećavate intenzitet i trajanje. Više nije uvek bolje — redovnost daje rezultat.</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Da li je pogodna za početnike i starije osobe?",
+            "answer": "<p>Da. Zahvaljujući velikom broju nivoa, <strong>počinjete veoma blago</strong> i sami birate koliko jak trening želite. Starije osobe je najčešće koriste na nižim brzinama za cirkulaciju i opuštanje.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Šta mogu da radim na ploči?",
+            "answer": "<p>Stojeći radite <strong>čučnjeve i vežbe sa elastičnim trakama</strong> iz kompleta, a sa podlakticama na ploči <strong>plank i sklekove</strong>. Za masažu i cirkulaciju sednite ili lezite na prostirku i stavite stopala na ploču.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Šta dobijam u paketu?",
+            "answer": "<p>U paketu je <strong>vibraciona ploča, daljinski upravljač i elastične trake</strong> za vežbe gornjeg dela tela.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Ko ne bi trebalo da je koristi?",
+            "answer": "<p>Trudnice, osobe sa pejsmejkerom, ugrađenim implantima, skorašnjim operacijama, trombozom ili epilepsijom pre upotrebe treba da se <strong>posavetuju sa lekarom</strong>.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "image_squat": {
+      "type": "cro-media-with-text",
+      "name": "Slika 5 — čučanj (noge i gluteus)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/04-materijal.png",
+        "image_url": "",
+        "image_alt": "Žena radi čučanj na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Čučanj na ploči vredi duplo",
+        "highlight_words": "vredi duplo",
+        "text": "<p>Na običnom podu čučanj angažuje samo deo mišića. Na vibracionoj ploči <strong>telo stotinama puta u minuti nesvesno balansira</strong>, pa se aktiviraju i duboki mišići nogu i gluteusa koje klasičnim vežbama teško pogađate.</p><p>Isti pokret, isto vreme — a osećaj u nogama kao posle duplo dužeg treninga. <strong>Butine i gluteus postaju čvršći</strong>, a vi ne morate nigde da idete.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_plank": {
+      "type": "cro-media-with-text",
+      "name": "Slika 4 — plank (stomak i core)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/04-materijal.png",
+        "image_url": "",
+        "image_alt": "Muškarac drži plank sa podlakticama na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Plank koji stomak zaista oseti",
+        "highlight_words": "stomak zaista oseti",
+        "text": "<p>Klasičan plank posle nekog vremena postane lak. Kada podlaktice oslonite na ploču koja vibrira, <strong>stomak, leđa i ramena moraju stalno da stabilizuju telo</strong> — i već posle 30 sekundi znate da radi.</p><p>Na ploči možete da radite i sklekove i vežbe za ruke. <strong>Ravna, neklizajuća površina</strong> drži ruke i stopala sigurno na mestu, bez obzira na brzinu.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_bands": {
+      "type": "cro-media-with-text",
+      "name": "Slika 2 — elastične trake (gornji deo tela)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/04-materijal.png",
+        "image_url": "",
+        "image_alt": "Žena radi pregib za biceps sa elastičnim trakama na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Trake u kompletu — radi i gornji deo tela",
+        "highlight_words": "gornji deo tela",
+        "text": "<p>Dok vibracije rade na nogama i stomaku, ruke ne moraju da stoje sa strane. <strong>Elastične trake se kače za ploču</strong> i pretvaraju je u mali kućni fitnes centar.</p><p>Pregib za biceps, potisak za ramena, veslanje za leđa — sve dok stojite na ploči koja vibrira. <strong>Celo telo radi u isto vreme</strong>, a trening je gotov za duplo kraće.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_legs": {
+      "type": "cro-media-with-text",
+      "name": "Slika 1 — opuštanje nogu (cirkulacija)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/04-materijal.png",
+        "image_url": "",
+        "image_alt": "Muškarac leži na prostirci sa stopalima na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Teške noge posle dugog dana? Lezite i pustite ploču da radi",
+        "highlight_words": "pustite ploču da radi",
+        "text": "<p>Ceo dan na nogama ili ceo dan za stolom — uveče su noge podjednako teške i natečene, a stopala umorna. Ploča nije samo za vežbanje.</p><p>Lezite na prostirku, podignite stopala na ploču i uključite nižu brzinu. <strong>Blage vibracije pokreću cirkulaciju</strong> kroz stopala i listove, a teške noge postaju lakše — <strong>bez ikakvog napora</strong>, dok se vi odmarate.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_massage": {
+      "type": "cro-media-with-text",
+      "name": "Slika 3 — masaža i daljinski (za celu porodicu)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/04-materijal.png",
+        "image_url": "",
+        "image_alt": "Žena sedi sa stopalima na vibracionoj ploči i drži daljinski upravljač",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Masaža za stopala na dlanu — za celu porodicu",
+        "highlight_words": "za celu porodicu",
+        "text": "<p>Sednite na pod, stavite stopala na ploču i <strong>daljinskim upravljačem izaberite intenzitet</strong> — bez ustajanja i saginjanja. Na LED displeju vidite brzinu i vreme, a <strong>99+ nivoa</strong> pokrivaju sve od nežne masaže do pravog treninga.</p><p>Ploču koriste i oni koji treniraju i oni koji samo žele da se opuste posle posla. Jedna kupovina — <strong>a u kući je koriste svi</strong>. Kompaktna je, pa posle upotrebe staje ispod kreveta ili kauča.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_intro",
+    "icons",
+    "image_squat",
+    "ticker",
+    "image_plank",
+    "image_bands",
+    "image_legs",
+    "image_massage",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
