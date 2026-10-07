@@ -551,7 +551,7 @@
           "type": "row",
           "settings": {
             "name": "Nivoi brzine",
-            "value": "99 ili 120, zavisno od modela"
+            "value": "99"
           }
         },
         "r3": {
@@ -658,6 +658,7 @@
         "d3",
         "d4"
       ],
+      "disabled": true,
       "name": "Deklaracija",
       "settings": {
         "heading": "Deklaracija proizvoda",
