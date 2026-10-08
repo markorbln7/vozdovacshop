@@ -1,0 +1,887 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "846 ocena kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "🎙️ 2 bežična mikrofona + 1 prijemnik — snimate dve osobe odjednom",
+            "item_2": "🔌 Plug & play — utaknete u telefon i snimate, bez aplikacije",
+            "item_3": "🔇 Smanjenje šuma — jasan glas i na ulici, u teretani i napolju",
+            "item_4": "🎁 Sunđeri protiv vetra za oba mikrofona u kompletu"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "Specijalna akcija — 40% popusta na redovnu cenu"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🎬",
+            "title_1": "Zvuk kao kod profesionalaca",
+            "text_1": "Za vlog, YouTube, TikTok i live",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Poruči do 16h",
+            "text_3": "Preuzmi sutra ili Post Expressom na adresu"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Po akcijskoj ceni ostalo je još samo",
+            "count": "17 kompleta",
+            "show_bar": true,
+            "percent": 22
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI MIKROFONE -40%",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#c8f031",
+            "button_text_color": "#111111",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA -40% SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena od 1.890 RSD važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#111111",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI MIKROFONE -40%",
+        "sticky_button_color": "#c8f031",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "intro": {
+      "type": "cro-media-with-text",
+      "name": "Slika 6 — snimaj bez kablova (prvi utisak)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/mikrofon-6-bez-kablova.png",
+        "image_url": "",
+        "image_alt": "Devojka snima video telefonom na stativu sa bežičnim mikrofonom zakačenim za jaknu",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Snimak je dobar — a onda pustite zvuk",
+        "highlight_words": "pustite zvuk",
+        "text": "<p>Kadar je savršen, svetlo je dobro, a kada pustite snimak — čuje se vetar, saobraćaj i ljudi oko vas. Vaš glas zvuči daleko i šuplje, kao iz kante. Ljudi skroluju dalje posle dve sekunde.</p><p>Problem nije u telefonu, nego u udaljenosti. Mikrofon telefona je metar ili dva od vas i hvata sve oko sebe. <strong>F15-2 se kači direktno na odeću, centimetrima od usta</strong> — pa se čuje vaš glas, a ne ulica. Bez kablova, bez aplikacije, bez podešavanja.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "🎙️",
+            "title": "2 mikrofona u setu",
+            "text": "<p>Snimate sebe i sagovornika istovremeno — idealno za intervjue, podkaste i zajedničke snimke.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "📶",
+            "title": "Stabilna bežična veza",
+            "text": "<p>Mikrofoni se sami povežu sa prijemnikom — slobodno se krećete dok snimate, bez kablova.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🔇",
+            "title": "Smanjenje šuma",
+            "text": "<p>Utišava buku iz okoline, a sunđer protiv vetra čuva zvuk čistim i napolju.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "🔌",
+            "title": "Plug & play",
+            "text": "<p>Prijemnik utaknete u telefon i odmah snimate — bez aplikacije, uparivanja i podešavanja.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "🪶",
+            "title": "Mali i lagan",
+            "text": "<p>Mikrofon se kači štipaljkom za kragnu ili majicu — ne vidi se u kadru i ne smeta pri kretanju.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "📱",
+            "title": "Za sve vrste sadržaja",
+            "text": "<p>Vlog, YouTube, TikTok, Instagram, live prenos, online časovi i video pozivi.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Zašto baš F15-2 bežični mikrofon",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_wireless": {
+      "type": "cro-media-with-text",
+      "name": "Slika 1 — stabilna wireless veza (vlog na ulici)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/mikrofon-1-wireless-veza.png",
+        "image_url": "",
+        "image_alt": "Mladić snima vlog na ulici sa bežičnim mikrofonom na kragni",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Hodate, pričate, snimate — zvuk ostaje isti",
+        "highlight_words": "zvuk ostaje isti",
+        "text": "<p>Sa običnim mikrofonom na kablu stalno pazite da se ne zapetljate, a telefon mora da bude blizu. <strong>F15-2 radi bežično</strong> — mikrofon je na vama, prijemnik je u telefonu, a između njih nema ničega.</p><p>Šetate gradom, okrećete se ka kameri ili se udaljavate od stativa — <strong>veza ostaje stabilna i glas jasan</strong>, kao da ste u studiju.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Akcija -40%",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "2 mikrofona + prijemnik",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Bez kablova",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Plug & play",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Smanjenje šuma",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#111111",
+        "text_color": "#c8f031",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_podcast": {
+      "type": "cro-media-with-text",
+      "name": "Slika 5 — 2 mikrofona, 1 prijemnik (podkast)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/mikrofon-5-podkast.png",
+        "image_url": "",
+        "image_alt": "Dvoje ljudi snimaju podkast za stolom, svako sa bežičnim mikrofonom",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Dva glasa, jedan snimak — oba jasna",
+        "highlight_words": "oba jasna",
+        "text": "<p>Kod intervjua i podkasta jedan mikrofon nije dovoljan — onaj ko je bliže telefonu se čuje, a drugi zvuči kao da je u drugoj sobi.</p><p>U setu dobijate <strong>dva mikrofona i jedan prijemnik</strong>. Svako nosi svoj mikrofon, a oba glasa idu u isti snimak — <strong>podjednako glasno i jasno</strong>. Bez dodatne opreme i bez montaže zvuka posle.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_gym": {
+      "type": "cro-media-with-text",
+      "name": "Slika 4 — jasan glas i u pokretu (teretana)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/mikrofon-4-teretana.png",
+        "image_url": "",
+        "image_alt": "Žena trenira u teretani sa bežičnim mikrofonom zakačenim za sportski top",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Trening, muzika, buka — a vaš glas se čuje",
+        "highlight_words": "vaš glas se čuje",
+        "text": "<p>Snimate trening, vodite online čas ili ste uživo sa pratiocima — a u pozadini muzika, tegovi i ljudi. Telefon na drugom kraju sale ne može da vas izdvoji iz te buke.</p><p>Mikrofon na odeći je uvek uz vas, a <strong>smanjenje šuma utišava okolinu</strong>. Lagan je i drži se čvrsto, pa <strong>ne spada ni dok skačete i trčite</strong>.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_plug": {
+      "type": "cro-media-with-text",
+      "name": "Slika 3 — utakni i snimaj (plug & play)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/mikrofon-3-plug-and-play.png",
+        "image_url": "",
+        "image_alt": "Prijemnik bežičnog mikrofona utaknut u telefon dok devojka snima",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Utaknete u telefon — i to je cela instalacija",
+        "highlight_words": "cela instalacija",
+        "text": "<p>Nema aplikacije za skidanje, nema Bluetooth uparivanja ni menija za podešavanje. <strong>Prijemnik utaknete u telefon, uključite mikrofon i snimate</strong> — u kameri, na TikToku, Instagramu ili u video pozivu.</p><p>Prijemnik je mali kao poklopac olovke i <strong>ne smeta dok držite telefon</strong> ili ga stavljate na stativ.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_delivery": {
+      "type": "cro-media-with-text",
+      "name": "Slika 2 — poruči do 16h (dostava)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/mikrofon-2-dostava.png",
+        "image_url": "",
+        "image_alt": "Devojka snima vlog u šumi sa bežičnim mikrofonom u ruci",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Poručite danas — snimajte već sutra",
+        "highlight_words": "snimajte već sutra",
+        "text": "<p>Porudžbine primljene <strong>do 16h možete da preuzmete već sutra</strong> u radnji, ili ih šaljemo Post Expressom na vašu adresu.</p><p>Plaćate pouzećem — <strong>tek kada paket stigne</strong>, bez kartice i bez avansa. Mikrofon možete držati i u ruci, kao klasičan reporterski — za ankete na ulici i brze snimke u prirodi.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 94,
+            "text": "kaže da im je <strong>zvuk na snimcima mnogo jasniji</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 91,
+            "text": "je <strong>počelo da snima već prvog dana</strong>, bez podešavanja"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 88,
+            "text": "koristi <strong>oba mikrofona</strong> za intervjue i zajedničke snimke"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 86,
+            "text": "primećuje <strong>manje buke i vetra</strong> na snimcima napolju"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 83,
+            "text": "je <strong>preporučilo mikrofon prijatelju</strong> koji pravi sadržaj"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji već snimaju sa F15-2",
+        "accent_color": "#111111",
+        "row_background": "#f3f3ef",
+        "track_color": "#e4f99a",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Bežični mikrofon F15-2 — set 2 mikrofona i prijemnik",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "button_color": "#c8f031",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Model",
+            "value": "F15-2"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Tip",
+            "value": "Bežični lavalier (bubica) mikrofon"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Broj mikrofona",
+            "value": "2 predajnika (TX) + 1 prijemnik (RX)"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Povezivanje",
+            "value": "Prijemnik se utakne direktno u telefon"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Podešavanje",
+            "value": "Plug & play — bez aplikacije"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Zvuk",
+            "value": "Smanjenje šuma iz okoline"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "Namena",
+            "value": "Vlog, intervjui, podkasti, live prenos, YouTube, TikTok"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Sadržaj pakovanja",
+            "value": "2 mikrofona sa sunđerom protiv vetra, 1 prijemnik"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#111111",
+        "name_background": "#f3f3ef",
+        "border_color": "#e4e4dc",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "Bežični mikrofon F15-2 set 2 mikrofona i prijemnik"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "Kina"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "ONE BY ONE D.O.O"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "Kina"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f3f3ef",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Nikola M.",
+            "time": "pre 3 sata",
+            "text": "Snimam TikTok napolju i vetar mi je uništavao svaki snimak. Sa ovim se čuje samo moj glas. Utakneš u telefon i to je to.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "🔥❤️ 127"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ana K.",
+            "time": "",
+            "text": "Uzela sam za podkast sa drugaricom. Dva mikrofona, jedan prijemnik — obe se čujemo isto. Za ovu cenu nisam očekivala ovakav zvuk.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 104"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Stefan J.",
+            "time": "",
+            "text": "Držim online treninge i konačno me ljudi čuju preko muzike. Poručio u 15h, sutradan pokupio u radnji.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍🔥 88"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Isti telefon — potpuno drugi zvuk",
+        "highlight_words": "potpuno drugi zvuk",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "background_color": "#f3f3ef",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Da li mi treba aplikacija ili podešavanje?",
+            "answer": "<p>Ne. Mikrofon je <strong>plug & play</strong> — prijemnik utaknete u telefon, uključite mikrofon i odmah snimate u kameri ili bilo kojoj aplikaciji (TikTok, Instagram, YouTube, video pozivi).</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Da li odgovara mom telefonu?",
+            "answer": "<p>Prijemnik se utakne direktno u priključak za punjenje telefona. Pre poručivanja proverite koji priključak ima vaš telefon, a ako niste sigurni — <strong>pozovite nas na 060 166 10 77</strong> ili pišite na Viber/WhatsApp i reći ćemo vam.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da koristim oba mikrofona istovremeno?",
+            "answer": "<p>Da. Oba mikrofona rade sa istim prijemnikom u isto vreme, pa <strong>dve osobe mogu da govore u isti snimak</strong> — idealno za intervjue, podkaste i zajedničke vlogove.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Šta dobijam u paketu?",
+            "answer": "<p>U paketu su <strong>2 bežična mikrofona sa sunđerom protiv vetra i 1 prijemnik</strong> za telefon.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se kači mikrofon?",
+            "answer": "<p>Mikrofon ima <strong>štipaljku na poleđini</strong> kojom ga kačite za kragnu, majicu ili jaknu. Može da se drži i u ruci, kao reporterski mikrofon.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Kada stiže i kako plaćam?",
+            "answer": "<p>Porudžbine primljene <strong>do 16h možete preuzeti sutradan</strong> u radnji ili ih šaljemo Post Expressom na vašu adresu. Paket plaćate pouzećem — bez kartice i bez avansa.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#111111",
+        "highlight_color": "#e4f99a",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "intro",
+    "icons",
+    "image_wireless",
+    "ticker",
+    "image_podcast",
+    "image_gym",
+    "image_plug",
+    "image_delivery",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials"
+  ]
+}
