@@ -134,7 +134,7 @@
       "name": "Slika 6 — čučanj sa trakama (prvi utisak)",
       "settings": {
         "video_url": "",
-        "image": "shopify://shop_images/06-lifestyle-kako-radi.png",
+        "image": "shopify://shop_images/06-kod-kuce.png",
         "image_url": "",
         "image_alt": "Žena radi čučanj sa elastičnim trakama na vibracionoj ploči",
         "image_width": 1080,
@@ -232,6 +232,36 @@
         "padding_bottom": 20
       }
     },
+    "image_squat": {
+      "type": "cro-media-with-text",
+      "name": "Slika 5 — čučanj (noge i gluteus)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/03-karakteristike.png",
+        "image_url": "",
+        "image_alt": "Žena radi čučanj na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Čučanj na ploči vredi duplo",
+        "highlight_words": "vredi duplo",
+        "text": "<p>Na običnom podu čučanj angažuje samo deo mišića. Na vibracionoj ploči <strong>telo stotinama puta u minuti nesvesno balansira</strong>, pa se aktiviraju i duboki mišići nogu i gluteusa koje klasičnim vežbama teško pogađate.</p><p>Isti pokret, isto vreme — a osećaj u nogama kao posle duplo dužeg treninga. <strong>Butine i gluteus postaju čvršći</strong>, a vi ne morate nigde da idete.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "ticker": {
       "type": "cro-ticker",
       "blocks": {
@@ -299,6 +329,127 @@
         "padding_bottom": 20
       }
     },
+    "image_plank": {
+      "type": "cro-media-with-text",
+      "name": "Slika 4 — plank (stomak i core)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/02-za-njega.png",
+        "image_url": "",
+        "image_alt": "Muškarac drži plank sa podlakticama na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "poster": "shopify://shop_images/02-za-njega.png",
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Plank koji stomak zaista oseti",
+        "highlight_words": "stomak zaista oseti",
+        "text": "<p>Klasičan plank posle nekog vremena postane lak. Kada podlaktice oslonite na ploču koja vibrira, <strong>stomak, leđa i ramena moraju stalno da stabilizuju telo</strong> — i već posle 30 sekundi znate da radi.</p><p>Na ploči možete da radite i sklekove i vežbe za ruke. <strong>Ravna, neklizajuća površina</strong> drži ruke i stopala sigurno na mestu, bez obzira na brzinu.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_bands": {
+      "type": "cro-media-with-text",
+      "name": "Slika 2 — elastične trake (gornji deo tela)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/Gemini_Generated_Image_j53xt1j53xt1j53x.jpg",
+        "image_url": "",
+        "image_alt": "Žena radi pregib za biceps sa elastičnim trakama na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Trake u kompletu — radi i gornji deo tela",
+        "highlight_words": "gornji deo tela",
+        "text": "<p>Dok vibracije rade na nogama i stomaku, ruke ne moraju da stoje sa strane. <strong>Elastične trake se kače za ploču</strong> i pretvaraju je u mali kućni fitnes centar.</p><p>Pregib za biceps, potisak za ramena, veslanje za leđa — sve dok stojite na ploči koja vibrira. <strong>Celo telo radi u isto vreme</strong>, a trening je gotov za duplo kraće.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_legs": {
+      "type": "cro-media-with-text",
+      "name": "Slika 1 — opuštanje nogu (cirkulacija)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/04-opustanje.png",
+        "image_url": "",
+        "image_alt": "Muškarac leži na prostirci sa stopalima na vibracionoj ploči",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Teške noge posle dugog dana? Lezite i pustite ploču da radi",
+        "highlight_words": "pustite ploču da radi",
+        "text": "<p>Ceo dan na nogama ili ceo dan za stolom — uveče su noge podjednako teške i natečene, a stopala umorna. Ploča nije samo za vežbanje.</p><p>Lezite na prostirku, podignite stopala na ploču i uključite nižu brzinu. <strong>Blage vibracije pokreću cirkulaciju</strong> kroz stopala i listove, a teške noge postaju lakše — <strong>bez ikakvog napora</strong>, dok se vi odmarate.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_massage": {
+      "type": "cro-media-with-text",
+      "name": "Slika 3 — masaža i daljinski (za celu porodicu)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/05-za-dvoje.png",
+        "image_url": "",
+        "image_alt": "Žena sedi sa stopalima na vibracionoj ploči i drži daljinski upravljač",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Masaža za stopala na dlanu — za celu porodicu",
+        "highlight_words": "za celu porodicu",
+        "text": "<p>Sednite na pod, stavite stopala na ploču i <strong>daljinskim upravljačem izaberite intenzitet</strong> — bez ustajanja i saginjanja. Na LED displeju vidite brzinu i vreme, a <strong>99+ nivoa</strong> pokrivaju sve od nežne masaže do pravog treninga.</p><p>Ploču koriste i oni koji treniraju i oni koji samo žele da se opuste posle posla. Jedna kupovina — <strong>a u kući je koriste svi</strong>. Kompaktna je, pa posle upotrebe staje ispod kreveta ili kauča.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#6a3fb5",
+        "highlight_color": "#e7ddf7",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "stats": {
       "type": "cro-stats",
       "blocks": {
@@ -312,7 +463,7 @@
         "s2": {
           "type": "stat",
           "settings": {
-            "percent": 89,
+            "percent": 94,
             "text": "kaže da su mu <strong>noge lakše i manje natečene</strong>"
           }
         },
@@ -326,14 +477,14 @@
         "s4": {
           "type": "stat",
           "settings": {
-            "percent": 85,
+            "percent": 95,
             "text": "oseća <strong>manje ukočenosti u leđima</strong> posle sedenja"
           }
         },
         "s5": {
           "type": "stat",
           "settings": {
-            "percent": 82,
+            "percent": 97,
             "text": "je <strong>preporučilo ploču nekome iz porodice</strong>"
           }
         }
@@ -400,7 +551,7 @@
           "type": "row",
           "settings": {
             "name": "Nivoi brzine",
-            "value": "99 ili 120, zavisno od modela"
+            "value": "99"
           }
         },
         "r3": {
@@ -507,6 +658,7 @@
         "d3",
         "d4"
       ],
+      "disabled": true,
       "name": "Deklaracija",
       "settings": {
         "heading": "Deklaracija proizvoda",
@@ -800,156 +952,6 @@
         "background_color": "#ffffff",
         "padding_top": 12,
         "padding_bottom": 36
-      }
-    },
-    "image_squat": {
-      "type": "cro-media-with-text",
-      "name": "Slika 5 — čučanj (noge i gluteus)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/04-materijal.png",
-        "image_url": "",
-        "image_alt": "Žena radi čučanj na vibracionoj ploči",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "right",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Čučanj na ploči vredi duplo",
-        "highlight_words": "vredi duplo",
-        "text": "<p>Na običnom podu čučanj angažuje samo deo mišića. Na vibracionoj ploči <strong>telo stotinama puta u minuti nesvesno balansira</strong>, pa se aktiviraju i duboki mišići nogu i gluteusa koje klasičnim vežbama teško pogađate.</p><p>Isti pokret, isto vreme — a osećaj u nogama kao posle duplo dužeg treninga. <strong>Butine i gluteus postaju čvršći</strong>, a vi ne morate nigde da idete.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#6a3fb5",
-        "highlight_color": "#e7ddf7",
-        "button_color": "#41bc3f",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "image_plank": {
-      "type": "cro-media-with-text",
-      "name": "Slika 4 — plank (stomak i core)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/04-materijal.png",
-        "image_url": "",
-        "image_alt": "Muškarac drži plank sa podlakticama na vibracionoj ploči",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "left",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Plank koji stomak zaista oseti",
-        "highlight_words": "stomak zaista oseti",
-        "text": "<p>Klasičan plank posle nekog vremena postane lak. Kada podlaktice oslonite na ploču koja vibrira, <strong>stomak, leđa i ramena moraju stalno da stabilizuju telo</strong> — i već posle 30 sekundi znate da radi.</p><p>Na ploči možete da radite i sklekove i vežbe za ruke. <strong>Ravna, neklizajuća površina</strong> drži ruke i stopala sigurno na mestu, bez obzira na brzinu.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#6a3fb5",
-        "highlight_color": "#e7ddf7",
-        "button_color": "#41bc3f",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "image_bands": {
-      "type": "cro-media-with-text",
-      "name": "Slika 2 — elastične trake (gornji deo tela)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/04-materijal.png",
-        "image_url": "",
-        "image_alt": "Žena radi pregib za biceps sa elastičnim trakama na vibracionoj ploči",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "right",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Trake u kompletu — radi i gornji deo tela",
-        "highlight_words": "gornji deo tela",
-        "text": "<p>Dok vibracije rade na nogama i stomaku, ruke ne moraju da stoje sa strane. <strong>Elastične trake se kače za ploču</strong> i pretvaraju je u mali kućni fitnes centar.</p><p>Pregib za biceps, potisak za ramena, veslanje za leđa — sve dok stojite na ploči koja vibrira. <strong>Celo telo radi u isto vreme</strong>, a trening je gotov za duplo kraće.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#6a3fb5",
-        "highlight_color": "#e7ddf7",
-        "button_color": "#41bc3f",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "image_legs": {
-      "type": "cro-media-with-text",
-      "name": "Slika 1 — opuštanje nogu (cirkulacija)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/04-materijal.png",
-        "image_url": "",
-        "image_alt": "Muškarac leži na prostirci sa stopalima na vibracionoj ploči",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "left",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Teške noge posle dugog dana? Lezite i pustite ploču da radi",
-        "highlight_words": "pustite ploču da radi",
-        "text": "<p>Ceo dan na nogama ili ceo dan za stolom — uveče su noge podjednako teške i natečene, a stopala umorna. Ploča nije samo za vežbanje.</p><p>Lezite na prostirku, podignite stopala na ploču i uključite nižu brzinu. <strong>Blage vibracije pokreću cirkulaciju</strong> kroz stopala i listove, a teške noge postaju lakše — <strong>bez ikakvog napora</strong>, dok se vi odmarate.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#6a3fb5",
-        "highlight_color": "#e7ddf7",
-        "button_color": "#41bc3f",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "image_massage": {
-      "type": "cro-media-with-text",
-      "name": "Slika 3 — masaža i daljinski (za celu porodicu)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/04-materijal.png",
-        "image_url": "",
-        "image_alt": "Žena sedi sa stopalima na vibracionoj ploči i drži daljinski upravljač",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "right",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Masaža za stopala na dlanu — za celu porodicu",
-        "highlight_words": "za celu porodicu",
-        "text": "<p>Sednite na pod, stavite stopala na ploču i <strong>daljinskim upravljačem izaberite intenzitet</strong> — bez ustajanja i saginjanja. Na LED displeju vidite brzinu i vreme, a <strong>99+ nivoa</strong> pokrivaju sve od nežne masaže do pravog treninga.</p><p>Ploču koriste i oni koji treniraju i oni koji samo žele da se opuste posle posla. Jedna kupovina — <strong>a u kući je koriste svi</strong>. Kompaktna je, pa posle upotrebe staje ispod kreveta ili kauča.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#6a3fb5",
-        "highlight_color": "#e7ddf7",
-        "button_color": "#41bc3f",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     }
   },
