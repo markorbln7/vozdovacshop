@@ -1,0 +1,856 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "ocene kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "🔥 Ravnomerna toplota za celo stopalo — od prstiju do pete",
+            "item_2": "💆 Vibraciona masaža koja opušta umorne noge posle dugog dana",
+            "item_3": "🛋️ 2 u 1 — skinete gornji deo i dobijate jastuk za vrat",
+            "item_4": "🧸 Mekani pliš i veštačko krzno koje zadržava toplotu"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "Zimska akcija — 30% popusta na redovnu cenu"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "❄️",
+            "title_1": "Kraj hladnim stopalima",
+            "text_1": "Toplo za par minuta, cele zime",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Po akcijskoj ceni ostalo je još samo",
+            "count": "12 komada",
+            "show_bar": true,
+            "percent": 18
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI GREJAČ -30%",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#d9481c",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "ZIMSKA AKCIJA -30% SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena od 2.890 RSD važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#2e1a12",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI GREJAČ -30%",
+        "sticky_button_color": "#d9481c",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "intro": {
+      "type": "cro-media-with-text",
+      "name": "Slika 4 — napolju sneg, vama toplo (prvi utisak)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/grejac-4-napolju-sneg.png",
+        "image_alt": "Žena čita knjigu na kauču sa stopalima u plišanom grejaču dok napolju pada sneg",
+        "image_url": "",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Stan je topao — a stopala i dalje ledena",
+        "highlight_words": "stopala i dalje ledena",
+        "text": "<p>Grejanje radi, ćebe je na vama, a stopala su i dalje hladna. Debele čarape ne pomažu, a ne možete ceo dan da stojite pored radijatora. Uveče legnete u krevet i dugo ne možete da se zagrejete.</p><p>Hladna stopala se ne zagrevaju sama — treba im <strong>toplota koja ih obavije sa svih strana</strong>. Uvučete stopala u plišani grejač, uključite ga i za par minuta osetite kako <strong>toplota ide od prstiju do pete</strong>, a blaga masaža opušta umorne noge.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "button_color": "#d9481c",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "🔥",
+            "title": "Ravnomerno grejanje",
+            "text": "<p>Toplota obavija celo stopalo — prste, đon i petu — a ne samo jedan deo.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "💆",
+            "title": "Vibraciona masaža",
+            "text": "<p>Blage vibracije opuštaju umorne mišiće stopala posle stajanja, hodanja ili dugog sedenja.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🛋️",
+            "title": "2 u 1 — i jastuk za vrat",
+            "text": "<p>Skinete gornji deo i dobijate jastuk za vrat. Možete ga koristiti i za ruke, stomak ili leđa.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "🎛️",
+            "title": "Jednostavne komande",
+            "text": "<p>Posebna dugmad za toplotu i masažu na boku — uključujete ih bez saginjanja i traženja.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "🧸",
+            "title": "Mekani pliš i krzno",
+            "text": "<p>Spolja mekani pliš, a ivica obložena veštačkim krznom koje zadržava toplotu unutra.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "🎁",
+            "title": "Savršen poklon",
+            "text": "<p>Za mamu, baku, partnera ili kolegu koji stalno kaže da mu je hladno — za praznike i rođendane.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Zašto baš plišani grejač i masažer",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_how": {
+      "type": "cro-media-with-text",
+      "name": "Slika 3 — toplota i masaža u isto vreme (kako radi)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/grejac-3-kako-radi.png",
+        "image_alt": "Presek grejača za stopala sa grejnom površinom i vibracionom masažom",
+        "image_url": "",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Toplota i masaža — zajedno ili posebno",
+        "highlight_words": "zajedno ili posebno",
+        "text": "<p>Grejna površina se nalazi ispod celog stopala, pa <strong>toplota ide ravnomerno od prstiju do pete</strong> — bez jednog vrelog i jednog hladnog dela. Plišani gornji deo i krzno drže toplotu unutra.</p><p>Kada su noge umorne, uključite i <strong>vibracionu masažu</strong>. Toplota i masaža imaju svoja dugmad, pa birate da li vam treba samo grejanje, samo masaža ili oboje u isto vreme.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "button_color": "#d9481c",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Zimska akcija -30%",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Toplota + masaža",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "2 u 1 — i jastuk za vrat",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Mekani pliš",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Savršen poklon",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#2e1a12",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_2u1": {
+      "type": "cro-media-with-text",
+      "name": "Slika 2 — 2u1 proizvod (jastuk za vrat)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/grejac-2-2u1-jastuk.png",
+        "image_alt": "Grejač za stopala sa skinutim gornjim delom koji se koristi kao jastuk za vrat",
+        "image_url": "",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Jedan uređaj — stopala, vrat, leđa i ruke",
+        "highlight_words": "stopala, vrat, leđa i ruke",
+        "text": "<p>Gornji deo se otvara i skida pomoću <strong>rajsferšlusa</strong>. Kada ga skinete, ostaje ravna podloga koja postaje <strong>jastuk za vrat</strong> — legnete, naslonite glavu i pustite toplotu da opusti ukočena ramena.</p><p>Isto tako ga stavite <strong>iza leđa dok sedite, na stomak ili u krilo da ugrejete ruke</strong>. Jedna kupovina — a koristite ga za ceo dan.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "button_color": "#d9481c",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_evening": {
+      "type": "cro-media-with-text",
+      "name": "Slika 5 — tople noge, mirne večeri",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/grejac-5-mirne-veceri.png",
+        "image_alt": "Stopala u plišanom grejaču ispred kauča",
+        "image_url": "",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Vaših 30 minuta mira na kraju dana",
+        "highlight_words": "30 minuta mira",
+        "text": "<p>Posao, obaveze, prevoz, kuća — i tek uveče sednete. Tada uvučete stopala u grejač, uključite toplotu i masažu i <strong>uzmete knjigu, seriju ili šolju čaja</strong>.</p><p>Toplota opušta celo telo, a ne samo stopala. Mnogi kažu da posle toga <strong>lakše zaspu</strong> i da više ne idu u krevet sa hladnim nogama. Grejač je lagan, pa ga nosite iz dnevne sobe u spavaću ili do radnog stola.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "button_color": "#d9481c",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_quality": {
+      "type": "cro-media-with-text",
+      "name": "Slika 1 — kvalitet u svakom detalju (materijali)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/grejac-1-kvalitet.png",
+        "image_alt": "Detalji grejača: mekani pliš, rajsferšlus, unutrašnjost i neklizajuće dno",
+        "image_url": "",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Mekan spolja, prijatan iznutra",
+        "highlight_words": "prijatan iznutra",
+        "text": "<p>Spoljašnjost je od <strong>mekanog pliša u toploj braon boji</strong>, a ivica je obložena veštačkim krznom koje prijanja uz članke i ne pušta toplotu napolje. Unutrašnjost je od prijatne tkanine koja ne grebe kožu.</p><p>Navlaka se otvara rajsferšlusom, pa se <strong>lako održava</strong>. Dno je <strong>neklizajuće</strong>, pa grejač stoji na mestu i na laminatu i na pločicama.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "button_color": "#d9481c",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 95,
+            "text": "kaže da su im <strong>stopala topla već posle par minuta</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 90,
+            "text": "oseća <strong>lakše i opuštenije noge</strong> posle masaže"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 87,
+            "text": "koristi grejač <strong>gotovo svako veče</strong> tokom zime"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 84,
+            "text": "koristi ga i kao <strong>jastuk za vrat ili leđa</strong>"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 81,
+            "text": "je <strong>kupilo još jedan na poklon</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji ga koriste svako veče",
+        "accent_color": "#d9481c",
+        "row_background": "#f5efe6",
+        "track_color": "#ead9c6",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "2 u 1 plišani masažer i grejač za stopala",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "button_color": "#d9481c",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Tip",
+            "value": "2 u 1 plišani grejač i masažer za stopala"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Funkcije",
+            "value": "Grejanje i vibraciona masaža — zajedno ili posebno"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Upravljanje",
+            "value": "Dugmad na bočnoj strani"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal",
+            "value": "Mekani pliš, ivica od veštačkog krzna"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Boja",
+            "value": "Braon"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Dizajn",
+            "value": "Gornji deo na rajsferšlus, neklizajuće dno"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "settings": {
+            "name": "Namena",
+            "value": "Stopala, vrat, ruke, stomak, lumbalni deo leđa"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Upotreba",
+            "value": "Kuća, stan, kancelarija"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#2e1a12",
+        "name_background": "#f5efe6",
+        "border_color": "#ead9c6",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "2 u 1 Plišani masažer i grejač za stopala"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "Kina"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "BINGE DOO"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "Kina"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f5efe6",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ime kupca",
+            "time": "",
+            "text": "Ovde ide stvarni komentar kupca.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": ""
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ime kupca",
+            "time": "",
+            "text": "Ovde ide stvarni komentar kupca.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": ""
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ime kupca",
+            "time": "",
+            "text": "Ovde ide stvarni komentar kupca.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": ""
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Tople noge — i cela večer je bolja",
+        "highlight_words": "cela večer je bolja",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "background_color": "#f5efe6",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Koliko brzo se zagreje?",
+            "answer": "<p>Već posle <strong>nekoliko minuta</strong> od uključivanja osetićete toplotu ispod celog stopala. Plišani gornji deo i krzno na ivici zadržavaju toplotu unutra.</p>",
+            "open_by_default": true
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Da li mogu da koristim samo grejanje, bez masaže?",
+            "answer": "<p>Da. Grejanje i masaža imaju <strong>posebna dugmad</strong>, pa birate samo toplotu, samo masažu ili oboje u isto vreme.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se koristi kao jastuk za vrat?",
+            "answer": "<p>Gornji deo otvorite i skinete pomoću <strong>rajsferšlusa</strong>. Ostaje ravna podloga koju koristite kao jastuk za vrat, oslonac za leđa dok sedite ili grejač za ruke i stomak.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Da li odgovara za sve veličine stopala?",
+            "answer": "<p>Grejač je širok i mekan, pa u njega staju <strong>oba stopala odjednom</strong> — i ženska i muška. Plišani materijal se prilagođava obliku stopala.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Ko ne bi trebalo da ga koristi?",
+            "answer": "<p>Osobe sa dijabetesom, oštećenjem nerava u stopalima, problemima sa cirkulacijom, trudnice i osobe sa pejsmejkerom pre upotrebe treba da se <strong>posavetuju sa lekarom</strong>. Ne preporučuje se spavanje sa uključenim grejačem.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#2e1a12",
+        "highlight_color": "#fbdccd",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "intro",
+    "icons",
+    "image_how",
+    "ticker",
+    "image_2u1",
+    "image_evening",
+    "image_quality",
+    "stats",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials"
+  ]
+}
