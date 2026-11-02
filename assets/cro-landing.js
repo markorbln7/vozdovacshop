@@ -210,14 +210,16 @@
       }
 
       if (this.form) this.form.addEventListener('submit', this.onSubmit.bind(this));
-      this.onOptionChange();
+      // On load keep the gallery on the first visual; only a real change shows the variant image
+      this.onOptionChange(true);
     }
 
     selectedOptions() {
       return Array.from(this.querySelectorAll('input[type="radio"]:checked')).map(function (i) { return i.value; });
     }
 
-    onOptionChange() {
+    onOptionChange(initial) {
+      initial = initial === true; // the change listener passes an Event
       var chosen = this.selectedOptions();
       if (!chosen.length) return;
       var variant = this.variants.find(function (v) {
@@ -253,7 +255,7 @@
         : (this.dataset.labelSoldOut || 'Rasprodato'));
 
       var mediaId = variant.featured_media && variant.featured_media.id;
-      if (mediaId) {
+      if (mediaId && !initial) {
         this.closest('[data-cro-product]')?.dispatchEvent(
           new CustomEvent('cro:variant', { detail: { mediaId: mediaId, variant: variant } })
         );
