@@ -129,6 +129,36 @@
         "padding_bottom": 24
       }
     },
+    "image_compare": {
+      "type": "cro-media-with-text",
+      "name": "Slika 3 — zaboravi obično ćebe (prvi utisak)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/duks-3-obicno-cebe.png",
+        "image_url": "",
+        "image_alt": "Poređenje običnog ćebeta i duks-ćebeta — devojka u plavom duks-ćebetu sa kapuljačom",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Ćebe koje stalno spada — više nije vaš problem",
+        "highlight_words": "više nije vaš problem",
+        "text": "<p>Sednete uveče na kauč, umotate se u ćebe — i počinje. Čim uzmete telefon ili šolju čaja, ruke su napolju i hladno vam. Ćebe sklizne sa ramena, leđa su otkrivena, a kad ustanete do kuhinje, ostaje na kauču.</p><p>Duks-ćebe <strong>obučete kao duks, a greje kao ćebe</strong>. Ne spada, ruke su slobodne, a toplo vam je sa svih strana — i u leđima. I kad ustanete, <strong>toplota ide sa vama</strong> po celoj kući.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#231a16",
+        "highlight_color": "#f9d6cf",
+        "button_color": "#d93a2b",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
     "icons": {
       "type": "cro-icons-with-content",
       "blocks": {
@@ -202,6 +232,36 @@
         "padding_bottom": 20
       }
     },
+    "image_why": {
+      "type": "cro-media-with-text",
+      "name": "Slika 2 — zašto ga svi žele",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/duks-2-zasto-ga-svi-zele.png",
+        "image_url": "",
+        "image_alt": "Muškarac sedi na kauču u plavom oversize duks-ćebetu",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Zašto ga svi žele?",
+        "highlight_words": "svi žele",
+        "text": "<p><strong>1. Mekano krzno iznutra.</strong> Spolja plišan, iznutra krzneni sloj koji zadržava toplotu tela — toplo vam je i kad je grejanje slabije.</p><p><strong>2. Ruke slobodne.</strong> Telefon, čaj, laptop, knjiga — sve radite normalno, a duks ostaje na vama.</p><p><strong>3. Veliki džep.</strong> Daljinski, telefon i grickalice su uvek pri ruci.</p><p><strong>4. Jedna veličina.</strong> Oversize kroj koji odgovara svima — <strong>ne morate da birate broj</strong>.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#231a16",
+        "highlight_color": "#f9d6cf",
+        "button_color": "#d93a2b",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "ticker": {
       "type": "cro-ticker",
       "blocks": {
@@ -265,6 +325,36 @@
         "direction": "left",
         "bar_padding": 16,
         "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_family": {
+      "type": "cro-media-with-text",
+      "name": "Slika 4 — jedan za svakog u kući (poklon, 3 boje)",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/duks-4-jedan-za-svakog.png",
+        "image_url": "",
+        "image_alt": "Dečak u plavom duks-ćebetu i par u sivom i roze duks-ćebetu",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Jedan za svakog u kući — i svi se bore ko će ga obući",
+        "highlight_words": "Jedan za svakog u kući",
+        "text": "<p>Čim jedan stigne u kuću, svi hoće da ga probaju — deca, mama, tata. Zato ga mnogi uzimaju <strong>za celu porodicu</strong>, svakome u svojoj boji.</p><p>Birate između <strong>roze, plave i sive</strong>. Jedna veličina odgovara svima, pa je <strong>idealan poklon</strong> za praznike i rođendane — ne morate da pogađate broj.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#231a16",
+        "highlight_color": "#f9d6cf",
+        "button_color": "#d93a2b",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -450,6 +540,7 @@
         },
         "d3": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "label": "Uvoznik:",
             "value": "UPISATI UVOZNIKA"
@@ -674,96 +765,6 @@
         "background_color": "#ffffff",
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "image_compare": {
-      "type": "cro-media-with-text",
-      "name": "Slika 3 — zaboravi obično ćebe (prvi utisak)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/duks-3-obicno-cebe.png",
-        "image_alt": "Poređenje običnog ćebeta i duks-ćebeta — devojka u plavom duks-ćebetu sa kapuljačom",
-        "image_url": "",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "left",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Ćebe koje stalno spada — više nije vaš problem",
-        "highlight_words": "više nije vaš problem",
-        "text": "<p>Sednete uveče na kauč, umotate se u ćebe — i počinje. Čim uzmete telefon ili šolju čaja, ruke su napolju i hladno vam. Ćebe sklizne sa ramena, leđa su otkrivena, a kad ustanete do kuhinje, ostaje na kauču.</p><p>Duks-ćebe <strong>obučete kao duks, a greje kao ćebe</strong>. Ne spada, ruke su slobodne, a toplo vam je sa svih strana — i u leđima. I kad ustanete, <strong>toplota ide sa vama</strong> po celoj kući.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#231a16",
-        "highlight_color": "#f9d6cf",
-        "button_color": "#d93a2b",
-        "padding_top": 28,
-        "padding_bottom": 20
-      }
-    },
-    "image_why": {
-      "type": "cro-media-with-text",
-      "name": "Slika 2 — zašto ga svi žele",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/duks-2-zasto-ga-svi-zele.png",
-        "image_alt": "Muškarac sedi na kauču u plavom oversize duks-ćebetu",
-        "image_url": "",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "right",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Zašto ga svi žele?",
-        "highlight_words": "svi žele",
-        "text": "<p><strong>1. Mekano krzno iznutra.</strong> Spolja plišan, iznutra krzneni sloj koji zadržava toplotu tela — toplo vam je i kad je grejanje slabije.</p><p><strong>2. Ruke slobodne.</strong> Telefon, čaj, laptop, knjiga — sve radite normalno, a duks ostaje na vama.</p><p><strong>3. Veliki džep.</strong> Daljinski, telefon i grickalice su uvek pri ruci.</p><p><strong>4. Jedna veličina.</strong> Oversize kroj koji odgovara svima — <strong>ne morate da birate broj</strong>.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#231a16",
-        "highlight_color": "#f9d6cf",
-        "button_color": "#d93a2b",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "image_family": {
-      "type": "cro-media-with-text",
-      "name": "Slika 4 — jedan za svakog u kući (poklon, 3 boje)",
-      "settings": {
-        "video_url": "",
-        "image": "shopify://shop_images/duks-4-jedan-za-svakog.png",
-        "image_alt": "Dečak u plavom duks-ćebetu i par u sivom i roze duks-ćebetu",
-        "image_url": "",
-        "image_width": 1080,
-        "image_height": 1080,
-        "autoplay": true,
-        "allow_sound": true,
-        "media_ratio": "1",
-        "media_position": "left",
-        "media_width": 50,
-        "width": "page",
-        "text_alignment": "left",
-        "heading": "Jedan za svakog u kući — i svi se bore ko će ga obući",
-        "highlight_words": "Jedan za svakog u kući",
-        "text": "<p>Čim jedan stigne u kuću, svi hoće da ga probaju — deca, mama, tata. Zato ga mnogi uzimaju <strong>za celu porodicu</strong>, svakome u svojoj boji.</p><p>Birate između <strong>roze, plave i sive</strong>. Jedna veličina odgovara svima, pa je <strong>idealan poklon</strong> za praznike i rođendane — ne morate da pogađate broj.</p>",
-        "button_label": "",
-        "button_link": "",
-        "background_color": "#ffffff",
-        "accent_color": "#231a16",
-        "highlight_color": "#f9d6cf",
-        "button_color": "#d93a2b",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     }
   },
