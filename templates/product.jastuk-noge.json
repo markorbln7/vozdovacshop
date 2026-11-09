@@ -1,0 +1,924 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cro-product-main",
+      "blocks": {
+        "stars": {
+          "type": "stars",
+          "disabled": true,
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "label": "1.392 ocene kupaca"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "usps": {
+          "type": "usp_list",
+          "settings": {
+            "item_1": "🦴 Drži kičmu, kukove i karlicu u prirodnoj liniji",
+            "item_2": "💆 Rasterećuje krsta, kukove i kolena dok spavate na boku",
+            "item_3": "🛌 Memorijska pena prati oblik nogu i ne uleže se",
+            "item_4": "🤰 Idealan za trudnice — navlaka se skida i pere"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": true,
+            "note": "Specijalna akcija — 40% popusta na redovnu cenu"
+          }
+        },
+        "trust": {
+          "type": "trust_badges",
+          "settings": {
+            "image_url_1": "",
+            "emoji_1": "🦴",
+            "title_1": "Ortopedska podrška",
+            "text_1": "Kičma i kukovi u pravoj liniji cele noći",
+            "image_url_2": "",
+            "emoji_2": "📸",
+            "title_2": "100% kao na slici",
+            "text_2": "Bez iznenađenja i skrivenih mana",
+            "image_url_3": "",
+            "emoji_3": "🚚",
+            "title_3": "Ekspresna dostava",
+            "text_3": "Na vašoj adresi za 1–2 dana"
+          }
+        },
+        "stock": {
+          "type": "stock",
+          "settings": {
+            "text": "🔴 Požurite! Po akcijskoj ceni ostalo je još samo",
+            "count": "17 komada",
+            "show_bar": true,
+            "percent": 20
+          }
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "action": "cart",
+            "show_quantity": true,
+            "pulse": true,
+            "button_label": "NARUČI JASTUK -40%",
+            "sold_out_label": "Rasprodato",
+            "unavailable_label": "Nedostupno",
+            "adding_label": "Dodajem…",
+            "added_label": "Dodato u korpu",
+            "cart_label": "Idi na korpu",
+            "button_color": "#41bc3f",
+            "button_text_color": "#ffffff",
+            "note": "🔒 Plaćanje pouzećem — platite tek kada paket stigne"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "title": "AKCIJA -40% SE USKORO ZAVRŠAVA!",
+            "subtitle": "Cena od 1.490 RSD važi dok traju zalihe",
+            "deadline": "",
+            "rolling_hours": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "stars",
+        "title",
+        "usps",
+        "price",
+        "trust",
+        "stock",
+        "buy",
+        "countdown",
+        "description"
+      ],
+      "name": "Proizvod",
+      "settings": {
+        "product": "",
+        "media_position": "left",
+        "media_fit": "contain",
+        "show_thumbnails": true,
+        "thumbnails_per_row": 5,
+        "media_radius": 0,
+        "enable_zoom": true,
+        "show_discount_badge": true,
+        "sticky_info": false,
+        "accent_color": "#2f5d8a",
+        "enable_sticky_atc": true,
+        "sticky_button_label": "NARUČI JASTUK -40%",
+        "sticky_button_color": "#41bc3f",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "image_spine": {
+      "type": "cro-media-with-text",
+      "name": "Slika — pre i posle",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/jastuk-noge-3-pre-i-posle.png",
+        "image_url": "",
+        "image_alt": "Kičma pri spavanju na boku bez jastuka i sa jastukom za noge",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Zašto se budite sa bolom u krstima",
+        "highlight_words": "bolom u krstima",
+        "text": "<p>Kada spavate na boku, gornja noga sklizne napred i povuče kuk sa sobom. Karlica se uvrne, krsta se izviju, a kolena se celu noć pritiskaju jedno o drugo. Ujutru to osetite kao ukočenost u donjem delu leđa i tupi bol u kuku.</p><p>Jastuk između kolena <strong>drži noge na pravom razmaku, pa kukovi ostaju poravnati, a kičma u prirodnom položaju</strong> — bez uvrtanja i bez trenja kost o kost.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "cro-icons-with-content",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "emoji": "🦴",
+            "title": "Prava kičma",
+            "text": "<p>Kolena na pravom razmaku drže karlicu i kičmu u prirodnoj liniji dok spavate na boku.</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "emoji": "💆",
+            "title": "Manje bola u leđima",
+            "text": "<p>Rasterećuje krsta i kukove, pa se budite bez ukočenosti u donjem delu leđa.</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "emoji": "🦵",
+            "title": "Kolena bez pritiska",
+            "text": "<p>Nema više trenja kost o kost — kolena i članci se ne pritiskaju jedno o drugo.</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "emoji": "🛌",
+            "title": "Memorijska pena",
+            "text": "<p>Prati oblik nogu, ravnomerno raspoređuje pritisak i ne uleže se vremenom.</p>"
+          }
+        },
+        "i5": {
+          "type": "item",
+          "settings": {
+            "emoji": "🤰",
+            "title": "Idealan za trudnice",
+            "text": "<p>Olakšava spavanje na boku u trudnoći, kada je pritisak na kukove i leđa najveći.</p>"
+          }
+        },
+        "i6": {
+          "type": "item",
+          "settings": {
+            "emoji": "🧺",
+            "title": "Periva navlaka",
+            "text": "<p>Prozračna, hipoalergenska navlaka se skida rajsferšlusom i pere u mašini.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
+      "name": "Ikone — prednosti",
+      "settings": {
+        "heading": "Zašto ga ljudi vole",
+        "heading_alignment": "center",
+        "columns": "3",
+        "icon_size": 56,
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_love": {
+      "type": "cro-media-with-text",
+      "name": "Slika — zašto ga ljudi vole",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/jastuk-noge-2-zasto-ga-vole.png",
+        "image_url": "",
+        "image_alt": "Žena spava na boku sa ortopedskim jastukom između nogu",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Ostaje na mestu cele noći",
+        "highlight_words": "cele noći",
+        "text": "<p>Obični jastuk ili presavijeno ćebe između nogu do ponoći završi na podu ili negde kod stopala. Probudite se, tražite ga po krevetu, i san je prekinut.</p><p>Ergonomski oblik se <strong>naslanja tačno na unutrašnju stranu kolena</strong>, pa jastuk prati noge kada se pomerate. Memorijska pena se prilagođava obliku nogu, a ujutru se vraća u prvobitni oblik — ne uleže se ni posle meseci korišćenja.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ticker": {
+      "type": "cro-ticker",
+      "blocks": {
+        "t1": {
+          "type": "item",
+          "settings": {
+            "text": "Prava kičma",
+            "icon": ""
+          }
+        },
+        "t2": {
+          "type": "item",
+          "settings": {
+            "text": "Rasterećeni kukovi",
+            "icon": ""
+          }
+        },
+        "t3": {
+          "type": "item",
+          "settings": {
+            "text": "Memorijska pena",
+            "icon": ""
+          }
+        },
+        "t4": {
+          "type": "item",
+          "settings": {
+            "text": "Kolena bez pritiska",
+            "icon": ""
+          }
+        },
+        "t5": {
+          "type": "item",
+          "settings": {
+            "text": "Idealan za trudnice",
+            "icon": ""
+          }
+        },
+        "t6": {
+          "type": "item",
+          "settings": {
+            "text": "Plaćanje pouzećem",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "name": "Traka — prednosti",
+      "settings": {
+        "background_color": "#2f5d8a",
+        "text_color": "#ffffff",
+        "outer_background": "#ffffff",
+        "speed": 50,
+        "direction": "left",
+        "bar_padding": 16,
+        "aria_label": "Prednosti proizvoda",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_cover": {
+      "type": "cro-media-with-text",
+      "name": "Slika — periva navlaka",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/jastuk-noge-4-navlaka.png",
+        "image_url": "",
+        "image_alt": "Skidanje perive navlake sa memorijske pene jastuka za noge",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Navlaka u mašinu, jastuk kao nov",
+        "highlight_words": "jastuk kao nov",
+        "text": "<p>Jastuk je svake noći u kontaktu sa kožom, pa higijena mora da bude jednostavna. Otvorite rajsferšlus, skinete navlaku i operete je u mašini — za par sekundi.</p><p>Navlaka je od <strong>prozračne, hipoalergenske tkanine</strong> koja ne zadržava toplotu, a memorijska pena ispod nje ostaje zaštićena i čista.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "stats": {
+      "type": "cro-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "percent": 94,
+            "text": "kaže da se <strong>budi bez bola u krstima</strong>"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "percent": 91,
+            "text": "primećuje <strong>manje pritiska na kukove i kolena</strong>"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "percent": 89,
+            "text": "potvrđuje da <strong>mirnije spava i ređe se budi</strong>"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "percent": 96,
+            "text": "kaže da jastuk <strong>ostaje na mestu cele noći</strong>"
+          }
+        },
+        "s5": {
+          "type": "stat",
+          "settings": {
+            "percent": 92,
+            "text": "je <strong>preporučilo jastuk nekome bliskom</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "name": "Statistika",
+      "settings": {
+        "heading": "Šta kažu oni koji na njemu spavaju svake noći",
+        "accent_color": "#2f5d8a",
+        "row_background": "#f1f6fb",
+        "track_color": "#dce8f4",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_offer": {
+      "type": "cro-media-with-text",
+      "name": "Slika — akcija",
+      "settings": {
+        "video_url": "",
+        "image": "shopify://shop_images/jastuk-noge-5-akcija.png",
+        "image_url": "",
+        "image_alt": "Ortopedski jastuk za noge na akciji -40%",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "1",
+        "media_position": "right",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "Kičma i kukovi u pravoj liniji, svake noći",
+        "highlight_words": "u pravoj liniji",
+        "text": "<p>Bilo da imate bol u krstima ili kukovima, spavate na boku, ili ste u trudnoći i tražite položaj u kome možete da zaspite — jastuk za noge je mala promena koju osetite već prvog jutra.</p><p>Sada po akcijskoj ceni od <strong>1.490 RSD umesto 2.490 RSD</strong>, uz plaćanje pouzećem i isporuku za 1–2 dana.</p>",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "big_image": {
+      "type": "cro-media-with-text",
+      "disabled": true,
+      "name": "Velika slika",
+      "settings": {
+        "video_url": "",
+        "image_url": "",
+        "image_alt": "Ortopedski jastuk za noge — prikaz proizvoda",
+        "image_width": 1080,
+        "image_height": 1080,
+        "autoplay": true,
+        "allow_sound": true,
+        "media_ratio": "auto",
+        "media_position": "left",
+        "media_width": 50,
+        "width": "page",
+        "text_alignment": "left",
+        "heading": "",
+        "highlight_words": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "button_color": "#41bc3f",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "spec": {
+      "type": "cro-spec-table",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "name": "Tip",
+            "value": "Ortopedski jastuk za noge (između kolena)"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "name": "Materijal",
+            "value": "Memorijska pena"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "name": "Dizajn",
+            "value": "Ergonomski oblik koji prati unutrašnju stranu kolena"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "name": "Funkcija",
+            "value": "Poravnava kukove, karlicu i kičmu; rasterećuje krsta i kolena"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "name": "Navlaka",
+            "value": "Hipoalergenska, prozračna, skida se rajsferšlusom i pere"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "name": "Namena",
+            "value": "Spavanje na boku, trudnoća, bol u krstima i kukovima"
+          }
+        },
+        "r7": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "name": "Dimenzije",
+            "value": "POPUNITI"
+          }
+        },
+        "r8": {
+          "type": "row",
+          "settings": {
+            "name": "Sadržaj pakovanja",
+            "value": "1 Jastuk + 1 Navlaka"
+          }
+        },
+        "r9": {
+          "type": "row",
+          "settings": {
+            "name": "Održavanje",
+            "value": "Navlaku prati u mašini; penu ne prati, povremeno je provetriti"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ],
+      "name": "Specifikacija",
+      "settings": {
+        "heading": "Specifikacija",
+        "heading_alignment": "left",
+        "disclaimer": "Moguća su manja odstupanja u nijansama boja između stvarnog proizvoda i prikaza na slikama.*",
+        "accent_color": "#2f5d8a",
+        "name_background": "#f1f6fb",
+        "border_color": "#dce8f4",
+        "background_color": "#ffffff",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "declaration": {
+      "type": "cro-declaration",
+      "blocks": {
+        "d1": {
+          "type": "row",
+          "settings": {
+            "label": "Naziv artikla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d2": {
+          "type": "row",
+          "settings": {
+            "label": "Zemlja porekla:",
+            "value": "POPUNITI"
+          }
+        },
+        "d3": {
+          "type": "row",
+          "settings": {
+            "label": "Uvoznik:",
+            "value": "POPUNITI"
+          }
+        },
+        "d4": {
+          "type": "row",
+          "settings": {
+            "label": "Proizvođač:",
+            "value": "POPUNITI"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4"
+      ],
+      "disabled": true,
+      "name": "Deklaracija",
+      "settings": {
+        "heading": "Deklaracija proizvoda",
+        "background_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 40
+      }
+    },
+    "wave": {
+      "type": "cro-wave-divider",
+      "name": "Razdelnik",
+      "settings": {
+        "wave_color": "#f1f6fb",
+        "background_color": "#ffffff",
+        "height": 60,
+        "flip": false
+      }
+    },
+    "reviews": {
+      "type": "cro-social-reviews",
+      "blocks": {
+        "c1": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Jelena P.",
+            "time": "pre 2 sata",
+            "text": "Godinama spavam na boku i budila sam se sa bolom u kuku. Od kada stavljam jastuk između kolena, ujutru ustajem bez onog ukočenog osećaja u krstima. Ne pomera se cele noći.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "❤️😍 187"
+          }
+        },
+        "c2": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Ivana M.",
+            "time": "",
+            "text": "Kupila sam ga u sedmom mesecu trudnoće i to mi je spasilo san. Konačno mogu da ležim na boku a da me ne bole leđa.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 142"
+          }
+        },
+        "c3": {
+          "type": "review",
+          "settings": {
+            "avatar_url": "",
+            "name": "Dragan K.",
+            "time": "",
+            "text": "Imam problem sa krstima i doktor mi je rekao da spavam sa jastukom između nogu. Ovaj je mnogo bolji od običnog jer ne spada. Stiglo za dva dana, plaćeno kuriru.",
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1080,
+            "reactions": "👍❤️ 98"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "disabled": true,
+      "name": "Komentari kupaca",
+      "settings": {
+        "badge": "NAJNOVIJI UTISCI",
+        "heading": "Ko jednom proba, ne spava više bez njega",
+        "highlight_words": "ne spava više bez njega",
+        "columns": 3,
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#f1f6fb",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "faq": {
+      "type": "cro-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se koristi?",
+            "answer": "<p>Kada legnete na bok, postavite jastuk između kolena tako da udubljenja prate unutrašnju stranu nogu. <strong>Noge ostaju na pravom razmaku, a kukovi i kičma poravnati</strong> cele noći.</p>",
+            "open_by_default": false
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Da li je pogodan za trudnice?",
+            "answer": "<p>Da. U trudnoći se preporučuje spavanje na boku, a jastuk između kolena <strong>smanjuje pritisak na kukove, karlicu i donji deo leđa</strong>, pa se lakše zaspi i ređe budi.</p>",
+            "open_by_default": false
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Da li će spasti tokom noći?",
+            "answer": "<p>Ergonomski oblik se naslanja na unutrašnju stranu kolena, pa jastuk <strong>prati noge kada se pomerate</strong> i ostaje na mestu, za razliku od običnog jastuka ili ćebeta.</p>",
+            "open_by_default": false
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Da li se jastuk uleže vremenom?",
+            "answer": "<p>Ne. Memorijska pena se prilagođava obliku nogu tokom noći, a zatim se vraća u prvobitni oblik. <strong>Jastuk zadržava strukturu</strong> i posle dužeg korišćenja.</p>",
+            "open_by_default": false
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Kako se održava?",
+            "answer": "<p>Navlaka je hipoalergenska, skida se rajsferšlusom i pere u mašini. Samu penu ne perite — dovoljno je da je povremeno provetrite. Jastuk nije medicinsko sredstvo i ne zamenjuje lečenje; ako imate hronične tegobe sa kičmom ili kukovima, posavetujte se sa lekarom.</p>",
+            "open_by_default": false
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Mogu li da platim pouzećem?",
+            "answer": "<p>Da. Paket plaćate kuriru pri preuzimanju — bez kartice i bez avansa. Porudžbine primljene do 14h šaljemo istog dana, isporuka je za <strong>1–2 radna dana</strong>.</p>",
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "name": "Česta pitanja",
+      "settings": {
+        "heading": "Često postavljana pitanja",
+        "highlight_words": "",
+        "default_icon_url": "",
+        "max_width": 900,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "testimonials": {
+      "type": "cro-testimonial-slider",
+      "blocks": {
+        "t1": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 1"
+          }
+        },
+        "t2": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 2"
+          }
+        },
+        "t3": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 3"
+          }
+        },
+        "t4": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 4"
+          }
+        },
+        "t5": {
+          "type": "slide",
+          "settings": {
+            "image_url": "",
+            "image_width": 1080,
+            "image_height": 1350,
+            "alt": "Utisak kupca 5"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "disabled": true,
+      "name": "Utisci (slajder)",
+      "settings": {
+        "heading": "Šta drugi kažu o nama?",
+        "highlight_words": "",
+        "columns": 3,
+        "gap": 28,
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#ffffff",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "stories": {
+      "type": "cro-insta-stories",
+      "blocks": {
+        "st1": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_1",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st2": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_2",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st3": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_3",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        },
+        "st4": {
+          "type": "story",
+          "settings": {
+            "avatar_url": "",
+            "name": "kupac_4",
+            "image_url": "",
+            "video_url": "",
+            "link": "",
+            "link_label": "Pogledaj proizvod"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ],
+      "disabled": true,
+      "name": "Priče kupaca",
+      "settings": {
+        "heading": "Drugi pričaju o nama",
+        "highlight_words": "",
+        "subheading": "<p>Gradimo zajednicu zadovoljnih kupaca — pridruži se.</p>",
+        "duration": 5,
+        "accent_color": "#2f5d8a",
+        "highlight_color": "#d6e4f2",
+        "background_color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_spine",
+    "icons",
+    "image_love",
+    "ticker",
+    "image_cover",
+    "stats",
+    "image_offer",
+    "big_image",
+    "spec",
+    "declaration",
+    "wave",
+    "reviews",
+    "faq",
+    "testimonials",
+    "stories"
+  ]
+}
